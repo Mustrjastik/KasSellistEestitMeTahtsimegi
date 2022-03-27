@@ -1,0 +1,13 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		12885 
+	}
+		history = {
+	owner = FIN 
+	add_core_of = FIN 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

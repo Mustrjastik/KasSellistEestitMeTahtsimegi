@@ -1,0 +1,13 @@
+state={
+	id=284
+	name="STATE_284"
+	provinces={
+		6025 
+	}
+history = {
+owner = SHX
+add_core_of = SHX
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

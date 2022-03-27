@@ -1,0 +1,13 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		4440 5034 
+	}
+		history = {
+	owner = SWI 
+	add_core_of = SWI 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

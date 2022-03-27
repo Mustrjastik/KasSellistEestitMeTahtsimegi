@@ -1,0 +1,13 @@
+state={
+	id=114
+	name="STATE_114"
+	provinces={
+		14 1042 1048 1199 1485 2304 2341 2569 2918 3135 3996 4452 6112 7128 7640 7956 8000 9234 9248 9256 9261 9273 9293 9305 9311 9318 9333 
+	}
+history = {
+owner = CHL
+add_core_of = CHL
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

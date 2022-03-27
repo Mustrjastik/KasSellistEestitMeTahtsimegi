@@ -1,0 +1,13 @@
+state={
+	id=319
+	name="STATE_319"
+	provinces={
+		211 795 1684 2134 2161 2403 2512 2841 2884 2962 3932 4241 5980 6436 6606 6623 7357 7489 8063 12411 12422 12425 12437 12451 12460 12475 12487 
+	}
+			history = {
+	owner = YUN
+	add_core_of = YUN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		69 855 899 1541 1935 2158 2747 3256 3614 4231 5415 5523 5751 8814 9166 9224 9253 9288 
+	}
+		history = {
+	owner = PRC
+	add_core_of = PRC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

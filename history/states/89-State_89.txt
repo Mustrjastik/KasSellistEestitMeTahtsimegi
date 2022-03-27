@@ -1,0 +1,13 @@
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		394 443 810 951 1714 1830 2052 2299 2413 2709 2740 3005 3617 3998 4195 4974 6271 6325 6351 6432 6439 6572 8055 8131 8938 9153 9157 9183 
+	}
+history = {
+owner = POL
+add_core_of = POL
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

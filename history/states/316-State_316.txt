@@ -1,0 +1,22 @@
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		213 2576 2738 3445 5795 6015 6385 6978 8995 12373 12374 12434 
+	}
+	history = {
+	owner = NZL
+	add_core_of = NZL
+		victory_points = {
+			213 10	
+		}
+		buildings = {
+	infrastructure = 2
+	industrial_complex = 1
+	}
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+		state_category=rural
+
+}

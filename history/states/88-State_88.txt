@@ -1,0 +1,13 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		623 981 1187 1321 1981 2380 3062 3450 3907 4806 4919 5319 5696 5813 7196 7201 7591 8923 9145 9154 9155 9167 9171 9177 9188 9190 
+	}
+	history = {
+	owner = BRA
+	add_core_of = BRA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

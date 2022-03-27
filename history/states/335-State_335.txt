@@ -1,0 +1,13 @@
+state={
+	id=335
+	name="STATE_335"
+	provinces={
+		266 796 798 1168 1176 2331 2342 2794 4530 4680 5101 5209 8048 8970 9069 12635 12648 12666 12705 
+	}
+		history = {
+	owner = PHI
+	add_core_of = PHI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

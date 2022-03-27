@@ -1,0 +1,13 @@
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		638 689 1080 1416 1872 2411 2598 3479 3797 4247 4741 4876 6099 6474 6641 6796 6956 7156 8423 8517 12472 12486 12491 
+	}
+			history = {
+	owner = SIA
+	add_core_of = SIA
+	}		
+	manpower=0
+	buildings_max_level_factor=1.000
+}

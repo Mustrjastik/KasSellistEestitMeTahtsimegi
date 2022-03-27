@@ -1,0 +1,13 @@
+state={
+	id=339
+	name="STATE_339"
+	provinces={
+		1085 1347 2182 2243 3441 3470 3942 4683 4763 4929 5791 5873 7430 9067 12678 12684 12708 
+	}
+			history = {
+	owner = VEN
+	add_core_of = VEN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

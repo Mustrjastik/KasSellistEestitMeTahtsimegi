@@ -1,0 +1,13 @@
+state={
+	id=309
+	name="STATE_309"
+	provinces={
+		599 803 1127 2145 3101 3283 3678 3893 4116 4828 5317 5892 5907 6063 6633 7039 8574 12363 12390 12405 12444 
+	}
+		history = {
+	owner = CRO
+	add_core_of = CRO 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=323
+	name="STATE_323"
+	provinces={
+		474 920 1104 2205 2775 3690 3917 4926 5628 6070 6593 7138 7273 7569 8793 8860 12433 12445 12447 12458 12459 12462 12496 12500 
+	}
+			history = {
+	owner = SAF
+	add_core_of = SAF
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

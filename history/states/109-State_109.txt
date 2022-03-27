@@ -1,0 +1,13 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		151 184 565 1059 2745 3360 4398 4426 4988 6320 6717 8253 8437 8489 9215 9220 9304 9328 9340 9373 
+	}
+	history = {
+	owner = ARG
+	add_core_of = ARG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

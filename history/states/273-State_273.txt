@@ -1,0 +1,13 @@
+state={
+	id=273
+	name="STATE_273"
+	provinces={
+		1054 1495 1524 3032 3546 3747 3826 4110 4277 5950 5962 6209 6288 6589 6783 7316 7982 8026 8394 9007 11820 11845 11850 11856 11879 11945 11954 11990 11999 
+	}
+	history = {
+	owner = DOM
+	add_core_of = DOM
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

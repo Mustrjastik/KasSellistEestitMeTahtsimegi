@@ -1,0 +1,13 @@
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		761 12161 
+	}
+		history = {
+	owner = CRO
+	add_core_of = CRO 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

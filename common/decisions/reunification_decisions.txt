@@ -1,0 +1,37 @@
+form_estonia_category = {
+	
+	form_polvamaa_NZL = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = NZL
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = URG
+country_exists = AST
+country_exists = YUN
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = NZL
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NZL_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

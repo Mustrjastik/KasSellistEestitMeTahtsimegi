@@ -1,0 +1,13 @@
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		2043 5376 12426 
+	}
+	history = {
+	owner = YUN
+	add_core_of = YUN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

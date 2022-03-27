@@ -1,0 +1,13 @@
+state={
+	id=315
+	name="STATE_315"
+	provinces={
+		104 430 701 897 1387 2270 2657 2821 2894 2956 3059 3398 3791 4584 4917 4939 5660 6771 7514 7626 8184 8984 12403 12417 12418 12421 
+	}
+		history = { 
+	owner = PRU
+	add_core_of = PRU
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

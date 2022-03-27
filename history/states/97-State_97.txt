@@ -1,0 +1,13 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		1098 1246 2040 2356 2941 2957 3326 3623 4088 5005 5472 5537 5746 6649 6922 7097 7703 8197 8820 9162 9169 9216 
+	}
+		history = {
+	owner = CHL
+	add_core_of = CHL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

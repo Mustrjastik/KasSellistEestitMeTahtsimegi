@@ -1,0 +1,13 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		4229 
+	}
+		history = {
+	owner = XSM
+	add_core_of = XSM 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

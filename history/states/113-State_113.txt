@@ -1,0 +1,13 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		77 679 722 2223 2731 3164 3247 3527 3783 4342 4639 4834 4940 5644 6139 6896 8779 8896 9210 9218 9244 9258 9297 9302 9314 9330 9376 
+	}
+		history = {
+	owner = GRE
+	add_core_of = GRE
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

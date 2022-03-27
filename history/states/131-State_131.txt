@@ -1,0 +1,13 @@
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		468 653 700 1222 2277 3085 3196 3856 3989 4295 4936 6254 8067 8134 8520 8748 9345 9362 9483 
+	}
+	history = {
+	owner = BOL
+	add_core_of = BOL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

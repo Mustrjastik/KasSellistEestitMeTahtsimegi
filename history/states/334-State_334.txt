@@ -1,0 +1,13 @@
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		381 766 937 1356 1539 1746 2075 2732 3154 6123 7877 8508 8563 8921 12605 12637 12681 12695 
+	}
+			history = {
+	owner = SIK
+	add_core_of = SIK
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

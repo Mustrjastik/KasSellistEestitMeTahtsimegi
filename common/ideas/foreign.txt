@@ -1,0 +1,29 @@
+ideas = {
+
+	country = {
+		foreign_international_markets = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 1
+				country_resource_oil = 9999
+				country_resource_rubber = 9999
+				country_resource_tungsten = 9999
+				country_resource_chromium = 9999
+				country_resource_aluminium = 9999
+				country_resource_steel = 9999
+				}
+
+		}
+	}
+
+}

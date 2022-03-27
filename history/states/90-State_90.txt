@@ -1,0 +1,14 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		9152 
+	}
+history = {
+owner = TAN
+add_core_of = TAN
+add_core_of = SWE
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

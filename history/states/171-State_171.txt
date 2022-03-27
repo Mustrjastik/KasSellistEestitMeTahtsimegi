@@ -1,0 +1,13 @@
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		851 1175 1257 1944 2976 3974 4158 4234 4424 4793 4959 5138 5378 5615 5736 7245 9976 9980 9996 10023 10033 10061 10110 10158 
+	}
+		history = {
+	owner = IRE
+	add_core_of = IRE
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

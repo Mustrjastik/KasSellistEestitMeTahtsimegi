@@ -1,0 +1,13 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		457 1116 1317 1450 1565 1647 1862 3214 3952 4194 5069 6083 6305 7597 8868 9089 12450 12478 12494 12499 12510 12512 12513 
+	}
+		history = {
+	owner = PER
+	add_core_of = PER
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

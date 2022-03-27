@@ -1,0 +1,10 @@
+﻿From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+38;7493;sea;13887;-1;-1;-1;-1;;laanemaavormsi
+7237;12925;sea;14373;-1;-1;-1;-1;;laanemaavormsi
+7451;6671;sea;14886;-1;-1;-1;-1;;laanemaamuhu1
+2724;12931;sea;14474;-1;-1;-1;-1;;laanemaamuhu2
+12931;589;sea;13413;-1;-1;-1;-1;;laanemaamuhu3
+12931;589;sea;13413;-1;-1;-1;-1;;muhusaaremaa1
+10993;11017;sea;13305;-1;-1;-1;-1;;muhusaaremaa2
+
+-1;-1;;-1;-1;-1;-1;-1;-1

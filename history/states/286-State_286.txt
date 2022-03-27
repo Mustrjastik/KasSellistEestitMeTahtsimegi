@@ -1,0 +1,13 @@
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		641 1965 2114 2169 2509 2728 2760 3448 3815 4754 5071 5394 5448 5784 6741 7366 7554 7926 7948 8484 8991 12075 12111 12116 12157 12187 12248 12264 12306 12314 
+	}
+		history = {
+	owner = CRO
+	add_core_of = CRO 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

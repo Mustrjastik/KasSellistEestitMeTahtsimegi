@@ -1,0 +1,13 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		6359 
+	}
+		history = {
+	owner = NEP
+	add_core_of = NEP
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

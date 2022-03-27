@@ -1,0 +1,13 @@
+state={
+	id=328
+	name="STATE_328"
+	provinces={
+		178 287 1352 1514 2459 2552 3866 4263 4659 6410 6713 6839 7032 7207 12521 12530 12541 12575 12606 
+	}
+			history = {
+	owner = TIB
+	add_core_of = TIB
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=331
+	name="STATE_331"
+	provinces={
+		31 113 242 588 1075 1417 1442 1632 1679 3149 3345 3615 4024 4546 4956 5210 5482 5669 5978 6077 6736 7844 8240 8275 8763 12559 12580 12581 12595 12604 12609 
+	}
+		history = {
+	owner = PHI
+	add_core_of = PHI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		236 296 592 618 1405 1513 2055 2086 4676 4803 5160 5397 7033 8374 8494 12190 12231 12241 12256 12265 12276 12279 12287 12297 12302 12317 
+	}
+		history = {
+	owner = PER
+	add_core_of = PER
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

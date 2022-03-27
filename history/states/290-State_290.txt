@@ -1,0 +1,13 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		166 420 473 1154 1602 1698 1991 2667 2857 2929 4090 5512 5661 6010 6034 6159 6162 6315 7081 7398 8163 8597 9029 12176 12246 12258 12274 12284 12293 12305 
+	}
+	history = {
+	owner = URG
+	add_core_of = URG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

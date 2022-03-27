@@ -1,0 +1,13 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		1280 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history = {
+	owner = COL
+	add_core_of = COL
+	}
+}

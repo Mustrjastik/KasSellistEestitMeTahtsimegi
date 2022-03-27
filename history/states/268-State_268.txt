@@ -1,0 +1,13 @@
+state={
+	id=268
+	name="STATE_268"
+	provinces={
+		210 525 733 1644 1695 1998 2988 3018 3379 3687 3696 4923 5020 5225 5233 6022 6101 6497 7095 7283 7503 8807 11735 11736 11826 11869 
+	}
+		history = {
+	owner = ENG
+	add_core_of = ENG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=314
+	name="STATE_314"
+	provinces={
+		362 576 901 1051 1103 1406 1708 2093 2107 2439 2489 3239 4066 4326 4597 6014 6127 7896 8095 9052 12388 12404 12453 12467 12468 12481 12497 12501 12503 
+	}
+			history = {
+	owner = YUN
+	add_core_of = YUN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

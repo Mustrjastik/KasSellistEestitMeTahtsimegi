@@ -1,0 +1,13 @@
+state={
+	id=282
+	name="STATE_282"
+	provinces={
+		5306 
+	}
+	history = {
+	owner = DOM
+	add_core_of = DOM
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

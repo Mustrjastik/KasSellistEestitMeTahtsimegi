@@ -1,0 +1,14 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		1968 
+	}
+history = {
+owner = SWE
+add_core_of = SWE
+add_core_of = TAN
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=336
+	name="STATE_336"
+	provinces={
+		758 2748 3068 3248 3597 4469 4882 5303 5382 6466 7393 8935 12660 12668 12692 
+	}
+			history = {
+	owner = VEN
+	add_core_of = VEN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

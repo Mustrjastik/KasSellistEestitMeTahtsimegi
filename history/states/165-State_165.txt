@@ -1,0 +1,13 @@
+state={
+	id=165
+	name="STATE_165"
+	provinces={
+		291 422 472 774 988 1716 2001 3078 3570 3572 4141 4719 4779 5024 6722 7498 7744 8266 8471 8679 9816 9905 9909 9968 9997 10020 10042 10139 
+	}
+			history = {
+	owner = AFG
+	add_core_of = AFG
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

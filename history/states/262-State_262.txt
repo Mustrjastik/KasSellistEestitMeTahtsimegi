@@ -1,0 +1,13 @@
+state={
+	id=262
+	name="STATE_262"
+	provinces={
+		1412 5717 11626 
+	}
+history = {
+owner = USA
+add_core_of = USA
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

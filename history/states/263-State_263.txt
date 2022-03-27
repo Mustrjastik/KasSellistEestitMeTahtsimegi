@@ -1,0 +1,13 @@
+state={
+	id=263
+	name="STATE_263"
+	provinces={
+		523 1140 1364 1392 2018 2231 3127 4344 4756 5085 6082 6150 6928 7671 7883 8826 11654 11690 11725 11733 11734 11837 11866 
+	}
+		history = {
+	owner = CUB
+	add_core_of = CUB
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

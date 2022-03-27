@@ -1,0 +1,13 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		2119 4297 5268 11695 
+	}
+			history = {
+	owner = PAR
+	add_core_of = PAR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

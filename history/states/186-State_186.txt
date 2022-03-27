@@ -1,0 +1,13 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		6363 10232 
+	}
+history = {
+owner = LBA
+add_core_of = LBA
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

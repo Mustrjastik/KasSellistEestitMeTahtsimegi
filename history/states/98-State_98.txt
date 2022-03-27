@@ -1,0 +1,13 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		867 2275 3592 4418 4421 4447 5370 7275 7458 7907 8425 8464 9193 
+	}
+		history = {
+	owner = COL
+	add_core_of = COL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		115 273 549 723 760 1254 2116 2655 3069 3957 6767 7131 7466 7651 8577 8627 9163 9189 9200 9229 9246 
+	}
+history = {
+owner = ITA
+add_core_of = ITA
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

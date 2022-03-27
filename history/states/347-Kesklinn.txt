@@ -1,0 +1,14 @@
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		371 1586 2647 4258 5737 9173 
+	}
+history = {
+owner = LIT
+add_core_of = LIT
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

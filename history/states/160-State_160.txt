@@ -1,0 +1,13 @@
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		228 521 2129 2153 2642 3564 3789 4280 4337 4511 5271 5344 5414 5456 5887 6004 6485 7193 7421 7882 8556 8990 9098 9727 9754 9771 9796 9831 9832 9866 9873 9937 10012 
+	}
+	history = {
+	owner = COS
+	add_core_of = COS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

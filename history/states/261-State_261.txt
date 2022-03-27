@@ -1,0 +1,13 @@
+state={
+	id=261
+	name="STATE_261"
+	provinces={
+		1424 1612 2287 2593 2926 5284 6193 8279 11639 11693 11732 
+	}
+history = {
+owner = AUS
+add_core_of = AUS
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

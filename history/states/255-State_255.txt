@@ -1,0 +1,13 @@
+state={
+	id=255
+	name="STATE_255"
+	provinces={
+		3912 5353 
+	}
+			history = {
+	owner = HAI
+	add_core_of = HAI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

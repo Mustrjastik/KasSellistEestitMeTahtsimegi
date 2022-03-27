@@ -1,0 +1,13 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		5643 
+	}
+history = {
+owner = UKR
+add_core_of = UKR
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

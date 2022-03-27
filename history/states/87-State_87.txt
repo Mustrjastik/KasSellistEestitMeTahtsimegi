@@ -1,0 +1,13 @@
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		1963 9141 
+	}
+	history = {
+	owner = CHL
+	add_core_of = CHL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

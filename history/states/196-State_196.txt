@@ -1,0 +1,14 @@
+state={
+	id=196
+	name="STATE_196"
+	provinces={
+		12927 
+	}
+
+			history = {
+	owner = BHU
+	add_core_of = BHU
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

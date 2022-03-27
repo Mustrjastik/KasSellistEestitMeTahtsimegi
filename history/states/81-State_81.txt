@@ -1,0 +1,13 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		12922 
+	}
+history = {
+owner = ALB
+add_core_of = ALB
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

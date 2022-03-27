@@ -1,0 +1,13 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		154 1427 1804 2769 2981 3469 3800 4170 4442 4960 5531 5957 7538 7612 8094 8817 8968 11323 11358 11359 11377 11416 11421 11488 11489 11513 
+	}
+			history = {
+	owner = PAR
+	add_core_of = PAR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

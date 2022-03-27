@@ -1,0 +1,13 @@
+state={
+	id=340
+	name="STATE_340"
+	provinces={
+		12 131 537 542 1517 1817 3096 3779 3851 4807 5823 6750 8142 8305 8640 12850 12857 12859 
+	}
+		history = {
+	owner = SOV
+	add_core_of = SOV
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

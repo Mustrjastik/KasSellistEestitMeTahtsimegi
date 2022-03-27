@@ -1,0 +1,13 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		4410 
+	}
+history = {
+owner = LIT
+add_core_of = LIT
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

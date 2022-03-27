@@ -1,0 +1,13 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		249 697 725 743 1386 1668 1670 1949 2234 3050 3156 3211 3774 3922 4322 4349 5329 5724 6571 7286 7572 7976 8312 8601 9206 9342 9369 9370 
+	}
+	history = {
+	owner = BUL
+	add_core_of = BUL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

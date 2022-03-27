@@ -1,0 +1,13 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		60 164 547 686 1076 1350 1581 1634 2033 2069 2118 2312 2833 4559 5161 6431 6999 7251 7589 8174 8236 8806 9278 9301 9337 9353 9355 9430 
+	}
+history = {
+owner = TUR
+add_core_of = TUR
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

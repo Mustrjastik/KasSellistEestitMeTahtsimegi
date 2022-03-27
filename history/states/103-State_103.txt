@@ -1,0 +1,14 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		3967 5141 
+	}
+history = {
+owner = TAN
+add_core_of = SWE
+add_core_of = SWE
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

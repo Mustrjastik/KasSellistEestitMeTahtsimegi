@@ -1,0 +1,13 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		348 2891 4105 4668 5479 5672 8445 8535 10266 10279 10307 10314 10456 
+	}
+history = {
+owner = LBA
+add_core_of = LBA
+}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

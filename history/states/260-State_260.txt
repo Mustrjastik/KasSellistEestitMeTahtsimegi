@@ -1,0 +1,13 @@
+state={
+	id=260
+	name="STATE_260"
+	provinces={
+		11597 
+	}
+		history = {
+	owner = GUA
+	add_core_of = GUA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

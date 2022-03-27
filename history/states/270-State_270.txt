@@ -1,0 +1,13 @@
+state={
+	id=270
+	name="STATE_270"
+	provinces={
+		437 889 1100 3969 4631 5364 5781 6102 6106 6141 6287 6395 7059 7174 7784 11807 11920 11972 11987 11994 12079 12113 12117 12145 12158 
+	}
+		history = {
+	owner = GUA
+	add_core_of = GUA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

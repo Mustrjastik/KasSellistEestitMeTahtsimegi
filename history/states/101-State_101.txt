@@ -1,0 +1,13 @@
+state={
+	id=101
+	name="STATE_101"
+	provinces={
+		383 533 1472 1807 2127 2742 4043 5656 6336 8297 8491 9164 
+	}
+		history = {
+	owner = COL
+	add_core_of = COL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

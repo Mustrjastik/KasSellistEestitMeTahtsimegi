@@ -1,0 +1,13 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		37 512 1142 1696 1914 2645 3065 3324 3430 3500 3735 4161 4416 4537 4587 5819 6260 6393 6552 7391 7504 7940 8154 9136 9139 9149 9168 9184 9199 
+	}
+		history = {
+	owner = CHL
+	add_core_of = CHL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
