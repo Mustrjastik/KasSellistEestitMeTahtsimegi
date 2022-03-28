@@ -68,9 +68,24 @@
  NZL_monarchism_party_long:0 "Kuninga Toetuserakond"
  NZL_KESK_party:0 "Põlva Keskerakond"
  NZL_REFORM_party:0 "Põlva Reformierakond"
- NZL_alcoholism_party:0 "The Enraged Mobs"
+ NZL_alcoholism_party:0 "Drunkard Invictus' Clique"
  NZL_EKRE_party:0 "Põlva EKRE"
  NZL_theocratic_party:0 "Põlva Kirik"
  NZL_estlam_party:0 "Põlva Meemid"
+ #Räpina
+ AST_EESTI200_party:0 "Räpina 200"
+ AST_EKRE_party:0 "Union Of Loyal Räpina"
+ AST_REFORM_party:0 "Räpina Reformierakond"
+ AST_KESK_party:0 "Central Union Of Agrarian Interests"
+ AST_SDE_party:0 "Party Of Development"
+ AST_alcoholism_party:0 "Lighter Fluid Worship"
+ #Veriora
+ YUN_alcoholism_party:0 "Lighter Fluid Cult"
+ #Passat
+ CYP_alcoholism_party:0 "Drunk Driver Association"
+ CYP_communism_party:0 "Bus And Truck Auxilliary"
+ CYP_fascism_party:0 "Original VW Fans"
+ CYP_banditism_party:0 "Passat Force"
+ CYP_capitalism_party:0 "Lamborghini Drivers"
  
  

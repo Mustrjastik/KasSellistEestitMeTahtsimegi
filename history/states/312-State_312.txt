@@ -5,8 +5,8 @@ state={
 		4875 
 	}
 history = {
-owner = YUN
-add_core_of = YUN
+owner = SOV
+add_core_of = SOV
 }
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -4,10 +4,10 @@ state={
 	provinces={
 		2043 5376 12426 
 	}
-	history = {
-	owner = YUN
-	add_core_of = YUN
-	}
+history = {
+owner = SOV
+add_core_of = SOV
+}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

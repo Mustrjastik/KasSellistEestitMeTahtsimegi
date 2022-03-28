@@ -4,10 +4,27 @@ state={
 	provinces={
 		310 339 663 1027 1061 1112 1201 2028 2364 2492 2787 2812 2945 3049 3547 3670 3692 3857 4242 4583 4785 4972 5105 5714 6231 6273 6447 6451 6872 7136 7183 7422 7712 7728 7957 8005 8084 8210 8300 11991 12013 12031 12042 12053 12085 12088 12109 12112 12135 12174 12195 12207 12214 12224 12229 12277 12311 
 	}
-			history = {
+	history = {
+		victory_points = {
+			12195 15	
+		}
+
+		victory_points = {
+			12214 5	
+		}
+
+		victory_points = {
+			4785 5	
+		}
 	owner = AST
 	add_core_of = AST
+		buildings = {
+			infrastrcture = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
-	manpower=0
+	manpower=9000
 	buildings_max_level_factor=1.000
+		state_category = rural
 }

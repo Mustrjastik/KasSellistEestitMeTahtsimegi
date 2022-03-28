@@ -5,9 +5,18 @@ state={
 		250 392 492 495 1282 1319 2437 2785 2816 3284 3715 4154 6524 7695 8801 9018 12247 12280 12319 12333 12370 12393 
 	}
 			history = {
-	owner = YUN
-	add_core_of = YUN
+		victory_points = {
+			4154 5	
+		}
+		buildings = {
+			infrastrcture = 1
+			industrial_complex = 1
+		}
+	owner = AST
+	add_core_of = AST
 	}
-	manpower=0
+	manpower=2000
 	buildings_max_level_factor=1.000
+		state_category = rural
+
 }
