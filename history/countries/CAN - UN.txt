@@ -2,6 +2,11 @@ capital = 132
 
 #oob = ""
 
+declare_war_on = {
+    target = SAU
+    type = annex_everything
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -7,8 +7,33 @@ state={
 history = {
 owner = LIT
 add_core_of = LIT
+
+		victory_points = {
+			4258 15
+		}
+		
+		victory_points = {
+			2647 15
+		}
+				
+		victory_points = {
+			1586 15
+		}
+						
+		victory_points = {
+			9173 15
+		}
+								
+		victory_points = {
+			5737 15
+		}
+								
+		victory_points = {
+			371 15
+		}
+		
 }
-	manpower=0
+	manpower=212912
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

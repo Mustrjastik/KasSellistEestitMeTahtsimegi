@@ -1,6 +1,11 @@
-capital = 96
+capital = 99
 
 #oob = ""
+
+declare_war_on = {
+    target = TAN
+    type = annex_everything
+}
 
 # Starting tech
 set_technology = {

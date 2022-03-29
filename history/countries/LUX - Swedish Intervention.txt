@@ -1,6 +1,10 @@
 capital = 143
 
 #oob = ""
+declare_war_on = {
+    target = BEL
+    type = annex_everything
+}
 
 # Starting tech
 set_technology = {

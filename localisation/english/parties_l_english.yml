@@ -87,5 +87,9 @@
  CYP_fascism_party:0 "Original VW Fans"
  CYP_banditism_party:0 "Passat Force"
  CYP_capitalism_party:0 "Lamborghini Drivers"
+ #Cops
+ URG_militarism_party:0 "Märulipolitsei"
+ URG_KESK_party:0 "Corrupt Police Officers"
+ URG_authoritarianism_party:0 "Police Force"
  
  
