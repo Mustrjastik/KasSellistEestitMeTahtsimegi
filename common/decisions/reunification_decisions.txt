@@ -14,6 +14,7 @@ form_estonia_category = {
 			NOT = {
 country_exists = URG
 country_exists = AST
+country_exists = CYP
 country_exists = YUN
 				}
 				
@@ -34,4 +35,85 @@ country_exists = YUN
 			factor = 200
 		}
 	}
-}
+form_polvamaa_URG = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = URG
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = CYP
+country_exists = NZL
+country_exists = AST
+country_exists = YUN
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = URG
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = URG_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+form_estonia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				all_country = {
+				NOT = {
+				original_tag = RAJ
+				original_tag = FIN
+				original_tag = SOV
+				original_tag = LAT
+				}
+				}
+			
+		}
+
+		available = {
+			is_subject = no
+			
+}				
+	
+			
+		
+
+		visible = {
+				every_country = {
+				limit = {
+				NOT = {
+				original_tag = RAJ
+				original_tag = FIN
+				original_tag = SOV
+				original_tag = LAT
+				}
+				}
+				}		
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = URG_national
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		}

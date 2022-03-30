@@ -1,0 +1,55 @@
+division_template = {
+	name = "Hooligans"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Soviet Truck Force"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "Passat Force"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Hooligans Of Kanepi"
+		location = 1628
+		division_template = "Hooligans"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Treasures Of The Põlva Scrapyard"
+		location = 4366
+		division_template = "Soviet Truck Force"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	
+	
+	division = {
+		name = "Passat Bandits"
+		location = 3242
+		division_template = "Passat Force"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	
+	
+
+	
+	
+}
