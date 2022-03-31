@@ -76,36 +76,34 @@ form_estonia = {
 		icon = generic_form_nation
 
 		allowed = {
-				all_country = {
 				NOT = {
 				original_tag = RAJ
 				original_tag = FIN
 				original_tag = SOV
 				original_tag = LAT
 				}
-				}
+				
 			
 		}
 
 		available = {
 			is_subject = no
-			
+			always = no
 }				
 	
 			
 		
 
 		visible = {
-				every_country = {
-				limit = {
+
 				NOT = {
 				original_tag = RAJ
 				original_tag = FIN
 				original_tag = SOV
 				original_tag = LAT
 				}
-				}
-				}		
+				
+						
 		}
 
 		complete_effect = {

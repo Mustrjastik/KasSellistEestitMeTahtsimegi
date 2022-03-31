@@ -7,7 +7,25 @@ state={
 	history = {
 	owner = YUN
 	add_core_of = YUN
+		victory_points = {
+			4246 15	
+		}
+		
+		victory_points = {
+			12412 5	
+		}
+		
+		victory_points = {
+			8443 5	
+		}
+		buildings = {
+			infrastructure = 2
+		industrial_complex = 1
+
+		}
 	}
 	manpower=3000
 	buildings_max_level_factor=1.000
+		state_category = rural
+
 }

@@ -80,7 +80,12 @@
  AST_SDE_party:0 "Party Of Development"
  AST_alcoholism_party:0 "Lighter Fluid Worship"
  #Veriora
- YUN_alcoholism_party:0 "Lighter Fluid Cult"
+ YUN_alcoholism_party:0 "The Wise Men Of The Veriora Coop"
+ YUN_authoritarianism_party:0 "Border Patrol"
+ YUN_militarism_party:0 "Lost Russian Border Patrol"
+ YUN_banditism_party:0 "The Koidula Crew"
+ YUN_capitalism_party:0 "The Värska Water Corporation"
+ 
  #Passat
  CYP_alcoholism_party:0 "Drunk Driver Association"
  CYP_communism_party:0 "Bus And Truck Auxilliary"

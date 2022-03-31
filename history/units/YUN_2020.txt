@@ -1,0 +1,57 @@
+division_template = {
+	name = "Fluid Fighters"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Lighter Fluid Catapult"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Veriora Coop Brigade"
+		location = 4246
+		division_template = "Fluid Fighters"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Orava Coop Brigade"
+		location = 2161
+		division_template = "Fluid Fighters"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+	}
+		
+	division = {
+		name = "Värska Coop Brigade"
+		location = 9052
+		division_template = "Fluid Fighters"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Koidula Artillery Force"
+		location = 12503
+		division_template = "Lighter Fluid Catapult"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	
+	
+
+	
+	
+}
