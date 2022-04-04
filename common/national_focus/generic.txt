@@ -3,6 +3,8 @@
 	country = {
 		factor = 1
 	}
+	continuous_focus_position = { x = 2200, y = 450}
+
 	default = no
 	focus = {
 		id = zzz_review_the_troops
@@ -10,7 +12,9 @@
 		cost = 10
 		x = 4
 		y = 0
-
+	completion_reward = {
+	army_experience = 5
+	}
 	}
 	focus = {
 		id = zzz_an_economy_for_reunification
@@ -37,7 +41,9 @@
 		}
 		x = 2
 		y = 1
-
+	completion_reward = {
+	air_experience = 5
+	}
 	}
 	focus = {
 		id = zzz_aerial_infrastructure
@@ -111,7 +117,13 @@
 		}
 		x = 2
 		y = 5
-
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 500
+    producer = ROOT
+}
+}
 	}
 	focus = {
 		id = zzz_a_war_of_us_all
@@ -122,7 +134,10 @@
 		}
 		x = 4
 		y = 5
-
+completion_reward = {
+add_manpower = 3000
+add_stability = -0.05
+}
 	}
 	focus = {
 		id = zzz_find_our_soldiers
@@ -133,7 +148,10 @@
 		}
 		x = 4
 		y = 6
-
+completion_reward = {
+add_manpower = 1500
+add_stability = -0.05
+}
 	}
 	focus = {
 		id = zzz_general_mobilization
@@ -153,9 +171,16 @@
 		prerequisite = {
 			focus = zzz_review_the_troops
 		}
+		available = {
+			any_owned_state = {
+			        is_coastal = yes
+			}
+		}
 		x = 6
 		y = 1
-
+	completion_reward = {
+	navy_experience = 5
+	}
 	}
 	focus = {
 		id = zzz_in_service_of_the_army
@@ -361,7 +386,17 @@
 		}
 		x = 16
 		y = 2
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
 
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_military_factory_effort_2
@@ -372,7 +407,17 @@
 		}
 		x = 16
 		y = 3
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
 
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_military_factory_effort_3
@@ -383,7 +428,17 @@
 		}
 		x = 16
 		y = 4
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
 
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_connected_roads
@@ -394,7 +449,15 @@
 		}
 		x = 18
 		y = 2
-
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_infrastructure_effort_2
@@ -405,7 +468,15 @@
 		}
 		x = 18
 		y = 3
-
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_develop_infrastructure
@@ -416,7 +487,15 @@
 		}
 		x = 18
 		y = 4
-
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_watch_the_skies
@@ -427,7 +506,17 @@
 		}
 		x = 18
 		y = 5
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
 
+	add_building_construction = {
+    type = anti_air_building 
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_a_decent_base
@@ -438,6 +527,17 @@
 		}
 		x = 20
 		y = 2
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 
 	}
 	focus = {
@@ -449,7 +549,17 @@
 		}
 		x = 20
 		y = 3
+	completion_reward = {
+	random_owned_state = {
+	add_extra_state_shared_building_slots = 1
 
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_the_smokestack_to_heaven
@@ -460,7 +570,16 @@
 		}
 		x = 20
 		y = 4
-
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
 	}
 	focus = {
 		id = zzz_reinvograted_industry
@@ -611,7 +730,13 @@
 		}
 		x = 2
 		y = 6
-
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 250
+    producer = ROOT
+}
+}
 	}
 	focus = {
 		id = zzz_scavenge_from_holdouts
@@ -622,7 +747,13 @@
 		}
 		x = 2
 		y = 7
-
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 125
+    producer = ROOT
+}
+}
 	}
 	focus = {
 		id = zzz_battle_tested
