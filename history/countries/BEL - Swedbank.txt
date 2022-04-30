@@ -29,3 +29,14 @@ set_popularities = {
 	capitalism = 63
 	authoritarianism = 37
 }
+
+create_country_leader = {
+	name = "Göran Persson"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = capitalism_subideology
+	traits = {
+		
+	}
+}

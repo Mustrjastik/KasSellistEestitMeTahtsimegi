@@ -38,3 +38,14 @@ set_popularities = {
 	fascism = 3
 	militarism = 18
 }
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = ISAMAA_subideology
+	traits = {
+		
+	}
+}

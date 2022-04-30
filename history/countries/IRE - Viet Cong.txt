@@ -31,3 +31,14 @@ set_popularities = {
 	EKRE = 11
 	authoritarianism = 10
 }
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = militarism_subideology
+	traits = {
+		
+	}
+}

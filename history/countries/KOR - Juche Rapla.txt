@@ -30,3 +30,14 @@ set_popularities = {
    fascism = 20
    communism = 20
 }
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = nazbol_subideology
+	traits = {
+		
+	}
+}

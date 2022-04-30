@@ -31,3 +31,14 @@ set_popularities = {
 	EKRE = 2
 	communism = 18
 }
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = "Andrei_Zarenkov.dds"
+	expire = "1965.1.1"
+	ideology = EESTI200_subideology
+	traits = {
+		
+	}
+}

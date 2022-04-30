@@ -29,3 +29,14 @@ set_popularities = {
 	primitivism = 70
 	eesti200 = 30
 }
+
+create_country_leader = {
+	name = "Johanna Maria Tõugu"
+	desc = ""
+	picture = "johanna_maria_tougu.dds"
+	expire = "1965.1.1"
+	ideology = primitivism_subideology
+	traits = {
+		
+	}
+}

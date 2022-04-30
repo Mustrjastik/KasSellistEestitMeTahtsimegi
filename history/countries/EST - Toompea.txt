@@ -33,3 +33,14 @@ set_popularities = {
 	KESK = 8
 	militarism = 60
 }
+
+create_country_leader = {
+	name = "Martin Herem"
+	desc = "POLITICS_Herem_DESC"
+	picture = "Martin_Herem.dds"
+	expire = "1965.1.1"
+	ideology = militarism_subideology
+	traits = {
+		
+	}
+}

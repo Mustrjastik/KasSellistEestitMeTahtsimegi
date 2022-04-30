@@ -32,3 +32,14 @@ set_popularities = {
 	militarism = 5
 	banditism = 20
 }
+
+create_country_leader = {
+	name = "Georg"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = alcoholism_subideology
+	traits = {
+		
+	}
+}

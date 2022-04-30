@@ -30,3 +30,14 @@ set_popularities = {
 	ISAMAA = 1
 	communism = 87
 }
+
+create_country_leader = {
+	name = "Andrei Zarenkov"
+	desc = ""
+	picture = "Andrei_Zarenkov.dds"
+	expire = "1965.1.1"
+	ideology = communism_subideology
+	traits = {
+		
+	}
+}

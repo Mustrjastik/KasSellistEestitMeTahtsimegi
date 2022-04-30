@@ -29,3 +29,14 @@ set_popularities = {
 	capitalism= 99
 	militarism = 1
 }
+
+create_country_leader = {
+	name = "National Board Of Directors"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = capitalism_subideology
+	traits = {
+		
+	}
+}

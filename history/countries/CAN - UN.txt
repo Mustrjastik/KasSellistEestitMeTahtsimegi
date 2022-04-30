@@ -34,3 +34,14 @@ set_popularities = {
 	capitalism = 48
 	satanism = 52
 }
+
+create_country_leader = {
+	name = "Commander Smith"
+	desc = "POLITICS_SMITH_DESC"
+	picture = "Commander_Smith.dds"
+	expire = "1965.1.1"
+	ideology = satanism_subideology
+	traits = {
+		
+	}
+}

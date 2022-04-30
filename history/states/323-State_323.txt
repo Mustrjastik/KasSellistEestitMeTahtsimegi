@@ -5,9 +5,22 @@ state={
 		474 920 1104 2205 2775 3690 3917 4926 5628 6070 6593 7138 7273 7569 8793 8860 12433 12445 12447 12458 12459 12462 12496 12500 
 	}
 			history = {
+		buildings = {
+	infrastructure = 2
+	industrial_complex = 1
+	}
 	owner = SAF
 	add_core_of = SAF
+		victory_points = {
+			12459 5	
+		}
+		victory_points = {
+			7138 5	
+		}
+		victory_points = {
+			12458 10	
+		}
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1243
+	buildings_max_level_factor=1.000 		state_category=rural
 }

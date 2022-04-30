@@ -30,3 +30,14 @@ fascism = 75
 EKRE = 20
 satanism = 5
 }
+
+create_country_leader = {
+	name = ""Commander""
+	desc = "POLITICS_Commander_DESC"
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = fascism_subideology
+	traits = {
+		
+	}
+}

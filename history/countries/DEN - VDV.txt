@@ -32,3 +32,118 @@ set_popularities = {
 	nazbol = 12
 	militarism = 52
 }
+
+create_country_leader = {
+	name = "Alexander Buinov"
+	desc = ""
+	picture = "Alexander_Buinov.dds"
+	expire = "1965.1.1"
+	ideology = militarism_subideology
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = nazbol_subideology
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = fascism_subideology
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = communism_subideology
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = alcoholism_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = EESTI200_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = SDE_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = ISAMAA_subideology
+	traits = {
+		
+	}
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = KESK_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = REFORM_subideology
+	traits = {
+		
+	}
+}

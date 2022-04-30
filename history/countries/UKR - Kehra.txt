@@ -29,3 +29,14 @@ set_popularities = {
 	primitivism = 70
 	theocratic = 30
 }
+
+create_country_leader = {
+	name = "Agricultural Councils Of Kehra"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = primitivism_subideology
+	traits = {
+		
+	}
+}

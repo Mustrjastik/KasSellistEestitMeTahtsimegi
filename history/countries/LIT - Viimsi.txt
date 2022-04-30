@@ -30,3 +30,14 @@ set_popularities = {
 	REFORM = 20
 	capitalism = 55
 }
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = EESTI200_subideology
+	traits = {
+		
+	}
+}

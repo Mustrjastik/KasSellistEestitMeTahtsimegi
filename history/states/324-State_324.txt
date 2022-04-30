@@ -7,7 +7,25 @@ state={
 			history = {
 	owner = SIA
 	add_core_of = SIA
+		victory_points = {
+			12517 25	
+		}
+		victory_points = {
+			7459 10	
+		}
+		victory_points = {
+			531 10	
+		}
+		victory_points = {
+			2189 10	
+		}
+		buildings = {
+	infrastructure = 3
+	industrial_complex = 2
+	arms_factory = 2
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	}
+	manpower=16317
+	buildings_max_level_factor=1.000 		
+	state_category=large_town 
 }

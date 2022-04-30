@@ -32,3 +32,14 @@ set_popularities = {
 	authoritarianism = 15
 	SDE = 10
 }
+
+create_country_leader = {
+	name = "Jaak Ahelik"
+	desc = ""
+	picture = "Jaak_Ahelik.dds"
+	expire = "1965.1.1"
+	ideology = theocratic_subideology
+	traits = {
+		
+	}
+}

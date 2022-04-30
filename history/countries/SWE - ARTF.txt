@@ -35,3 +35,36 @@ set_popularities = {
 	nazbol = 45
 	militarism = 10
 }
+
+create_country_leader = {
+	name = "Viktor Zolotov"
+	desc = "POLITICS_Zolotov_DESC"
+	picture = "Viktor_Zolotov.dds"
+	expire = "1965.1.1"
+	ideology = militarism_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	desc = "POLITICS_Zolotov_DESC"
+	picture = "Vladimir_Zhirinovsky.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Beness Aijo"
+	desc = "POLITICS_Zolotov_DESC"
+	picture = "Beness_Aijo.dds"
+	expire = "1965.1.1"
+	ideology = nazbol_subideology
+	traits = {
+		
+	}
+}

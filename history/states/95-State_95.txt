@@ -65,7 +65,7 @@ state={
 		1109 1348 2142 4144 4457 4505 5096 5786 5891 6437 7187 9176 9197 9223 
 	}
 	manpower=312417
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.000 		state_category=rural
 	local_supplies=0.000
 		state_category=megalopolis
 }

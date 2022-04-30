@@ -31,3 +31,14 @@ set_popularities = {
 	KESK = 20
 	communism = 44
 }
+
+create_country_leader = {
+	name = "Valev Kald"
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = communism_subideology
+	traits = {
+		
+	}
+}

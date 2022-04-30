@@ -29,3 +29,14 @@ set_popularities = {
 	theocratic = 90
 	oligarchic = 10
 }
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = theocratic_subideology
+	traits = {
+		
+	}
+}

@@ -35,3 +35,14 @@ set_popularities = {
 	KESK = 20
 	authoritarianism = 60
 }
+
+create_country_leader = {
+	name = "Tamar Tamm"
+	desc = ""
+	picture = "tamar_tamm.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subideology
+	traits = {
+		
+	}
+}

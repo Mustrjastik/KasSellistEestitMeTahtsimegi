@@ -30,3 +30,25 @@ set_popularities = {
 	fascism = 34
 	militarism = 11
 }
+
+create_country_leader = {
+	name = "Edgar Savisaar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = KESK_subideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Edgar Savisaar"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fascism_subideology
+	traits = {
+		
+	}
+}

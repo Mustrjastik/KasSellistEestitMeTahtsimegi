@@ -28,3 +28,14 @@ set_politics = {
 set_popularities = {
 	authoritarianism = 100
 }
+
+create_country_leader = {
+	name = "TOOMPEAD RÜNNATAKSE"
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subideology
+	traits = {
+		
+	}
+}

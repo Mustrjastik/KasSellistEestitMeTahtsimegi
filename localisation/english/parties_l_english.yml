@@ -11,6 +11,7 @@
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarianism"
  authoritarianism_desc:0 "Authoritarian Dictatorship"
+ authoritarianism_subideology_desc:0 "Authoritarian governments come in many flavours, but sometimes they do not really quite fit anywhere. They may just be excuses to violently hold on to power, or they may sometimes lean fascist, other times commmunist and other times capitalist. Many of these governments are found all over Africa or Asia, and some notable examples in Europe are Putin's Russia and Lukashenka's Belarus. They have no real ideological makeup, but may very well get one, if need be."
  EKRE:0 "National Conservative"
  EKRE_noun:0 "National Conservatism"
  EKRE_desc:0 "Nationalist Democracy"
@@ -26,6 +27,7 @@
  estlam:0 "Estlamic"
  estlam_noun:0 "Estlam"
  estlam_desc:0 "Estlamic Caliphate"
+ estlam_subideology_desc:0 "What started as a joke among Estonia's right-wing circles has evolved into a violent movement, as mainstream media had warned us. A religious movement seeking to reconcile Wahhabi Islam and Estonian Native Faith has attracted mainstream condemnation. With policies seemingly insane such as conquering Istanbul to "regain" the Hagia Sophia, who knows what else Estonia has in store from these madmen?"
  banditism:0 "Bandit"
  banditism_noun:0 "Banditism"
  banditism_desc:0 "Bandit Clique"
@@ -47,6 +49,7 @@
  KESK:0 "Oligarchy"
  KESK_noun:0 "Oligarchism"
  KESK_desc:0 "Oligarchy"
+ KESK_subideology_desc:0 "Some politicians in Estonia do not really have politics. They have a desire for wealth and power, seeking to attain it by appealing to populist rhetoric and the elderly population while failing to follow up on both, then blaming all the other politicians for their failures. Usually, the one thing they do follow up on is their reputation of corruption."
  ISAMAA:0 "Conservative"
  ISAMAA_noun:0 "Conservatism"
  ISAMAA_desc:0 "Conservative Democracy"
@@ -56,6 +59,7 @@
  fascism:0 "Fascist"
  fascism:0 "Fascism"
  fascism_desc:0 "Ultranationalist Dictatorship"
+ fascism_subideology_desc:0 "Fascism is a nebolous concept, but one of its chief principles is the supremacy of one nation, or at least that a nation has the right to establish supremacy over another. Almost invariably, governments following this line of thought are totalitarian and/or incredibly violent. In Estonia, the Post-Kallas civil war has lead to a resurgence in this far-right ideology, but not all of these fascists are Estonian. Some are fascists who came from Russia to fight for their own vision of Russian supremacy."
  #FKD
  GER_fascism_party:0 "FKD - Commander Line"
  GER_fascism_party_long:0 "Feuerkrieg Division"
@@ -85,7 +89,10 @@
  YUN_militarism_party:0 "Lost Russian Border Patrol"
  YUN_banditism_party:0 "The Koidula Crew"
  YUN_capitalism_party:0 "The Värska Water Corporation"
- 
+ #EKRE
+ AUS_fascism_party:0 "EKRE - Pan-Gamer Front"
+ AUS_EKRE_party:0 "EKRE - Mainstream Faction"
+ AUS_authoritarianism_party:0 "EKRE - Neo-Rahvaliit"
  #Passat
  CYP_alcoholism_party:0 "Drunk Driver Association"
  CYP_communism_party:0 "Bus And Truck Auxilliary"
@@ -96,5 +103,24 @@
  URG_militarism_party:0 "Märulipolitsei"
  URG_KESK_party:0 "Corrupt Police Officers"
  URG_authoritarianism_party:0 "Police Force"
+ #Rail Baltic
+ SPR_EESTI200_party:0 "Volt"
+ SPR_EESTI200_party_long:0 "Volt Järvamaa"
+ SPR_REFORM_party:0 "Rail Baltic Conglomerate"
+ SPR_militarism_party:0 "Security Staff"
+ #Toompea
+ EST_militarism_party:0 "Government Of Emergency Martial Law"
+ EST_EKRE_party:0 "EKRE - Toompea Wing"
+ EST_KESK_party:0 "Union For Tallinn Representation"
+ EST_ISAMAA_party:0 "ISAMAA - Toompea Wing"
+ EST_REFORM_party:0 "Reformierakond - Toompea Wing"
+ EST_SDE_party:0 "SDE - Toompea Wing"
+ #UNESTFOR
+ CAN_satanism_party:0 "United Nations Peacekeeping Force"
+ CAN_capitalism_party:0 "Military Contractors"
+ #Maardu
+ POL_SDE_party:0 "Estonian Anti-Fascist Committee"
+ POL_communism_party:0 "All-Estonian Communist Party (Bolsheviks)"
+ 
  
  

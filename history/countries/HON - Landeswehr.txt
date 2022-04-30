@@ -30,3 +30,14 @@ set_popularities = {
 	militarism = 35
 	oligarchic = 10
 }
+
+create_country_leader = {
+	name = "August Von Mackensen's Undead Corpse"
+	desc = "POLITICS__DESC"
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = fascism_subideology
+	traits = {
+		
+	}
+}

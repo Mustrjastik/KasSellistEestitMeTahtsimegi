@@ -30,3 +30,14 @@ set_popularities = {
 	KESK = 40
 	communism = 10
 }
+
+create_country_leader = {
+	name = "Katri Raik"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = SDE_subideology
+	traits = {
+		
+	}
+}

@@ -34,3 +34,14 @@ set_popularities = {
 	monarchism = 20
 	SDE = 37
 }
+
+create_country_leader = {
+	name = ""
+	desc = ""
+	picture = ".dds"
+	expire = "1965.1.1"
+	ideology = militarism_subideology
+	traits = {
+		
+	}
+}

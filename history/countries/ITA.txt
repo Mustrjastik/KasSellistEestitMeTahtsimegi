@@ -29,3 +29,14 @@ set_popularities = {
 	REFORM = 99
 	satanism = 1
 }
+
+create_country_leader = {
+	name = "Siim Kallas"
+	desc = "POLITICS__DESC"
+	picture = "Siim_Kallas.dds"
+	expire = "1965.1.1"
+	ideology = REFORM_subideology
+	traits = {
+		
+	}
+}

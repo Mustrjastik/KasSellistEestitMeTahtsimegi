@@ -29,3 +29,14 @@ set_popularities = {
 	KESK = 37
 	theocratic = 63
 }
+
+create_country_leader = {
+	name = "Monastery"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = theocratic_subideology
+	traits = {
+		
+	}
+}
