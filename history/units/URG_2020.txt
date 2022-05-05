@@ -34,7 +34,13 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
-	
+	division = {
+		name = "Vaste-Kuuste Deputies"
+		location = 3327
+		division_template = "Coordinated Police Squadrons"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}	
 	
 
 	

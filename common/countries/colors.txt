@@ -16,6 +16,7 @@ SWE = {
 	color = rgb { 0 0 132 }
 	color_ui = rgb { 0 0 132 }
 }
+
 FRA = {
 	color = rgb { 228 113 57 }
 	color_ui = rgb { 228 113 57 }
@@ -88,8 +89,8 @@ GRE = {
 	color_ui = rgb { 200 200 200 }
 }
 ALB = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 200 11 11 }
+	color_ui = rgb { 200 11 11 }
 }
 NOR = {
 	color = rgb { 255 190 1 }
@@ -136,8 +137,8 @@ BHU = {
 	color_ui = rgb { 172 11 11 }
 }
 BOL = {
-	color = rgb { 100 1 23 } 
-	color_ui = rgb { 100 1 23 }
+	color = rgb { 44 1 11 } 
+	color_ui = rgb { 44 1 11 }
 }
 BRA = {
 	color = rgb { 76 145 63 }
@@ -264,8 +265,8 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 215 217 39 }
+	color_ui = rgb { 215 217 39 }
 }
 MEN = {
 	color = rgb { 185  255  152 }

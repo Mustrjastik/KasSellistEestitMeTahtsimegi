@@ -1,4 +1,4 @@
-capital = 141
+capital = 330
 
 #oob = ""
 
@@ -30,7 +30,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "§RTOOMPEAD RÜNNATAKSE§!"
+	name = "TOOMPEAD RÜNNATAKSE"
 	desc = "TOOMPEA_UNDER_ATTACK_DESC"
 	picture = ".dds"
 	expire = "1965.1.1"

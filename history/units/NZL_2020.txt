@@ -49,19 +49,11 @@ units = {
 	}
 	
 	division = {
-		name = "Tilsi Levy"
-		location = 213
+		name = "Retreated Tilsi Levy"
+		location = 1358
 		division_template = "Infantry Levy"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
-	}
-		
-	division = {
-		name = "Vaste-Kuuste Levy"
-		location = 3327
-		division_template = "Infantry Levy"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.1
 	}
 	
 	

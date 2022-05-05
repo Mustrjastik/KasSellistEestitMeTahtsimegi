@@ -1,4 +1,4 @@
-capital = 141
+capital = 328
 
 #oob = ""
 
@@ -20,21 +20,23 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = banditism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	banditism = 51
+	militarism = 29
+	monarchism = 20
 }
 
 create_country_leader = {
-	name = "§RTOOMPEAD RÜNNATAKSE§!"
-	desc = "TOOMPEA_UNDER_ATTACK_DESC"
+	name = "Roundtable Of The Thieves"
+	desc = ""
 	picture = ".dds"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subideology
+	ideology = banditism_subideology
 	traits = {
 		
 	}

@@ -7,7 +7,27 @@ state={
 history = {
 owner = ITA
 add_core_of = ITA
+		buildings = {
+	infrastructure = 3
+	industrial_complex = 2
+	arms_factory = 1
+	}
+		victory_points = {
+			7651 10	
+		}	
+		victory_points = {
+			3069 5
+		}	
+		victory_points = {
+			1254 5	
+		}		
+		victory_points = {
+			2655 5	
+		}
+		victory_points = {
+			3957 5	
+		}
 }
-	manpower=0
-	buildings_max_level_factor=1.000 		state_category=rural
+	manpower=15248
+	buildings_max_level_factor=1.000 		state_category=town
 }

@@ -8,6 +8,13 @@ state={
 	owner = SIK
 	add_core_of = SIK
 	}
-	manpower=0
+	victory_points = {
+	4201 5
+	}
+	buildings = {
+	infrastructure = 1
+	arms_factory = 1
+	}
+	manpower=600
 	buildings_max_level_factor=1.000 		state_category=rural
 }

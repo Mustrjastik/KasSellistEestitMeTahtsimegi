@@ -121,6 +121,8 @@
  #Maardu
  POL_SDE_party:0 "Estonian Anti-Fascist Committee"
  POL_communism_party:0 "All-Estonian Communist Party (Bolsheviks)"
+ #blanks
+ TOOMPEA_UNDER_ATTACK_DESC:0 "The dust did not settle in all areas. In some, fighting continues between any and all groups, local, national, relevant or irrelevant. Either that, or the situation never changed and its just that no real authority has emerged there. Or, perhaps, somewhere inbetween? In any case, authority will emerge as soon as it does in nearby areas."
  
  
  

@@ -1,4 +1,4 @@
-capital = 141
+capital = 324
 
 #oob = ""
 
@@ -20,21 +20,26 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = SDE
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	SDE = 45
+	communism = 5
+	EKRE = 10
+	ISAMAA = 10
+	militarism = 20
+	authoritarianism = 10
 }
 
 create_country_leader = {
-	name = "§RTOOMPEAD RÜNNATAKSE§!"
-	desc = "TOOMPEA_UNDER_ATTACK_DESC"
-	picture = ".dds"
+	name = "Anti Allas"
+	desc = ""
+	picture = "Anti_Allas.dds"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subideology
+	ideology = SDE_subideology
 	traits = {
 		
 	}

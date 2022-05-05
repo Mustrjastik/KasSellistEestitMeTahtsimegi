@@ -13,6 +13,9 @@ state={
 		victory_points = {
 			473 5
 		}
+		victory_points = {
+			6315 2
+		}
 	}
 	manpower=1500
 	buildings_max_level_factor=1.000 		state_category=rural

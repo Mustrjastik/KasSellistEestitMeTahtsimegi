@@ -5,8 +5,8 @@ state={
 		614 1934 1940 2850 2917 3327 3372 3408 5384 5854 6048 6463 6664 7964 8186 8790 8908 11974 11986 12005 12070 12091 12120 12160 
 	}
 				history = {
-	owner = NZL
-	add_core_of = NZL
+	owner = URG
+	add_core_of = URG
 		victory_points = {
 			3327 10	
 		}

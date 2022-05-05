@@ -1,4 +1,4 @@
-capital = 141
+capital = 207
 
 #oob = ""
 
@@ -20,21 +20,23 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = theocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	theocratic = 55
+	EKRE = 25
+	ISAMAA = 20
 }
 
 create_country_leader = {
-	name = "§RTOOMPEAD RÜNNATAKSE§!"
-	desc = "TOOMPEA_UNDER_ATTACK_DESC"
-	picture = ".dds"
+	name = "Varro Vooglaid"
+	desc = "varro_desc"
+	picture = "varro_vooglaid.dds"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subideology
+	ideology = theocratic_subideology
 	traits = {
 		
 	}
