@@ -26,13 +26,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	authoritarianism = 60
+	ISAMAA = 40
 }
 
 create_country_leader = {
-	name = "TOOMPEAD RÜNNATAKSE"
-	desc = "TOOMPEA_UNDER_ATTACK_DESC"
-	picture = ".dds"
+	name = "Ilmar Tomusk"
+	desc = "ILMAR_TOMUSK_DESC"
+	picture = "Ilmar_Tomusk.dds"
 	expire = "1965.1.1"
 	ideology = authoritarianism_subideology
 	traits = {

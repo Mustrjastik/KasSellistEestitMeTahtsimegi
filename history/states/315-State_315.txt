@@ -7,7 +7,24 @@ state={
 		history = { 
 	owner = PRU
 	add_core_of = PRU
+	buildings = {
+	infrastructure = 2
+	industrial_complex = 1
+	arms_factory = 1
 	}
-	manpower=0
+	victory_points = {
+	2956 10
+	}
+	victory_points = {
+	3059 3
+	}	
+	victory_points = {
+	12417 3
+	}
+	victory_points = {
+	8184 3
+	}
+	}
+	manpower=1266
 	buildings_max_level_factor=1.000 		state_category=rural
 }

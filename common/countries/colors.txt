@@ -69,8 +69,8 @@ ITA = {
 	color_ui = rgb { 180 150 1 }
 }
 ROM = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 250 250 250 }
+	color_ui = rgb { 250 250 250 }
 }
 YUG = {
 	color = rgb { 72 73 126 }
@@ -161,8 +161,8 @@ COL = {
 	color_ui = rgb { 54 54 54 }
 }
 COS = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 150 150 250 }
+	color_ui = rgb { 150 150 250 }
 }
 ECU = {
 	color = rgb { 54 54 249 }
@@ -201,8 +201,8 @@ MEX = {
 	color_ui = rgb { 2 198 2 }
 }
 NEP = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 5 5 100 }
+	color_ui = rgb { 5 5 100 }
 }
 NIC = {
 	color = rgb { 125 22 22 }
@@ -253,8 +253,8 @@ URG = {
 	color_ui = rgb { 100 100 239 }
 }
 VEN = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 50 50 150 }
+	color_ui = rgb { 50 50 150 }
 }
 YUN = {
 	color = rgb { 148 148 11 }
@@ -269,8 +269,8 @@ MON = {
 	color_ui = rgb { 215 217 39 }
 }
 MEN = {
-	color = rgb { 185  255  152 }
-	color_ui = rgb { 165  230  132 }
+	color = rgb { 22 2 255 }
+	color_ui = rgb { 22 2 255 }
 }
 TAN = {
 	color = rgb { 130 130 130 }
@@ -370,8 +370,8 @@ SER = {
 }
 
 ICE = {
-	color = rgb { 100  125  175 }
-	color_ui = rgb { 100  125  175 }
+	color = rgb { 255  255  224 }
+	color_ui = rgb { 255  255  224 }
 }
 
 UKR = {

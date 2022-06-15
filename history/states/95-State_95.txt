@@ -58,7 +58,9 @@ state={
 		victory_points = {
 			4505 15
 		}
-
+	buildings = {
+		air_base = 3
+	}
 	}
 
 	provinces={

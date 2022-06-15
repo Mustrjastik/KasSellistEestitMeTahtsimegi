@@ -11,6 +11,7 @@ add_core_of = ITA
 	infrastructure = 3
 	industrial_complex = 2
 	arms_factory = 1
+		air_base = 1
 	}
 		victory_points = {
 			7651 10	

@@ -7,8 +7,43 @@ state={
 		history = {
 	owner = CUB
 	add_core_of = CUB
+	buildings = {
+	infrastucture = 5
+	industrial_complex = 4
+	arms_factory = 3
 	}
-	manpower=0
+	victory_points = {
+	4372 15
+	}
+	victory_points = {
+	7058 15
+	}
+	victory_points = {
+	7434 15
+	}	
+	victory_points = {
+	6867 15
+	}	
+	victory_points = {
+	2445 15
+	}	
+	victory_points = {
+	8238 15
+	}	
+	victory_points = {
+	5204 15
+	}
+	victory_points = {
+	658 15
+	}	
+	victory_points = {
+	11655 15
+	}	
+	victory_points = {
+	11616 15	
+	}
+	}
+	manpower=91407
 	buildings_max_level_factor=1.000 		state_category=megalopolis
 	local_supplies=0.000
 }

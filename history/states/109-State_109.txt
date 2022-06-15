@@ -7,6 +7,9 @@ state={
 	history = {
 	owner = ARG
 	add_core_of = ARG
+		buildings = {
+		air_base = 1
+	}
 	}
 	manpower=0
 	buildings_max_level_factor=1.000 		state_category=large_town

@@ -7,7 +7,20 @@ state={
 		history = {
 	owner = PHI
 	add_core_of = PHI
+		buildings = {
+	infrastructure = 2
+	arms_factory = 1
 	}
-	manpower=0
+		victory_points = {
+			5210 5	
+		}	
+		victory_points = {
+			5669 2
+		}	
+		victory_points = {
+			12559 2	
+		}		
+	}
+	manpower=951
 	buildings_max_level_factor=1.000 		state_category=rural
 }

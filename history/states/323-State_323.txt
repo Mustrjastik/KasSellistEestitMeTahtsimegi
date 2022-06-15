@@ -8,8 +8,10 @@ state={
 		buildings = {
 	infrastructure = 2
 	industrial_complex = 1
+	arms_factory = 1
 	}
-	owner = SAF
+	owner = SER
+	add_core_of = SER
 	add_core_of = SAF
 		victory_points = {
 			12459 5	
