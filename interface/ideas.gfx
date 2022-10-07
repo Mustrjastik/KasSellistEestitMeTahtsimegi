@@ -10,6 +10,11 @@ spriteTypes = {
 
 
 	SpriteType = {
+		name = "GFX_idea_SOV_paper_tiger_army"
+		texturefile = "gfx/interface/ideas/russian_paper_tiger.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_idea_vohma_russian_sanctions_bypass"
 		texturefile = "gfx/interface/ideas/vohma_russian_sanctions.dds"
 	}

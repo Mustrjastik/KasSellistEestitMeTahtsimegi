@@ -35,6 +35,7 @@ set_popularities = {
 }
 	add_ideas = { 
 		foreign_international_markets
+		SOV_paper_tiger_army
 	}
 
 create_country_leader = {
