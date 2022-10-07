@@ -19,6 +19,10 @@ set_technology = {
 
 set_convoys = 20
 
+add_ideas = {
+nato_airstrikes_YUG	
+}
+
 set_politics = {
 	ruling_party = militarism
 	last_election = "1936.1.1"

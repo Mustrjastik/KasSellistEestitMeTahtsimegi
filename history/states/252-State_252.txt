@@ -7,7 +7,24 @@ state={
 			history = {
 	owner = HAI
 	add_core_of = HAI
+		victory_points = {
+			2490 7	
+		}
+		victory_points = {
+			11824 3
+		}		
+		victory_points = {
+			5777 3	
+		}		
+		victory_points = {
+			391 3	
+		}
+	buildings = {
+	infrastructure = 2
+	industrial_complex = 1
+	arms_factory = 1
 	}
-	manpower=0
+	}
+	manpower=1153
 	buildings_max_level_factor=1.000 		state_category=rural
 }

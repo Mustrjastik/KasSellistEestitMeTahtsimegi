@@ -1,0 +1,16 @@
+characters = {
+	HON_august_von_sterblichkeits = {
+		name = "August Von Sterblichkeits" 
+		portraits = {
+			civilian = {
+				large = "GFX_august_von_sticker_portrait"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subideology
+			traits = {  }
+		    desc = "august_sterby_desc"
+		}
+	}
+}
+	

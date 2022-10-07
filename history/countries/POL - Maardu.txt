@@ -17,6 +17,10 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+add_ideas = {
+nato_airstrikes_EST	
+}
+
 set_convoys = 20
 
 set_politics = {

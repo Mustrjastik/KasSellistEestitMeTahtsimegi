@@ -28,7 +28,7 @@ default = {
 }
  
  
-LAT = {
+RAJ = {
 	male = {
 		names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis
 		Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs

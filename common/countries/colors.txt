@@ -57,8 +57,8 @@ EST = {
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 124 125 184 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 SPR = {
 	color = rgb { 77 77 77 }
@@ -131,6 +131,10 @@ ARG = {
 AST = {
 	color = rgb { 255 255 97 }
 	color_ui = rgb { 255 255 97 }
+}
+SCO = {
+	color = rgb { 7 97 97 }
+	color_ui = rgb { 7 97 97 }
 }
 BHU = {
 	color = rgb { 172 11 11 }
@@ -305,8 +309,8 @@ SLO = {
 	color_ui = rgb { 22 161 22 }
 }
 RAJ = {
-	color = rgb { 135  40  40 }
-	color_ui = rgb { 135  40  40 }
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 75 77 186 }
 }
 
 CRO = {

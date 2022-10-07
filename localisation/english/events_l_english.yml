@@ -1,4 +1,26 @@
 ﻿l_english:
+###
+ bombing_event.t:0 "Clear Skies"
+ bombing.1.d:0 "NATO has been rendered unable to bomb us, either through the fall of [USA.GetName] or our own efforts of labour."
+ bombing.2.d:0 "NATO has been rendered unable to bomb us, either through the fall of [LIB.GetName] or our own efforts of labour."
+ bombing.3.d:0 "NATO has been rendered unable to bomb us, either through the fall of [AUS.GetName] or our own efforts of labour."
+ bombing.4.d:0 "NATO has been rendered unable to bomb us, either through the fall of [CAN.GetName] or our own efforts of labour."
+ bombing.5.d:0 "NATO has been rendered unable to bomb us, either through the fall of [YUG.GetName] or our own efforts of labour."
+ bombing.6.d:0 "NATO has been rendered unable to bomb us, either through the fall of [EST.GetName] or our own efforts of labour."
+ bombing.7.d:0 "NATO has been rendered unable to bomb us, either through the fall of [TAN.GetName] or our own efforts of labour."
+ bombing.8.d:0 "NATO has been rendered unable to bomb us, either through the fall of [ECU.GetName] or our own efforts of labour."
+ bombing.9.d:0 "Russia has been rendered unable to bomb us, either through the fall of [PRU.GetName] or our own efforts of labour."
+ bombing.10.d:0 "Russia has been rendered unable to bomb us, either through the fall of [OMA.GetName] or our own efforts of labour."
+ bombing.11.d:0 "Russia has been rendered unable to bomb us, either through the fall of [TIB.GetName] or our own efforts of labour."
+ bombing.11.d:0 "Russia has been rendered unable to bomb us, either through the fall of [LBA.GetName] or our own efforts of labour."
+ bombing.12.d:0 "Russia has been rendered unable to bomb us, either through the fall of [SIK.GetName] or our own efforts of labour."
+ bombing.13.d:0 "Russia has been rendered unable to bomb us, either through the fall of [CHI.GetName] or our own efforts of labour."
+ bombing.14.d:0 "Russia has been rendered unable to bomb us, either through the fall of [CHL.GetName] or our own efforts of labour."
+ bombing.15.d:0 "Russia has been rendered unable to bomb us, either through the fall of [POL.GetName] or our own efforts of labour."
+ bombing.16.d:0 "Russia has been rendered unable to bomb us, either through the fall of [NIC.GetName] or our own efforts of labour."
+ 
+ bombing.1.a:0 "Great News!"
+###
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
  germany.4.t:0 "Anschluss"
  germany.4.d:0 "Repeated uprisings in Austria clearly show that the people there long to be united with our Reich. It is now time to take action and allow the will of the people to be made manifest."

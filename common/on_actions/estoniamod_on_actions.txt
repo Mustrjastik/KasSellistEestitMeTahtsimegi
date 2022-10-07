@@ -1,0 +1,82 @@
+on_actions = {
+	on_startup = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = NOTHING_ADDED
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A10K_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 10000
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A50K_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 50000
+			}
+		}
+		
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A100K_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 100000
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A500K_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 500000
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A1M_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 1000000
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+				rule = population
+				option = A10M_ADDED
+				}
+			}
+			every_state = {
+			add_manpower = 10000000
+			}
+			}
+		}
+	}
+	
+}

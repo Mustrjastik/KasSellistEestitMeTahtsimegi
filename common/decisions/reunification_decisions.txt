@@ -88,7 +88,22 @@ form_estonia = {
 
 		available = {
 			is_subject = no
-			always = no
+			controls_state = 94
+			controls_state = 99
+			controls_state = 180
+			controls_state = 348
+			controls_state = 295
+			controls_state = 324
+			controls_state = 333
+			controls_state = 264
+			controls_state = 154
+			controls_state = 346
+			controls_state = 347
+			controls_state = 95
+			controls_state = 178
+			controls_state = 261
+			controls_state = 170
+			controls_state = 280
 }				
 	
 			
@@ -107,7 +122,18 @@ form_estonia = {
 		}
 
 		complete_effect = {
+		if = {
+		limit = {
+		original_tag = NZL
+		}
+			set_cosmetic_tag = NZL_national
+				}
+		if = {
+		limit = {
+		original_tag = URG
+		}
 			set_cosmetic_tag = URG_national
+				}
 				add_research_slot = 1
 		}
 

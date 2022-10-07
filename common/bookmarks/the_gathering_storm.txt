@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2022.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "CAN"
+		default_country = "SSB"
 		default = yes
 		
-		"CAN"={
-			history = "CAN_GATHERING_STORM_DESC"
-			ideology = satanism
+		"SSB"={
+			history = "SSB_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
 
 			}

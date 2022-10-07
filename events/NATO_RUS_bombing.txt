@@ -1,0 +1,400 @@
+add_namespace = bombing
+
+country_event = {
+    id = bombing.1
+    title = bombing_event.t
+    desc = bombing.1.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_USA
+	OR = {
+	USA = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_USA
+    }
+}
+
+country_event = {
+    id = bombing.2
+    title = bombing_event.t
+    desc = bombing.2.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_LIB
+	OR = {
+	LIB = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_LIB
+    }
+}
+
+country_event = {
+    id = bombing.3
+    title = bombing_event.t
+    desc = bombing.3.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_AUS
+	OR = {
+	AUS = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_AUS
+    }
+}
+country_event = {
+    id = bombing.4
+    title = bombing_event.t
+    desc = bombing.4.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_CAN
+	OR = {
+	CAN = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_CAN
+    }
+}
+country_event = {
+    id = bombing.5
+    title = bombing_event.t
+    desc = bombing.5.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_YUG
+	OR = {
+	YUG = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_YUG
+    }
+}
+
+country_event = {
+    id = bombing.6
+    title = bombing_event.t
+    desc = bombing.6.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_EST
+	OR = {
+	EST = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_EST
+    }
+}
+ 
+country_event = {
+    id = bombing.7
+    title = bombing_event.t
+    desc = bombing.7.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_TAN
+	OR = {
+	TAN = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_TAN
+    }
+} 
+ 
+country_event = {
+    id = bombing.8
+    title = bombing_event.t
+    desc = bombing.8.d
+    
+    trigger = {
+    AND = {
+	        has_idea = nato_airstrikes_ECU
+	OR = {
+	ECU = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_ECU
+    }
+} 
+
+country_event = {
+    id = bombing.9
+    title = bombing_event.t
+    desc = bombing.9.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_PRU
+	OR = {
+	PRU = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_PRU
+    }
+} 
+ 
+country_event = {
+    id = bombing.10
+    title = bombing_event.t
+    desc = bombing.10.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_TIB
+	OR = {
+	TIB = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_TIB
+    }
+} 
+  
+  
+country_event = {
+    id = bombing.11
+    title = bombing_event.t
+    desc = bombing.11.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_LBA
+	OR = {
+	LBA = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_LBA
+    }
+} 
+   
+country_event = {
+    id = bombing.12
+    title = bombing_event.t
+    desc = bombing.12.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_SIK
+	OR = {
+	SIK = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_SIK
+    }
+} 
+ 
+    
+country_event = {
+    id = bombing.13
+    title = bombing_event.t
+    desc = bombing.13.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_CHI
+	OR = {
+	CHI = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_CHI
+    }
+} 
+     
+country_event = {
+    id = bombing.14
+    title = bombing_event.t
+    desc = bombing.14.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_SWE
+	OR = {
+	SWE = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}
+	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_SWE
+    }
+} 
+      
+country_event = {
+    id = bombing.14
+    title = bombing_event.t
+    desc = bombing.14.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_CHL
+	OR = {
+	CHL = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}
+	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_CHL
+    }
+} 
+
+country_event = {
+    id = bombing.15
+    title = bombing_event.t
+    desc = bombing.15.d
+    
+    trigger = {
+    AND = {
+	ROOT = {
+	        has_idea = csto_airstrikes_POL
+			}
+	OR = {
+	NOT	= {
+	country_exists = POL
+	}
+	any_owned_state = {
+	anti_air_building > 0
+	}
+	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_POL
+    }
+} 
+ 
+country_event = {
+    id = bombing.16
+    title = bombing_event.t
+    desc = bombing.16.d
+    
+    trigger = {
+    AND = {
+	        has_idea = csto_airstrikes_NIC
+	OR = {
+	CHL = {
+	country_exists = no
+	}
+	any_owned_state = {
+	anti_air_building > 1
+	}
+	}
+	}
+	}
+    option = {
+        name = bombing.1.a
+        remove_ideas = csto_airstrikes_NIC
+    }
+} 
+ 
+ 

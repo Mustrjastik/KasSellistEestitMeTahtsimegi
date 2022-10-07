@@ -1,0 +1,15 @@
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		194 380 442 1050 1285 1996 2533 2581 2716 3105 3483 3928 5063 5677 6528 7350 7397 8207 8506 8528 8924 10500 10530 10602 10633 10674 10695 10705 10757 10768 10785 10895 
+	}
+			history = {
+	owner = SCO
+	add_core_of = SCO
+	}
+	manpower=1076
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

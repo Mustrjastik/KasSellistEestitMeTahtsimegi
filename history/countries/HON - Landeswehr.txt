@@ -2,6 +2,10 @@ capital = 287
 
 #oob = ""
 
+add_ideas = {
+nato_airstrikes_AUS
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -26,18 +30,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 55
-	militarism = 35
-	oligarchic = 10
+	fascism = 60
+	militarism = 40
 }
 
-create_country_leader = {
-	name = "August Von Mackensen's Undead Corpse"
-	desc = "POLITICS__DESC"
-	picture = ".dds"
-	expire = "1965.1.1"
-	ideology = fascism_subideology
-	traits = {
-		
-	}
-}
+recruit_character = HON_august_von_sterblichkeits

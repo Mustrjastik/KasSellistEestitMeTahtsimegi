@@ -17,6 +17,10 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+add_ideas = {
+nato_airstrikes_ECU
+}
+
 declare_war_on = {
     target = ECU
     type = annex_everything

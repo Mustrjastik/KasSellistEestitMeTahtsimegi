@@ -19,6 +19,12 @@ set_technology = {
 
 set_convoys = 20
 
+
+add_ideas = {
+csto_airstrikes_SIK
+}
+
+
 set_politics = {
 	ruling_party = banditism
 	last_election = "1936.1.1"

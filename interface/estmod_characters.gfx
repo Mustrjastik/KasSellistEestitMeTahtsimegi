@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = GFX_august_von_sticker_portrait
+		texturefile = gfx/leaders/HON/August_Von_Sterblichkeits.dds
+	}
+	
+}

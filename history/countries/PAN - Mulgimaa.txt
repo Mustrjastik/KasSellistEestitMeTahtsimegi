@@ -17,6 +17,12 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+
+add_ideas = {
+csto_airstrikes_NIC
+}
+
+
 set_convoys = 20
 
 set_politics = {

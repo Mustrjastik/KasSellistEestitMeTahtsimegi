@@ -7,6 +7,10 @@ declare_war_on = {
     type = annex_everything
 }
 
+add_ideas = {
+nato_airstrikes_TAN
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

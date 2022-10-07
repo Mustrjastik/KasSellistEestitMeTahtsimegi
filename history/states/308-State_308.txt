@@ -7,7 +7,16 @@ state={
 		history = { 
 	owner = PER
 	add_core_of = PER
+	victory_points = {
+	3600 15
 	}
-	manpower=0
+	victory_points = {
+	12344 5
+	}
+	victory_points = {
+	6142 5
+	}
+	}
+	manpower=4701
 	buildings_max_level_factor=1.000 		state_category=town
 }

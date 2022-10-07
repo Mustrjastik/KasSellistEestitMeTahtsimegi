@@ -1,0 +1,49 @@
+ideas = {
+
+	country = {
+		idea_vohma_russian_sausage_factory = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				line_change_production_efficiency_factor = 0.1
+				supply_node_range = 0.2
+				
+				}
+
+		}
+	}
+	
+	country = {
+		idea_vohma_russian_sanctions_bypass = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.1
+				political_power_gain = 0.01
+				enemy_justify_war_goal_time = -0.75
+				
+				}
+
+		}
+	}
+
+}
