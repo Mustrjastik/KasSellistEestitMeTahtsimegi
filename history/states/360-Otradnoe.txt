@@ -1,0 +1,20 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		173 916 1078 1860 1917 2246 3733 3910 3992 5004 5275 5473 5596 5940 6036 6071 6831 7024 7507 7664 7860 8234 8415 8469 9063 9257 9284 9300 9312 9320 9349 9365 9402 9426 9463 9505 
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }	
+	}
+        victory_points = { 9426 3 }
+	manpower=371
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

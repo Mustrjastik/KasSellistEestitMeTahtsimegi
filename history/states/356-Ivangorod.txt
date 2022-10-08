@@ -1,0 +1,21 @@
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		674 1764 5507 
+	}
+		history = {
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+			arms_factory = 1
+        }	
+	}	
+	victory_points = { 674 15 }
+	manpower=9486
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}

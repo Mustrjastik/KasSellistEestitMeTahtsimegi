@@ -1,13 +1,22 @@
+
 state={
 	id=318
 	name="STATE_318"
-	provinces={
-		2043 5376 12426 
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }	
 	}
-history = {
-owner = SOV
-add_core_of = SOV
-}
-	manpower=0
-	buildings_max_level_factor=1.000 		state_category=rural
+
+	provinces={
+		1131 2043 2100 3543 3839 4582 5150 5376 6076 6476 8835 8846 12359 12384 12408 12426 12474 
+	}
+	manpower=140
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

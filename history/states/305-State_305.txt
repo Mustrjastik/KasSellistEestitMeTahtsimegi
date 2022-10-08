@@ -1,13 +1,22 @@
+
 state={
 	id=305
 	name="STATE_305"
-	provinces={
-		7074 
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }
 	}
-history = {
-owner = SOV
-add_core_of = SOV
-}
-	manpower=0
-	buildings_max_level_factor=1.000 		state_category=rural
+
+	provinces={
+		15 34 1101 1271 1277 2337 4096 4463 5014 5972 7108 7460 8649 12473 12488 12544 
+	}
+	manpower=237
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

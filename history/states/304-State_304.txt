@@ -1,13 +1,19 @@
+
 state={
 	id=304
 	name="STATE_304"
-	provinces={
-		3517 7334 12238 12292 
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+
 	}
-	history = {
-	owner = SOV
-	add_core_of = SOV
+
+	provinces={
+		3517 7074 7334 12238 12292 
 	}
 	manpower=0
-	buildings_max_level_factor=1.000 		state_category=rural
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

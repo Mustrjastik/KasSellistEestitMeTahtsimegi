@@ -1,0 +1,21 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		10 238 498 1077 1117 2624 2758 2839 3330 4168 4265 4279 6960 7048 7238 7261 8831 12484 12533 12537 12546 12551 12588 12600 12610 
+	}
+    history = {
+        owner = SOV
+        add_core_of = SOV
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+            arms_factory = 1
+        }
+}
+        victory_points = { 1077 5 }
+	manpower=500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

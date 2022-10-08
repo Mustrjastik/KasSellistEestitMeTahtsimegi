@@ -1,0 +1,21 @@
+state={
+	id=353
+	name="STATE_353"
+	provinces={
+		17 434 1535 1943 2265 3404 4575 4732 4736 5383 7529 12520 12522 12545 12564 12592 
+	}
+    history = {
+        owner = SOV
+        add_core_of = SOV
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 1
+        }
+}
+        victory_points = { 4736 15 }
+	manpower=12931
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
+}
