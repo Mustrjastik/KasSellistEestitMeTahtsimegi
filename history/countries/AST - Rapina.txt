@@ -1,6 +1,5 @@
 capital = 283
 
-oob = "AST_2020"
 
 # Starting tech
 set_technology = {

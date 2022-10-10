@@ -4,9 +4,85 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2022.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "SSB"
+		default_country = "EST"
 		default = yes
 		
+		"EST"={
+			history = "EST_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"CUB"={
+			history = "CUB_GATHERING_STORM_DESC"
+			ideology = EESTI200
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}	
+		"SWE"={
+			history = "SWE_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
+		
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = EKRE
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
+		
+		"PAR"={
+			history = "PAR_GATHERING_STORM_DESC"
+			ideology = ISAMAA
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
+		
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}		
+		
+		"BOL"={
+			history = "BOL_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
 		"SSB"={
 			history = "SSB_GATHERING_STORM_DESC"
 			ideology = communism

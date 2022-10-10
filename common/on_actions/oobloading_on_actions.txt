@@ -1,0 +1,27 @@
+on_actions = {
+	on_startup = {
+		effect = {
+
+	NZL = {
+	load_oob = "NZL_2020"
+	}
+	
+	AST = {
+	load_oob = "AST_2020"
+	}
+	
+	CYP = {
+	load_oob = "CYP_2020"
+	}
+	
+	URG = {
+	load_oob = "URG_2020"
+	}
+		
+	YUN = {
+	load_oob = "YUN_2020"
+	}
+	
+		}
+	}
+}

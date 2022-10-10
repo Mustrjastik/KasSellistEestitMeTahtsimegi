@@ -26,6 +26,7 @@ units = {
 		division_template = "Anti-Corruption Militia"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
+        start_manpower_factor = 1
 	}
 	
 	division = {
@@ -34,6 +35,7 @@ units = {
 		division_template = "Anti-Corruption Militia"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
+        start_manpower_factor = 1
 	}
 	
 	division = {
@@ -42,6 +44,7 @@ units = {
 		division_template = "Anti-Corruption Militia"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+        start_manpower_factor = 1
 	}
 	
 	division = {
@@ -50,6 +53,7 @@ units = {
 		division_template = "Hydroelectric Security"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.5
+        start_manpower_factor = 1
 	}
 		
 	

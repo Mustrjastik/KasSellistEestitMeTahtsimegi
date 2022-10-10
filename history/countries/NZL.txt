@@ -1,7 +1,5 @@
 capital = 295
 
-oob = "NZL_2020"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

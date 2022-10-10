@@ -29,6 +29,7 @@ units = {
 		division_template = "Hooligans"
 		start_experience_factor = 1
 		start_equipment_factor = 1
+        start_manpower_factor = 1
 	}
 	
 	division = {
@@ -37,6 +38,7 @@ units = {
 		division_template = "Soviet Truck Force"
 		start_experience_factor = 1
 		start_equipment_factor = 1
+        start_manpower_factor = 1
 	}
 	
 	
@@ -46,6 +48,7 @@ units = {
 		division_template = "Passat Force"
 		start_experience_factor = 1
 		start_equipment_factor = 1
+        start_manpower_factor = 1
 	}
 	
 	

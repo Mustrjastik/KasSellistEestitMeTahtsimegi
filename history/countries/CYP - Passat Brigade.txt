@@ -1,7 +1,5 @@
 capital = 311
 
-oob = "CYP_2020"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

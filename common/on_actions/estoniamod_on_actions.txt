@@ -1,6 +1,9 @@
 on_actions = {
 	on_startup = {
 	effect = {
+	every_country = {
+	add_manpower = 1000
+	}
 		if = {
 			limit = {
 				has_game_rule = {
