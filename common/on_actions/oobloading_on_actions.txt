@@ -21,6 +21,10 @@ on_actions = {
 	YUN = {
 	load_oob = "YUN_2020"
 	}
+			
+	BOL = {
+	load_oob = "BOL_2020"
+	}
 	
 		}
 	}

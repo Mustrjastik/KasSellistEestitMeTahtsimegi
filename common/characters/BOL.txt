@@ -1,0 +1,15 @@
+characters = {
+	BOL_veebel_tarmo = {
+		name = BOL_veebel_tarmo_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_veebel_tarmo_portrait"
+			}
+		}
+		country_leader = {
+			ideology = militarism_subideology
+			expire="2065.1.1.1"
+		}
+	}
+}
+	

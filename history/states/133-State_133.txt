@@ -5,9 +5,29 @@ state={
 		607 702 1125 1195 1311 1672 2000 2395 2609 2753 3010 3011 3016 3462 3732 3984 4130 4164 4255 4474 4498 4973 5016 5037 5170 5367 5719 5722 5840 5861 5934 5955 6253 6307 6680 7072 7188 7415 7667 7786 7830 7932 8301 8328 9317 9335 9343 9363 9371 9380 9392 9407 9420 9442 9479 9492 9522 9537 9560 9578 9582 9655 
 	}
 	history = {
+		victory_points = {
+			6680 5	
+		}
+		victory_points = {
+			5016 5	
+		}
+		victory_points = {
+			7786 5	
+		}
+		victory_points = {
+			5367 5	
+		}
+		victory_points = {
+			9442 5	
+		}
 	owner = BOL
 	add_core_of = BOL
+	buildings = {
+	infrastructure = 2
+	industrial_complex = 1
 	}
-	manpower=0
-	buildings_max_level_factor=1.000 		state_category=rural
+	}
+	manpower=1892
+	buildings_max_level_factor=1.000 
+	state_category=rural
 }

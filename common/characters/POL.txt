@@ -1,0 +1,15 @@
+characters = {
+	POL_andrei_zarenkov = {
+		name = POL_andrei_zarenkov_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_andrei_zarenkov_portrait"
+			}
+		}
+		country_leader = {
+			ideology = communism_subideology
+			expire="2065.1.1.1"
+		}
+	}
+}
+	

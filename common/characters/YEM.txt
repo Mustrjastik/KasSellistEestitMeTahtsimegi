@@ -1,0 +1,43 @@
+characters = {
+	YEM_academic_council_SDE_subideology = {
+		name = YEM_academic_council_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_tartu_university_portrait"
+			}
+		}
+		country_leader = {
+			ideology = SDE_subideology
+			expire="2065.1.1.1"
+		}
+	}
+	
+	YEM_academic_council_REFORM_subideology = {
+		name = YEM_academic_council_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_tartu_university_portrait"
+			}
+		}
+		country_leader = {
+			ideology = REFORM_subideology
+			expire="2065.1.1.1"
+		}
+	}
+	
+	YEM_academic_council_EESTI200_subideology = {
+		name = YEM_academic_council_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_tartu_university_portrait"
+			}
+		}
+		country_leader = {
+			ideology = EESTI200_subideology
+			expire="2065.1.1.1"
+		}
+	}
+	
+	
+}
+	

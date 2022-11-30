@@ -5,12 +5,21 @@ state={
 		468 653 700 1222 2277 3085 3196 3856 3989 4295 4936 6254 8067 8134 8520 8748 9345 9362 9483 
 	}
 	history = {
+		victory_points = {
+			3196 25	
+		}
+		victory_points = {
+			653 5	
+		}
 	owner = BOL
 	add_core_of = BOL
 		buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+		arms_factory = 2
 		air_base = 3
 	}
 	}
-	manpower=0
+	manpower=5286
 	buildings_max_level_factor=1.000 		state_category=town
 }

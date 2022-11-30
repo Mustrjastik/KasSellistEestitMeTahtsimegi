@@ -1,0 +1,15 @@
+characters = {
+	PAR_seeder = {
+		name = PAR_seeder_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_seeder_portrait"
+			}
+		}
+		country_leader = {
+			ideology = ISAMAA_subideology
+			expire="2065.1.1.1"
+		}
+	}
+}
+	

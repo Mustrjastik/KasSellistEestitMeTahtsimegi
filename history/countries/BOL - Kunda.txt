@@ -17,6 +17,8 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+recruit_character = BOL_veebel_tarmo
+
 add_ideas = {
 csto_airstrikes_CHL
 }
@@ -32,15 +34,4 @@ set_politics = {
 set_popularities = {
 	militarism = 63
 	authoritarianism = 37
-}
-
-create_country_leader = {
-	name = "Kunda Industrial Conglomerate"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = militarism_subideology
-	traits = {
-		
-	}
 }

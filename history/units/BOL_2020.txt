@@ -1,0 +1,101 @@
+division_template = {
+	name = "Elite Estonian Force"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Her Majesty's Garrison In Estonia and Livonia"
+	is_locked = yes
+	force_allow_recruiting = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	military_police = { x = 0 y = 0 }
+	artillery = { x = 0 y = 1 }
+	recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Conscript Cadre"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Tapa Defence Force Remnants"
+		location = 3196
+		division_template = "Elite Estonian Force"
+		start_experience_factor = 0.6
+		start_equipment_factor = 9
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Her Majesty's Garrison In Estonia and Livonia"
+		location = 653
+		division_template = "Her Majesty's Garrison In Estonia and Livonia"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	
+	division = {
+		name = "Aravete Cadre"
+		location = 5367
+		division_template = "Conscript Cadre"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Jäneda Cadre"
+		location = 6680
+		division_template = "Conscript Cadre"
+		start_experience_factor = 0.45
+		start_equipment_factor = 0.5
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Kuru Cadre"
+		location = 7786
+		division_template = "Conscript Cadre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+	
+	
+	
+}

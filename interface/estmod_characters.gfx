@@ -4,5 +4,30 @@ spriteTypes = {
 		name = GFX_august_von_sticker_portrait
 		texturefile = gfx/leaders/HON/August_Von_Sterblichkeits.dds
 	}
+		
+	spriteType = {
+		name = GFX_veebel_tarmo_portrait
+		texturefile = gfx/leaders/BOL/Veebel_Tarmo.dds
+	}	
+
+	spriteType = {
+		name = GFX_mart_helme_portrait
+		texturefile = gfx/leaders/AUS/Mart_Helme.dds
+	}
+	
+	spriteType = {
+		name = GFX_andrei_zarenkov_portrait
+		texturefile = gfx/leaders/POL/andrei_zarenkov.dds
+	}
+		
+	spriteType = {
+		name = GFX_seeder_portrait
+		texturefile = gfx/leaders/PAR/Seeder.dds
+	}
+	
+	spriteType = {
+		name = GFX_commander_portrait
+		texturefile = gfx/leaders/GER/comander.dds
+	}
 	
 }

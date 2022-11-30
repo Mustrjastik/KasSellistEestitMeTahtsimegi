@@ -21,6 +21,8 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+recruit_character = HON_august_von_sterblichkeits
+
 set_convoys = 20
 
 set_politics = {
@@ -33,5 +35,3 @@ set_popularities = {
 	fascism = 60
 	militarism = 40
 }
-
-recruit_character = HON_august_von_sterblichkeits

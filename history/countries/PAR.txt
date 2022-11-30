@@ -17,6 +17,8 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+recruit_character = PAR_seeder
+
 add_ideas = {
 csto_airstrikes_NIC
 }
@@ -32,15 +34,4 @@ set_politics = {
 set_popularities = {
 	EKRE = 13
 	ISAMAA = 87
-}
-
-create_country_leader = {
-	name = "Helir-Valdor Seeder"
-	desc = ""
-	picture = "Seeder.dds"
-	expire = "1965.1.1"
-	ideology = ISAMAA_subideology
-	traits = {
-		
-	}
 }

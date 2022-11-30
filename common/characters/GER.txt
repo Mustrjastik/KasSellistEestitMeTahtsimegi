@@ -1,9 +1,9 @@
 characters = {
-	HON_august_von_sterblichkeits = {
-		name = HON_august_von_sterblichkeits_NAME
+	GER_commander = {
+		name = GER_commander_NAME
 		portraits = {
 			civilian = {
-				large = "GFX_august_von_sticker_portrait"
+				large = "GFX_commander_portrait"
 			}
 		}
 		country_leader = {

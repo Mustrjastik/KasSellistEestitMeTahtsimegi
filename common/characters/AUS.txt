@@ -1,0 +1,15 @@
+characters = {
+	AUS_mart_helme = {
+		name = AUS_mart_helme_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_mart_helme_portrait"
+			}
+		}
+		country_leader = {
+			ideology = EKRE_subideology
+			expire="2065.1.1.1"
+		}
+	}
+}
+	
