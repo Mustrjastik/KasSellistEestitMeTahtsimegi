@@ -6,6 +6,27 @@
  URG_regional:0 "Põlva Security Zone"
  URG_regional_DEF:0 "Põlva Security Zone"
  URG_regional_ADJ:0 "Põlvamaa"
+ ENG_regional:0 "Dorpat Drift-Reich"
+ ENG_regional_DEF:0 "Dorpat Drift-Reich"
+ ENG_regional_ADJ:0 "Tartu"
+ JOR_regional:0 "Restored Continuation Government of Jõgevamaa"
+ JOR_regional_DEF:0 "Restored Continuation Government of Jõgevamaa"
+ JOR_regional_ADJ:0 "Nõmme-Jõgeva"
+ PRC_regional:0 "Democratic Ida-Virumaa"
+ PRC_regional_DEF:0 "Democratic Ida-Virumaa"
+ PRC_regional_ADJ:0 "Ida-Viru"
+ BRA_regional:0 "Lääne-Viru Federation"
+ BRA_regional_DEF:0 "Lääne-Viru Federation"
+ BRA_regional_ADJ:0 "Lääne-Viru"
+ NOR_regional:0 "Redditor Harjumaa"
+ NOR_regional_DEF:0 "Redditor Harjumaa"
+ NOR_regional_ADJ:0 "Redditor"
+ KOR_regional:0 "Juche Raplamaa"
+ KOR_regional_DEF:0 "Juche Raplamaa"
+ KOR_regional_ADJ:0 "Rapla"
+ POR_regional:0 "Vaccine-Free Järvamaa"
+ POR_regional_DEF:0 "Vaccine-Free Järvamaa"
+ POR_regional_ADJ:0 "Järva"
  
  #National
  NZL_national:0 "Tsardom of Estonia"
@@ -14,4 +35,6 @@
  URG_national:0 "The Deep State"
  URG_national_DEF:0 "The Deep State"
  URG_national_ADJ:0 "Deep State"
+
+
 

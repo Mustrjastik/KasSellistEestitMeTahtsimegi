@@ -62,3 +62,9 @@
  MAPMODE_ALL_ENTRY_DETAILS:0 "§GClick§! to select.\n§GRight click§! to select and close."
  MAPMODE_TOOLTIP_INFRASTRUCTURE:0 "£infrastructure_texticon  Infrastructure $INF|Y$"
  MAPMODE_TOOLTIP_MANPOWER:1 "£population_texticon  Population $MP|*Y$"
+ 
+ #eesti mapmode
+ MAPMODE_ESTONIA_SPHERES_INFLUENCE_MAPMODE:0 "Spheres Of Influence mapmode"
+ MAPMODE_ESTONIA_SPHERES_INFLUENCE_MAPMODE_DESCRIPTION:0 ""
+ estonia_spheres_influence_mapmode_tooltip:0 "§0Purple:§! The United Kingdom\n§BBlue:§! The United State Of America\n§gGray§!: Germany\n§GGreen:§! Russia§!\n§RRed:§! §!China§!\n§YYellow:§! §!India§!\n\n§tDark Red:§! §!No Willing Foreign Support§!\n§!Black:§! §!No Data or Contested§!\n§!White: Universal Support§!"
+ estonia_spheres_influence_mapmode_tooltip_delayed:0 ""

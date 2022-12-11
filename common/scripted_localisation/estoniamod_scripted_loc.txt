@@ -1,0 +1,108 @@
+# Map Modes:
+defined_text = {
+	name = GetDiplomaticEthos
+
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 0 }
+	}
+	}
+		localization_key = diplomaticethos_0_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 1 }
+	}
+	}
+		localization_key = diplomaticethos_1_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 2 }
+	}
+	}
+		localization_key = diplomaticethos_2_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 3 }
+	}
+	}
+		localization_key = diplomaticethos_3_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 4 }
+	}
+	}
+		localization_key = diplomaticethos_4_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 5 }
+	}
+	}
+		localization_key = diplomaticethos_5_tt
+	}
+	
+}
+
+defined_text = {
+	name = GetDiplomaticEthosDescription
+
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 0 }
+	}
+	}
+		localization_key = diplomaticethos_long_0_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 1 }
+	}
+	}
+		localization_key = diplomaticethos_long_1_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 2 }
+	}
+	}
+		localization_key = diplomaticethos_long_2_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 3 }
+	}
+	}
+		localization_key = diplomaticethos_long_3_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 4 }
+	}
+	}
+		localization_key = diplomaticethos_long_4_tt
+	}
+	text = {
+		trigger = {
+		controller = {
+	check_variable  = { diplomatic_ethos = 5 }
+	}
+	}
+		localization_key = diplomaticethos_long_5_tt
+	}
+	
+}

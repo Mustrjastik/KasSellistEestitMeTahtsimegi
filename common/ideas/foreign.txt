@@ -24,6 +24,102 @@ ideas = {
 				}
 
 		}
+		
+		UK_espionage_aid = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				agency_upgrade_time = -0.5
+				decryption_factor = 0.5
+				encryption_factor = 0.5
+				intel_network_gain_factor = 0.5
+				operation_cost = -0.5
+				operation_outcome = 0.5
+				operation_risk = -0.5
+				intelligence_agency_defense = 0.8
+				}
+
+		}
+		
+		UK_naval_aid = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+						
+			modifier = {
+					naval_damage_factor = 0.5
+					naval_speed_factor = 0.5
+					navy_org_factor = 0.1
+					navy_max_range_factor = 0.5
+					amphibious_invasion = 0.5
+					naval_invasion_capacity = 10
+					invasion_preparation = -0.4
+				}
+
+		}
+		
+		RU_tactical_aid_good = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+						
+			modifier = {
+					acclimatization_cold_climate_gain_factor = 0.2
+					army_attack_factor = 0.2
+					army_defence_factor = 0.2
+					army_speed_factor = 0.1
+					army_org_factor = 0.05
+					planning_speed = 0.2
+				}
+
+		}
+		
+		RU_tactical_aid_bad = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+						
+			modifier = {
+					acclimatization_cold_climate_gain_factor = -0.2
+					army_attack_factor = -0.2
+					army_defence_factor = -0.2
+					army_speed_factor = -0.1
+					army_org_factor = -0.05
+					planning_speed = -0.2
+				}
+
+		}
+		
 	}
 
 }

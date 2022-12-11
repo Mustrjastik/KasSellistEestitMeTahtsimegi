@@ -1,9 +1,470 @@
+#Diplomatic Ethos
+# 0 Neutral
+# 1 Isolation
+# 2 Multipolar
+# 3 Prowest
+# 4 ProRussia
+# 5 Expansionist
+
 on_actions = {
 	on_startup = {
 	effect = {
 	every_country = {
 	add_manpower = 1000
 	}
+	
+	every_country = {
+	set_variable = { foreign_support_US = 0 }
+	set_variable = { foreign_support_UK = 0 }
+	set_variable = { foreign_support_DE = 0 }
+	set_variable = { foreign_support_RU = 0 }
+	set_variable = { foreign_support_CH = 0 }
+	set_variable = { foreign_support_IN = 0 }
+
+	if = {
+		limit = {
+		has_government = monarchism
+		}
+	add_to_variable = { foreign_support_US = -5 }
+	add_to_variable = { foreign_support_UK = 20 }
+	add_to_variable = { foreign_support_DE = -10 }
+	add_to_variable = { foreign_support_RU = 0 }
+	add_to_variable = { foreign_support_CH = -5 }
+	add_to_variable = { foreign_support_IN = -10 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = capitalism
+		}
+	add_to_variable = { foreign_support_US = 20 }
+	add_to_variable = { foreign_support_UK = 20 }
+	add_to_variable = { foreign_support_DE = 10 }
+	add_to_variable = { foreign_support_RU = 5 }
+	add_to_variable = { foreign_support_CH = 15 }
+	add_to_variable = { foreign_support_IN = 10 }
+	set_variable = { diplomatic_ethos = 0 }
+	}
+	
+	if = {
+		limit = {
+		has_government = fascism
+		}
+	add_to_variable = { foreign_support_US = -20 }
+	add_to_variable = { foreign_support_UK = -20 }
+	add_to_variable = { foreign_support_DE = -30 }
+	add_to_variable = { foreign_support_RU = 0 }
+	add_to_variable = { foreign_support_CH = 0 }
+	add_to_variable = { foreign_support_IN = -15 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = satanism
+		}
+	add_to_variable = { foreign_support_US = 0 }
+	add_to_variable = { foreign_support_UK = 0 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = 0 }
+	add_to_variable = { foreign_support_CH = 0 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = EKRE
+		}
+	add_to_variable = { foreign_support_US = 5 }
+	add_to_variable = { foreign_support_UK = 3 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = 3 }
+	add_to_variable = { foreign_support_IN = 5 }
+	}
+	
+	if = {
+		limit = {
+		has_government = REFORM
+		}
+	add_to_variable = { foreign_support_US = 20 }
+	add_to_variable = { foreign_support_UK = 20 }
+	add_to_variable = { foreign_support_DE = 15 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = 5 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+
+	if = {
+		limit = {
+		has_government = ISAMAA
+		}
+	add_to_variable = { foreign_support_US = 10 }
+	add_to_variable = { foreign_support_UK = 10 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = 5 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = KESK
+		}
+	add_to_variable = { foreign_support_US = 10 }
+	add_to_variable = { foreign_support_UK = 10 }
+	add_to_variable = { foreign_support_DE = 5 }
+	add_to_variable = { foreign_support_RU = 10 }
+	add_to_variable = { foreign_support_CH = 10 }
+	add_to_variable = { foreign_support_IN = 10 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+
+	if = {
+		limit = {
+		has_government = EESTI200
+		}
+	add_to_variable = { foreign_support_US = 30 }
+	add_to_variable = { foreign_support_UK = 25 }
+	add_to_variable = { foreign_support_DE = 20 }
+	add_to_variable = { foreign_support_RU = -15 }
+	add_to_variable = { foreign_support_CH = -15 }
+	add_to_variable = { foreign_support_IN = -10 }
+	set_variable = { diplomatic_ethos = 0 }	
+
+	}
+	
+	if = {
+		limit = {
+		has_government = SDE
+		}
+	add_to_variable = { foreign_support_US = 10 }
+	add_to_variable = { foreign_support_UK = 10 }
+	add_to_variable = { foreign_support_DE = 25 }
+	add_to_variable = { foreign_support_RU = -15 }
+	add_to_variable = { foreign_support_CH = -5 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+
+	if = {
+		limit = {
+		has_government = primitivism
+		}
+	add_to_variable = { foreign_support_US = 5 }
+	add_to_variable = { foreign_support_UK = 10 }
+	add_to_variable = { foreign_support_DE = 50 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = -15 }
+	add_to_variable = { foreign_support_IN = -10 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = REFORM
+		}
+	add_to_variable = { foreign_support_US = 0 }
+	add_to_variable = { foreign_support_UK = 0 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = 0 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = theocratic
+		}
+	add_to_variable = { foreign_support_US = -20 }
+	add_to_variable = { foreign_support_UK = -20 }
+	add_to_variable = { foreign_support_DE = -30 }
+	add_to_variable = { foreign_support_RU = -20 }
+	add_to_variable = { foreign_support_CH = -25 }
+	add_to_variable = { foreign_support_IN = -10 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = banditism
+		}
+	add_to_variable = { foreign_support_US = -30 }
+	add_to_variable = { foreign_support_UK = -30 }
+	add_to_variable = { foreign_support_DE = -30 }
+	add_to_variable = { foreign_support_RU = -10 }
+	add_to_variable = { foreign_support_CH = -30 }
+	add_to_variable = { foreign_support_IN = -30 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = estlam
+		}
+	add_to_variable = { foreign_support_US = -40 }
+	add_to_variable = { foreign_support_UK = -40 }
+	add_to_variable = { foreign_support_DE = -40 }
+	add_to_variable = { foreign_support_RU = -40 }
+	add_to_variable = { foreign_support_CH = -40 }
+	add_to_variable = { foreign_support_IN = -40 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = alcoholism
+		}
+	add_to_variable = { foreign_support_US = 0 }
+	add_to_variable = { foreign_support_UK = 0 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = 40 }
+	add_to_variable = { foreign_support_CH = 0 }
+	add_to_variable = { foreign_support_IN = -10 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = communism
+		}
+	add_to_variable = { foreign_support_US = -20 }
+	add_to_variable = { foreign_support_UK = -20 }
+	add_to_variable = { foreign_support_DE = -10 }
+	add_to_variable = { foreign_support_RU = 10 }
+	add_to_variable = { foreign_support_CH = 30 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = authoritarianism
+		}
+	add_to_variable = { foreign_support_US = 0 }
+	add_to_variable = { foreign_support_UK = 0 }
+	add_to_variable = { foreign_support_DE = 0 }
+	add_to_variable = { foreign_support_RU = 0 }
+	add_to_variable = { foreign_support_CH = 0 }
+	add_to_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	if = {
+		limit = {
+		has_government = nazbol
+		}
+	add_to_variable = { foreign_support_US = -40 }
+	add_to_variable = { foreign_support_UK = -40 }
+	add_to_variable = { foreign_support_DE = -40 }
+	add_to_variable = { foreign_support_RU = 5 }
+	add_to_variable = { foreign_support_CH = 5 }
+	add_to_variable = { foreign_support_IN = -40 }
+	set_variable = { diplomatic_ethos = 0 }
+
+	}
+	
+	EST = {
+	set_variable = { foreign_support_US = 40 }
+	set_variable = { foreign_support_UK = 40 }
+	set_variable = { foreign_support_DE = 25 }
+	set_variable = { foreign_support_RU = -50 }
+	set_variable = { foreign_support_CH = -30 }
+	set_variable = { foreign_support_IN = 10 }	
+	set_variable = { diplomatic_ethos = 3 }
+
+	}
+	
+	SWE = {
+	set_variable = { foreign_support_US = -100 }
+	set_variable = { foreign_support_UK = -100 }
+	set_variable = { foreign_support_DE = -50 }
+	set_variable = { foreign_support_RU = 100 }
+	set_variable = { foreign_support_CH = 50 }
+	set_variable = { foreign_support_IN = 0 }
+	set_variable = { diplomatic_ethos = 4 }
+	
+	}
+
+	NIC = {
+	set_variable = { foreign_support_US = -50 }
+	set_variable = { foreign_support_UK = -50 }
+	set_variable = { foreign_support_DE = 10 }
+	set_variable = { foreign_support_RU = 100 }
+	set_variable = { foreign_support_CH = 25 }
+	set_variable = { foreign_support_IN = 0 }	
+	}
+
+	CHI = {
+	set_variable = { foreign_support_US = -100 }
+	set_variable = { foreign_support_UK = -100 }
+	set_variable = { foreign_support_DE = -50 }
+	set_variable = { foreign_support_RU = 100 }
+	set_variable = { foreign_support_CH = 50 }
+	set_variable = { foreign_support_IN = 0 }	
+	}
+	
+	YUN = {
+	set_variable = { foreign_support_US = 10 }
+	set_variable = { foreign_support_UK = 10 }
+	set_variable = { foreign_support_DE = 10 }
+	set_variable = { foreign_support_RU = -50 }
+	set_variable = { foreign_support_CH = -10 }
+	set_variable = { foreign_support_IN = -10 }	
+	}
+	
+	BHU = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	LIB = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	USA = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+	
+	CRO = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+	
+	SHX = {
+		set_variable = { diplomatic_ethos = 2 }
+	}
+	
+	GER = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	
+	GXC = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	
+	SIK = {
+		set_variable = { diplomatic_ethos = 0 }
+	}
+	
+	BHU = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	
+	VEN = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+	
+	SAF = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	SER = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	
+	SIA = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+	
+	TIB = {
+		set_variable = { diplomatic_ethos = 5 }
+	}
+	
+	YUN = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	CYP = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	URG = {
+		set_variable = { diplomatic_ethos = 3 }
+	}	
+
+	AST = {
+		set_variable = { diplomatic_ethos = 4 }
+	}
+	
+	NZL = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	ENG = {
+		set_variable = { diplomatic_ethos = 2 }
+	}
+	
+	HAI = {
+		set_variable = { diplomatic_ethos = 0 }
+	}
+	
+	CUB = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	
+	SLO = {
+		set_variable = { diplomatic_ethos = 0 }
+	}
+	
+	ETH = {
+		set_variable = { diplomatic_ethos = 4 }
+	}
+	
+	OMA = {
+		set_variable = { diplomatic_ethos = 2 }
+	}
+
+	DOM = {
+		set_variable = { diplomatic_ethos = 0 }
+	}
+
+	SWE = {
+		set_variable = { diplomatic_ethos = 4 }
+	}
+
+	CHI = {
+		set_variable = { diplomatic_ethos = 4 }
+	}
+
+	TAN = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+
+	PRC = {
+		set_variable = { diplomatic_ethos = 2 }
+	}
+	
+	ECU = {
+		set_variable = { diplomatic_ethos = 3 }
+	}
+	
+	COL = {
+		set_variable = { diplomatic_ethos = 0 }
+	}
+	
+	AFG = {
+		set_variable = { diplomatic_ethos = 1 }
+	}
+	}
+	
 		if = {
 			limit = {
 				has_game_rule = {

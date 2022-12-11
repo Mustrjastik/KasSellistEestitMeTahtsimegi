@@ -1,5 +1,286 @@
 form_estonia_category = {
-	
+
+
+
+#JÄRVAMAA 
+
+	form_jarvamaa_POR = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = POR
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = ICE
+country_exists = COS
+country_exists = IRE
+country_exists = SPR
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = POR
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = POR_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#RAPLAMAA 
+
+	form_raplamaa_KOR = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = KOR
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = CAN
+country_exists = SAU
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = KOR
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KOR_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#HARJUMAA 
+
+	form_harjumaa_NOR = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = NOR
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = ITA
+country_exists = SWI
+country_exists = DEN 
+country_exists = YUG
+country_exists = GRE 
+country_exists = UKR 
+country_exists = ALB 
+country_exists = POL 
+country_exists = LIT 
+country_exists = EST 
+country_exists = TUR 
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = NOR
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NOR_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#LÄÄNE-VIRUMAA 
+
+	form_laanevirumaa_BRA = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = BRA
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = CHL
+country_exists = JAP
+country_exists = ROM
+country_exists = BOL 
+country_exists = ARG 
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = BRA
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = BRA_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#IDA-VIRUMAA 
+
+	form_idavirumaa_PRC = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = PRC
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = TAN
+country_exists = SWE
+country_exists = CHI
+country_exists = ECU
+country_exists = AFG 
+country_exists = COL 
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = PRC
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PRC_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#JÕGEVAMAA 
+
+	form_jogevamaa_JOR = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = JOR
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = EGY
+country_exists = LBA
+country_exists = LEB
+country_exists = SCO 
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = JOR
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = JOR_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#TARTUMAA 
+
+	form_tartumaa_ENG = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = ENG
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = CUB
+country_exists = HAI
+country_exists = SLO
+country_exists = ETH 
+country_exists = DOM 
+country_exists = OMA 
+country_exists = YEM 
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = ENG
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ENG_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+#PÕLVAMAA	
+
 	form_polvamaa_NZL = {
 
 		icon = generic_form_nation
