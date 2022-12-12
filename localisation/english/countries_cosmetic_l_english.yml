@@ -27,6 +27,9 @@
  POR_regional:0 "Vaccine-Free Järvamaa"
  POR_regional_DEF:0 "Vaccine-Free Järvamaa"
  POR_regional_ADJ:0 "Järva"
+ GER_regional:0 "Feuerkommission Ösel"
+ GER_regional_DEF:0 "Feuerkommission Ösel"
+ GER_regional_ADJ:0 "Feuerkrieg"
  
  #National
  NZL_national:0 "Tsardom of Estonia"
@@ -35,6 +38,9 @@
  URG_national:0 "The Deep State"
  URG_national_DEF:0 "The Deep State"
  URG_national_ADJ:0 "Deep State"
+ GER_national:0 "Estnische Feuerreich"
+ GER_national_DEF:0 "Estnische Feuerreich"
+ GER_national_ADJ:0 "Estnische"
 
 
 

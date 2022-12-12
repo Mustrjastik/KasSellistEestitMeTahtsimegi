@@ -1,0 +1,78 @@
+add_namespace = muhu
+
+country_event = {
+    id = muhu.1
+    title = muhu.1.t
+    desc = muhu.1.d
+    
+    is_triggered_only = yes
+	
+    option = { 
+        name = muhu.1.a
+
+        FROM = {
+
+country_event = {
+    id = muhu.2
+	}
+	
+	}
+
+    }
+	
+    option = { 
+        name = muhu.1.b
+
+        FROM = {
+
+country_event = {
+    id = muhu.3
+	}
+	
+	}
+
+    }
+}
+
+country_event = {
+    id = muhu.2
+    title = muhu.2.t
+    desc = muhu.2.d
+    
+    is_triggered_only = yes
+	
+    option = { 
+        name = muhu.2.a
+
+annex_country = {
+    target = XSM
+    transfer_troops = yes
+}
+
+news_event = news.1
+
+    }
+	
+
+}
+country_event = {
+    id = muhu.3
+    title = muhu.3.t
+    desc = muhu.3.d
+    
+    is_triggered_only = yes
+	
+    option = { 
+        name = muhu.3.a
+	
+declare_war_on = {
+    target = XSM
+    type = annex_everything
+}	
+
+news_event = news.2
+	
+    }
+	
+
+}

@@ -1,12 +1,6 @@
-capital = 170
+capital = 285
 
 #oob = ""
-
-
-add_ideas = {
-nato_airstrikes_LIB
-}
-
 
 # Starting tech
 set_technology = {
@@ -23,25 +17,23 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+add_ideas = {
+
+}
+
 set_convoys = 20
 
 set_politics = {
-	ruling_party = satanism
+	ruling_party = KESK
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	satanism = 100
+	KESK = 30
+	EKRE = 25
+	ISAMAA = 20
+	authoritarianism = 25
+	
 }
-
-create_country_leader = {
-	name = "Vanapagan"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = satanism_subideology
-	traits = {
-		
-	}
-}
+	

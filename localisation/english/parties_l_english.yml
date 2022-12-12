@@ -130,5 +130,11 @@
  PAN_EESTI200_party:0 "Mulgi Future Party"
  PAN_banditism_party:0 "Mulgi Army"
  PAN_capitalism_party:0 "Mulgi Anti-Corruption Foundation"
+ #Tartu
+ CUB_REFORM_party:0 "Pan-European Political Federation"
+ CUB_fascism_party:0 "Fascist Spies"
+ CUB_SDE_party:0 "The Progressive Movement"
+ CUB_ISAMAA_party:0 "Provisional Administration"
+ CUB_communism_party:0 "The Humanitarian Alliance"
  
  

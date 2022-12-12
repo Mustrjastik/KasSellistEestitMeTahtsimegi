@@ -333,6 +333,16 @@ on_actions = {
 	set_variable = { foreign_support_IN = -10 }	
 	}
 	
+	GER = {
+	set_variable = { foreign_support_US = -500 }
+	set_variable = { foreign_support_UK = -500 }
+	set_variable = { foreign_support_DE = -500 }
+	set_variable = { foreign_support_RU = -500 }
+	set_variable = { foreign_support_CH = -500 }
+	set_variable = { foreign_support_IN = -500 }	
+	}
+	
+	
 	BHU = {
 		set_variable = { diplomatic_ethos = 5 }
 	}

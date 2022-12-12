@@ -2,6 +2,44 @@ form_estonia_category = {
 
 
 
+#SAAREMAA 
+
+	form_saaremaa_GER = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = GER
+			
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+country_exists = CRO
+country_exists = USA
+country_exists = SHX
+country_exists = GXC
+				}
+				
+
+			}
+		
+
+		visible = {
+				original_tag = GER
+		}
+
+		complete_effect = {
+		set_capital = {state = 280}
+			set_cosmetic_tag = GER_regional
+				add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
 #JÄRVAMAA 
 
 	form_jarvamaa_POR = {
@@ -416,9 +454,20 @@ form_estonia = {
 			set_cosmetic_tag = URG_national
 				}
 				add_research_slot = 1
+		
+		
+		if = {
+		limit = {
+		original_tag = GER
 		}
+				}
+				add_research_slot = 1
+			set_cosmetic_tag = GER_national
+		}
+		
 
 		ai_will_do = {
 			factor = 200
 		}
 		}
+	

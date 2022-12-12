@@ -1,12 +1,6 @@
-capital = 170
+capital = 185
 
 #oob = ""
-
-
-add_ideas = {
-nato_airstrikes_LIB
-}
-
 
 # Starting tech
 set_technology = {
@@ -23,25 +17,30 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+add_ideas = {
+
+}
+
+declare_war_on = {
+    target = BHU
+    type = annex_everything
+}
+
+
 set_convoys = 20
 
 set_politics = {
-	ruling_party = satanism
+	ruling_party = militarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	satanism = 100
+	militarism = 50
+	ISAMAA = 10
+	EKRE = 10
+	authoritarianism = 10
+	fascism = 10
+	REFORM = 10
 }
 
-create_country_leader = {
-	name = "Vanapagan"
-	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = satanism_subideology
-	traits = {
-		
-	}
-}
