@@ -1,0 +1,24 @@
+ideas = {
+
+	country = {
+		idea_keila_e_voting = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.66
+				political_power_gain = 0.15
+				}
+
+		}
+	}
+	
+}

@@ -1,0 +1,38 @@
+tallinn_neighbours_category = {
+
+	EST_battle_of_the_islands = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		original_tag = EST
+		}
+
+		available = {
+
+			}
+		
+
+		visible = {
+			country_exists = LIT
+			LIT = {
+			controls_state = 347
+			controls_state = 82
+			controls_state = 83
+			controls_state = 80
+			}
+			has_war = no
+		}	
+		
+		days_remove = 30
+
+		remove_effect = {
+
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	}

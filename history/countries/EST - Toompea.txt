@@ -19,6 +19,7 @@ set_technology = {
 
 add_ideas = {
 csto_airstrikes_POL
+idea_tallinn_chaos
 }
 
 set_convoys = 20
@@ -38,13 +39,4 @@ set_popularities = {
 	militarism = 60
 }
 
-create_country_leader = {
-	name = "Martin Herem"
-	desc = "POLITICS_Herem_DESC"
-	picture = "Martin_Herem.dds"
-	expire = "1965.1.1"
-	ideology = militarism_subideology
-	traits = {
-		
-	}
-}
+recruit_character = EST_martin_herem

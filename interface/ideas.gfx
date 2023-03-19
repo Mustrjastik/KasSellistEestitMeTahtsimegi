@@ -8,6 +8,10 @@ spriteTypes = {
 		noOfFrames = 17		
 	}
 
+	SpriteType = {
+		name = "GFX_idea_tallinn_chaos"
+		texturefile = "gfx/interface/ideas/broken_capitol.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_idea_SOV_paper_tiger_army"

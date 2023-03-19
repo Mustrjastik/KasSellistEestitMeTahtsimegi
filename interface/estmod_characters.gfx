@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 		
 	spriteType = {
+		name = GFX_martin_herem_portrait
+		texturefile = gfx/leaders/EST/Martin_Herem.dds
+	}	
+		
+	spriteType = {
 		name = GFX_veebel_tarmo_portrait
 		texturefile = gfx/leaders/BOL/Veebel_Tarmo.dds
 	}	

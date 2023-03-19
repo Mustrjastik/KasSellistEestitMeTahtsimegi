@@ -1,0 +1,21 @@
+characters = {
+	EST_martin_herem = {
+		name = EST_martin_herem_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_martin_herem_portrait"
+			}
+		}
+		country_leader = {
+			ideology = militarism_subideology
+			expire="2065.1.1.1"
+			
+			traits = {
+			coast_defense_is_not_needed
+			plan_b_what_for
+			}
+			
+		}
+	}
+}
+	

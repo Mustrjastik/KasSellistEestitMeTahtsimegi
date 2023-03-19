@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+		idea_tallinn_chaos = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+rule = {
+    can_not_declare_war = yes
+}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_stability_factor = -0.2	
+				}
+
+		}
+	}
+	
+}

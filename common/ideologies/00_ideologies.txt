@@ -40,7 +40,8 @@ ideologies = {
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
+				conscription = 0.05
+		airforce_intel_to_others = 5
 		}
 		
 		faction_modifiers = {
@@ -88,7 +89,8 @@ ideologies = {
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
+				conscription = 0.04
+		airforce_intel_to_others = 5
 		}
 		
 		faction_modifiers = {
@@ -136,6 +138,7 @@ ideologies = {
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
+			conscription = 0.07
 			airforce_intel_to_others = 5
 		}
 		
@@ -184,6 +187,7 @@ ideologies = {
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
+			conscription = 0.1
 			airforce_intel_to_others = 5
 		}
 		
@@ -232,7 +236,8 @@ ideologies = {
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
+				conscription = 0.06
+		airforce_intel_to_others = 5
 		}
 		
 		faction_modifiers = {
@@ -281,6 +286,7 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.05
 		}
 		
 		faction_modifiers = {
@@ -329,6 +335,7 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.055
 		}
 		
 		faction_modifiers = {
@@ -377,6 +384,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+					conscription = 0.04
+
 		}
 		
 		faction_modifiers = {
@@ -425,6 +434,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+						conscription = 0.05
+
 		}
 		
 		faction_modifiers = {
@@ -473,6 +484,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+						conscription = 0.03
+
 		}
 		
 		faction_modifiers = {
@@ -521,6 +534,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.02
+
 		}
 		
 		faction_modifiers = {
@@ -569,6 +584,7 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.12
 		}
 		
 		faction_modifiers = {
@@ -617,6 +633,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+						conscription = 0.05
+
 		}
 		
 		faction_modifiers = {
@@ -665,6 +683,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.06
+
 		}
 		
 		faction_modifiers = {
@@ -713,6 +733,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.15
+
 		}
 		
 		faction_modifiers = {
@@ -761,6 +783,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.01
+
 		}
 		
 		faction_modifiers = {
@@ -809,6 +833,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.05
+
 		}
 		
 		faction_modifiers = {
@@ -857,6 +883,7 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+			conscription = 0.05
 		}
 		
 		faction_modifiers = {
@@ -869,7 +896,7 @@ ideologies = {
 		types = {
 			
 			nazbol_subideology = {
-			}
+		}
 		}
 		
 		dynamic_faction_names = {
@@ -905,6 +932,8 @@ ideologies = {
 			army_intel_to_others = 5.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
+				conscription = 0.2
+
 		}
 		
 		faction_modifiers = {

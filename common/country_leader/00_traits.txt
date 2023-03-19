@@ -14,6 +14,27 @@
 
 leader_traits = {
 
+	plan_b_what_for = {
+		random = no
+		max_planning_factor = -0.2
+		planning_speed = -0.2
+		army_leader_start_planning_level = -1 
+		trade_opinion_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	coast_defense_is_not_needed = {
+		random = no
+		production_speed_coastal_bunker_factor = -0.5 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	dictator = {
 		random = no
 		political_power_factor = 0.25
