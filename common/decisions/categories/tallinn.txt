@@ -1,5 +1,4 @@
-tallinn_reunification_category = {
-
+tallinn_neighbours_category = {
 	icon = generic_formable_nations
 
 	picture = 

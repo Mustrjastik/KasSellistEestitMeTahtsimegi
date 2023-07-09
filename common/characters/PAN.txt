@@ -1,0 +1,18 @@
+characters = {
+	PAN_THI = {
+		name = PAN_THI_name
+		portraits = {
+			civilian = {
+				large = "GFX_THI_portrait"
+			}
+		}
+		country_leader = {
+			ideology = EESTI200_subideology
+			expire="2065.1.1.1"
+		}
+		traits = {
+		eestonian
+		}
+	}
+}
+	

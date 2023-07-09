@@ -1,0 +1,97 @@
+division_template = {
+	name = "Jalaväesalk"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motoriseeritud salk"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Vanalinna jalaväesalk"
+		location = 9176
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Põhja-Tallinn jalaväesalk"
+		location = 6437
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Juhkentali jalaväesalk"
+		location = 4505
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Rocca-Al-Mare jalaväesalk"
+		location = 5891
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Mustamäe jalaväesalk"
+		location = 4144
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Haabersti mootorikompanii"
+		location = 4457
+		division_template = "Jalaväesalk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Ülemiste jalaväesalk"
+		location = 1348
+		division_template = "Motoriseeritud salk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Väike-Õismäe jalaväesalk"
+		location = 9197
+		division_template = "Motoriseeritud salk"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+
+}

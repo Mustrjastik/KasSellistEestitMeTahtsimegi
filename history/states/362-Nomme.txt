@@ -1,0 +1,31 @@
+state={
+	id=362
+	name="STATE_362"
+	provinces={
+		1109 2142 5096 5786 9223 
+	}
+	history = {
+		owner = ARM
+		add_core_of = ARM
+			victory_points = {
+			2142 15 
+		}
+		victory_points = {
+			1109 15 
+		}
+		victory_points = {
+			5096 15 
+		}
+		victory_points = {
+			5786 15 
+		}
+		victory_points = {
+			9223 15 
+		}
+	}
+	manpower=38296
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=megalopolis
+
+}

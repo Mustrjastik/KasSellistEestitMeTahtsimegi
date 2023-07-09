@@ -1,1 +1,14 @@
-﻿#
+﻿add_namespace = estgeneric
+
+country_event = {
+    id = estgeneric.1
+    title = estgeneric.t
+    desc = estgeneric.1.d
+    
+    is_triggered_only = yes
+	
+    option = {
+        name = bombing.1.a
+        remove_ideas = nato_airstrikes_USA
+    }
+}

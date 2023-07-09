@@ -1,6 +1,6 @@
 capital = 95
 
-#oob = ""
+oob = "EST_2020"
 
 # Starting tech
 set_technology = {

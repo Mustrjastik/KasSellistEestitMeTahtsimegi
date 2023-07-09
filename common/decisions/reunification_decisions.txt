@@ -390,6 +390,45 @@ country_exists = YUN
 		}
 	}
 	
+###INVASION - NZL
+
+dec_NZL_invade_rapina = {
+
+		icon = generic_form_nation
+
+		allowed = {
+				original_tag = NZL
+			
+		}
+
+		available = {
+			is_subject = no
+			num_divisions > 1
+			}
+		
+
+		visible = {
+		any_neighbor_country  = { original_tag = AST }
+				original_tag = NZL
+		}
+		
+		days_remove = 75
+		
+		complete_effect = {
+		
+		}
+		
+		remove_effect = {
+declare_war_on = {
+    target = AST
+    type = annex_everything
+}		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
 form_estonia = {
 
 		icon = generic_form_nation

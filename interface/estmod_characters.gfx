@@ -6,6 +6,16 @@ spriteTypes = {
 	}
 		
 	spriteType = {
+		name = GFX_THI_portrait
+		texturefile = gfx/leaders/PAN/Toomas_Hendrik_Ilves.dds
+	}	
+			
+	spriteType = {
+		name = GFX_viktor_zolotov_portrait
+		texturefile = gfx/leaders/SWE/Viktor_Zolotov.dds
+	}	
+				
+	spriteType = {
 		name = GFX_martin_herem_portrait
 		texturefile = gfx/leaders/EST/Martin_Herem.dds
 	}	

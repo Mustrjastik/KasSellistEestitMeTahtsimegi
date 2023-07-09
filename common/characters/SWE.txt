@@ -1,0 +1,22 @@
+characters = {
+	SWE_viktor_zolotov = {
+		name = SWE_viktor_zolotov_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_viktor_zolotov_portrait"
+			}
+		}
+		country_leader = {
+			ideology = militarism_subideology
+			expire="2065.1.1.1"
+		}
+		
+	traits = {
+	meatgrinder
+	}
+	}
+
+	
+	
+}
+	

@@ -40,13 +40,5 @@ set_popularities = {
 	capitalism = 11
 }
 
-create_country_leader = {
-	name = "Toomas Hendrik Ilves"
-	desc = ""
-	picture = "Toomas_Hendrik_Ilves.dds"
-	expire = "1965.1.1"
-	ideology = EESTI200_subideology
-	traits = {
-		
-	}
-}
+recruit_character = PAN_THI
+

@@ -7,67 +7,44 @@ state={
 		owner = EST
 		add_core_of = EST
 		victory_points = {
-			6437 15	
+			6437 15 
 		}
 		victory_points = {
-			9176 50
+			9176 50 
 		}
 		victory_points = {
-			4457 15
+			4457 15 
 		}
 		victory_points = {
-			5891 15
-		}	
+			5891 15 
+		}
+		victory_points = {
+			7187 15 
+		}
+		victory_points = {
+			9197 15 
+		}
+		victory_points = {
+			1348 15 
+		}
+		victory_points = {
+			4144 15 
+		}
+		victory_points = {
+			4505 15 
+		}
+		buildings = {
+			air_base = 3
 
-		victory_points = {
-			7187 15
-		}
-
-		victory_points = {
-			9197 15
-		}
-
-		victory_points = {
-			2142 15
-		}
-
-		victory_points = {
-			5096 15
-		}
-
-		victory_points = {
-			5786 15
-		}
-
-		victory_points = {
-			9223 15
 		}
 
-		victory_points = {
-			1109 15
-		}
-
-		victory_points = {
-			1348 15
-		}
-
-		victory_points = {
-			4144 15
-		}
-
-		victory_points = {
-			4505 15
-		}
-	buildings = {
-		air_base = 3
-	}
 	}
 
 	provinces={
-		1109 1348 2142 4144 4457 4505 5096 5786 5891 6437 7187 9176 9197 9223 
+		1348 4144 4457 4505 5891 6437 7187 9176 9197 
 	}
-	manpower=312417
-	buildings_max_level_factor=1.000 		state_category=rural
+	manpower=272417
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
-		state_category=megalopolis
 }
