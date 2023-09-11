@@ -34,8 +34,8 @@ start_border_war = {
         state = 95
         num_provinces = 2
         on_win = tallinn.1
-        on_lose = japan_border_conflict.3
-        on_cancel = japan_border_conflict.4
+        on_lose = tallinn.2
+        on_cancel = tallinn.2
         modifier = 0.1
         dig_in_factor = 0
         terrain_factor = 0
@@ -43,9 +43,9 @@ start_border_war = {
     defender = {
         state = 347
         num_provinces = 2
-        on_win = japan_border_conflict.3
-        on_lose = japan_border_conflict.2
-        on_cancel = japan_border_conflict.4
+        on_win = tallinn.3
+        on_lose = tallinn.4
+        on_cancel = tallinn.3
     }
 }
 		}

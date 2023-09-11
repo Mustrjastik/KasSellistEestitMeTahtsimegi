@@ -5,10 +5,12 @@ country_event = { #Island Battle - EST win
     title = tallinn.1.t
     desc = tallinn.1.d
     
-    is_triggered_only_once = yes
+	is_triggered_only = yes 
+    fire_only_once = yes
 	
     option = {
         name = tallinn.1.a
+		set_variable = { EST_tallinn_border_conflict = 0 }
 		transfer_state = 80
 		transfer_state = 83
 		transfer_state = 82 
@@ -19,10 +21,12 @@ country_event = { #Island Battle - EST loss
     title = tallinn.2.t
     desc = tallinn.2.d
     
-    is_triggered_only_once = yes
+    is_triggered_only = yes 
+    fire_only_once  = yes
 	
     option = {
         name = tallinn.2.a
+		set_variable = { EST_tallinn_border_conflict = 1 }´
 		add_political_power = -100
     }
 }
@@ -31,25 +35,31 @@ country_event = { #Island Battle - LIT win
     id = tallinn.3
     title = tallinn.3.t
     desc = tallinn.3.d
-    
-    is_triggered_only_once = yes
+
+	is_triggered_only = yes     
+    fire_only_once  = yes
 	
     option = {
         name = tallinn.3.a
+		set_variable = { LIT_tallinn_border_conflict = 1 }
+		hidden_effect = {
 		transfer_state = 80
 		transfer_state = 83
-		transfer_state = 82 
+		transfer_state = 82
+		}
     }
 }
 country_event = { #Island Battle - LIT loss
-    id = tallinn.3
-    title = tallinn.3.t
-    desc = tallinn.3.d
-    
-    is_triggered_only_once = yes
+    id = tallinn.4
+    title = tallinn.4.t
+    desc = tallinn.4.d
+
+	is_triggered_only = yes   
+    fire_only_once  = yes
 	
     option = {
-        name = tallinn.3.a
+        name = tallinn.4.a
+		set_variable = { EST_tallinn_border_conflict = 0 }
 		add_political_power = -100
     }
 }

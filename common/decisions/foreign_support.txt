@@ -31,6 +31,272 @@ country_exists = LAT
 			factor = 200
 		}
 	}
+	foreignaid_increase_DE_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		has_government = fascism
+		has_government = ISAMAA
+		has_government = banditism
+		has_government = EKRE
+		has_government = nazbol
+		has_government = monarchism	
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 5 }
+		check_variable = { diplomatic_ethos = 4 }
+		}
+		}
+
+		complete_effect = {
+			add_to_variable = { foreign_support_RU = -5 }
+if = {
+limit = {
+OR = {
+		has_government = SDE
+		has_government = EESTI200
+}
+}
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_DE = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_DE = 15 }
+}
+33 = {
+	add_to_variable = { foreign_support_DE = 20 }
+}
+}
+}
+if = {
+limit = {
+NOT = {
+		has_government = SDE
+		has_government = EESTI200
+}
+}
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_DE = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_DE = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_DE = 15 }
+}
+}
+}
+		}
+	}
+
+	foreignaid_increase_US_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 2 }
+		check_variable = { diplomatic_ethos = 4 }
+		check_variable = { diplomatic_ethos = 5 }
+		}
+		}
+
+		complete_effect = {
+					add_to_variable = { foreign_support_RU = -10 }
+					add_to_variable = { foreign_support_CH = -10 }
+
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_US = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_US = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_US = 15 }
+}
+}
+
+		}
+	}	
+	
+	foreignaid_increase_UK_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 2 }
+		check_variable = { diplomatic_ethos = 4 }
+		check_variable = { diplomatic_ethos = 5 }
+		}
+		}
+
+		complete_effect = {
+					add_to_variable = { foreign_support_RU = -10 }
+			add_to_variable = { foreign_support_IN = -5 }
+
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_UK = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_UK = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_UK = 15 }
+}
+}
+
+		}
+	}	
+	
+	foreignaid_increase_RU_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 3 }
+		check_variable = { diplomatic_ethos = 5 }
+		}
+		}
+
+		complete_effect = {
+					add_to_variable = { foreign_support_US = -5 }
+					add_to_variable = { foreign_support_UK = -10 }
+
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_RU = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_RU = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_RU = 15 }
+}
+}
+
+		}
+	}
+
+	foreignaid_increase_CH_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 3 }
+		check_variable = { diplomatic_ethos = 5 }
+		}
+		}
+
+		complete_effect = {
+							add_to_variable = { foreign_support_US = -5 }
+					add_to_variable = { foreign_support_UK = -10 }
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_CH = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_CH = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_CH = 15 }
+}
+}
+
+		}
+	}
+
+	foreignaid_increase_IN_support = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+		
+
+		visible = {
+		NOT = {
+		check_variable = { diplomatic_ethos = 1 }
+		check_variable = { diplomatic_ethos = 5 }
+		}
+		}
+
+		complete_effect = {
+random_list = {
+34 = {
+	add_to_variable = { foreign_support_IN = 5 }
+}
+33 = {
+	add_to_variable = { foreign_support_IN = 10 }
+}
+33 = {
+	add_to_variable = { foreign_support_IN = 15 }
+}
+}
+
+		}
+	}	
 	
 	foreignaid_debug_max = {
 
@@ -581,6 +847,69 @@ add_equipment_to_stockpile = {
 			factor = 200
 		}
 	}
+	
+	foreignaid_RU_military_access = {
+			cost = 75
+
+		icon = generic_form_nation
+
+		allowed = {
+			NOT = {
+country_exists = RUS
+country_exists = FIN
+country_exists = LAT
+				}					
+		}
+
+		available = {				
+	check_variable = { foreign_support_RU > 50 }
+
+			}
+		
+
+		visible = {
+	check_variable = { foreign_support_RU > 0 }
+		}
+
+		complete_effect = {
+	add_to_variable = { foreign_support_RU = -5 }
+
+		}
+
+days_remove = 60
+
+		remove_effect = {
+		SOV = {
+		diplomatic_relation = {
+    country = ROOT
+    relation = military_access
+    active = no
+}
+diplomatic_relation = {
+    country = ROOT
+    relation = docking_rights
+    active = no
+}
+		}
+
+		diplomatic_relation = {
+    country = SOV
+    relation = military_access
+    active = no
+}
+diplomatic_relation = {
+    country = SOV
+    relation = docking_rights
+    active = no
+}
+ 
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
 	
 
 
