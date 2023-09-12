@@ -7,7 +7,15 @@ state={
 			history = {
 	owner = BHU
 	add_core_of = BHU
+		victory_points = {
+			6007 25
+		}
+				buildings = {
+			infrastructure = 4 
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
-	manpower=0
+	manpower=3160
 	buildings_max_level_factor=1.000 		state_category=town
 }
