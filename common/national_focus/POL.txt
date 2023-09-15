@@ -1,0 +1,1222 @@
+focus_tree = {
+	id = POL
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	default = no
+	focus = {
+		id = POL_begin_the_great_antifascist_war
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = POL_internal_matters
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = POL_the_opportunities
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_internal_matters
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = POL_fishing_fleets
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_opportunities
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = POL_raid_leftover_stashes
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_fishing_fleets
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = POL_the_nochnoy_dozor
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_fishing_fleets
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = POL_increase_grain_targets
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_raid_leftover_stashes
+		}
+		prerequisite = {
+			focus = POL_the_nochnoy_dozor
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = POL_reform_question
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_internal_matters
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = POL_maintain_estonian_schools
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_reform_question
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = POL_nepmen
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_reform_question
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = POL_find_common_ground
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_maintain_estonian_schools
+		}
+		prerequisite = {
+			focus = POL_nepmen
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = POL_restrict_censorship
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_nepmen
+		}
+		prerequisite = {
+			focus = POL_maintain_estonian_schools
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = POL_the_hardships
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_internal_matters
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = POL_aid_to_the_bombed
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_hardships
+		}
+		mutually_exclusive = {
+			focus = POL_fortify_maardu
+			focus = POL_fortify_maardu
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = POL_restrict_vengeance
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_nepmen
+		}
+		prerequisite = {
+			focus = POL_maintain_estonian_schools
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = POL_soviet_future_not_soviet_past
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_restrict_censorship
+			focus = POL_find_common_ground
+			focus = POL_restrict_vengeance
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = POL_appeal_to_the_rural_areas
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_restrict_vengeance
+			focus = POL_find_common_ground
+			focus = POL_restrict_censorship
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = POL_allow_other_parties
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_appeal_to_the_rural_areas
+		}
+		prerequisite = {
+			focus = POL_soviet_future_not_soviet_past
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = POL_fortify_maardu
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_hardships
+		}
+		mutually_exclusive = {
+			focus = POL_aid_to_the_bombed
+			focus = POL_aid_to_the_bombed
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = POL_decry_western_imperialism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_aid_to_the_bombed
+			focus = POL_fortify_maardu
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = POL_peoples_construction_brigades
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_decry_western_imperialism
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = POL_overtures_to_china
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_begin_the_great_antifascist_war
+		}
+		mutually_exclusive = {
+			focus = POL_hearts_and_minds
+			focus = POL_hearts_and_minds
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = POL_celebrate_mao
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_overtures_to_china
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = POL_shared_patrols
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_overtures_to_china
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = POL_a_proposal_to_liao
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_shared_patrols
+		}
+		prerequisite = {
+			focus = POL_celebrate_mao
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = POL_threaten_kehra
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_a_proposal_to_liao
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = POL_hearts_and_minds
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_begin_the_great_antifascist_war
+		}
+		mutually_exclusive = {
+			focus = POL_overtures_to_china
+			focus = POL_overtures_to_china
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = POL_token_liberalization
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_hearts_and_minds
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = POL_token_estonians_in_government
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_hearts_and_minds
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = POL_a_proposal_to_kehra
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_token_estonians_in_government
+		}
+		prerequisite = {
+			focus = POL_token_liberalization
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = POL_we_can_still_be_friends
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_a_proposal_to_kehra
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = POL_the_attack_into_tallinn
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_threaten_kehra
+			focus = POL_we_can_still_be_friends
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = POL_call_on_the_VDV
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_attack_into_tallinn
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = POL_around_ulemiste
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_attack_into_tallinn
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = POL_estonian_national_units
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_around_ulemiste
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = POL_true_worker_cooperatives
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_around_ulemiste
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = POL_through_pirita
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_true_worker_cooperatives
+			focus = POL_estonian_national_units
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = POL_sweep_bougie_kalamaja
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_through_pirita
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = POL_destroy_the_social_fascists
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_sweep_bougie_kalamaja
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = POL_into_nomme
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_estonian_national_units
+			focus = POL_true_worker_cooperatives
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = POL_relentless_assault
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_true_worker_cooperatives
+			focus = POL_estonian_national_units
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = POL_march_north_to_toompea
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_into_nomme
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = POL_the_liberation_of_tallinn
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_cut_off
+			focus = POL_relentless_assault
+			focus = POL_destroy_the_social_fascists
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = POL_cut_off
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_march_north_to_toompea
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = POL_destroy_the_market_fascists
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_liberation_of_tallinn
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = POL_conscript_ex_cartel_members
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_the_market_fascists
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = POL_legalization_of_cannabis_question
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_the_market_fascists
+		}
+		x = 10
+		y = 13
+
+	}
+	focus = {
+		id = POL_the_peoples_beer
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_the_market_fascists
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = POL_rebuild_saku_equipment
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_the_market_fascists
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = POL_destroy_reddit
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_legalization_of_cannabis_question
+			focus = POL_conscript_ex_cartel_members
+			focus = POL_the_peoples_beer
+			focus = POL_rebuild_saku_equipment
+		}
+		x = 11
+		y = 14
+
+	}
+	focus = {
+		id = POL_use_some_of_the_radicals
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_reddit
+		}
+		x = 10
+		y = 15
+
+	}
+	focus = {
+		id = POL_redditor_entry_program
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_reddit
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = POL_how_the_tables_turn
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_legalization_of_cannabis_question
+			focus = POL_conscript_ex_cartel_members
+			focus = POL_the_peoples_beer
+			focus = POL_rebuild_saku_equipment
+		}
+		x = 15
+		y = 14
+
+	}
+	focus = {
+		id = POL_ban_reformierakond
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_how_the_tables_turn
+		}
+		x = 14
+		y = 15
+
+	}
+	focus = {
+		id = POL_hunt_for_the_10_million
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_how_the_tables_turn
+		}
+		x = 16
+		y = 15
+
+	}
+	focus = {
+		id = POL_aid_our_brothers
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_reddit
+			focus = POL_how_the_tables_turn
+		}
+		mutually_exclusive = {
+			focus = POL_force_them_to_back_down
+			focus = POL_force_them_to_back_down
+		}
+		x = 14
+		y = 16
+
+	}
+	focus = {
+		id = POL_repurpose_NATO_VDV_gear
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_aid_our_brothers
+			focus = POL_force_them_to_back_down
+		}
+		x = 12
+		y = 17
+
+	}
+	focus = {
+		id = POL_take_M_A_Y_A
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_aid_our_brothers
+			focus = POL_force_them_to_back_down
+		}
+		x = 14
+		y = 17
+
+	}
+	focus = {
+		id = POL_force_them_to_back_down
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_destroy_reddit
+			focus = POL_how_the_tables_turn
+		}
+		mutually_exclusive = {
+			focus = POL_aid_our_brothers
+			focus = POL_aid_our_brothers
+		}
+		x = 12
+		y = 16
+
+	}
+	focus = {
+		id = POL_the_return_to_paldiski
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_repurpose_NATO_VDV_gear
+			focus = POL_take_M_A_Y_A
+		}
+		x = 13
+		y = 18
+
+	}
+	focus = {
+		id = POL_wipe_off_the_ecotrash
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_return_to_paldiski
+		}
+		x = 12
+		y = 19
+
+	}
+	focus = {
+		id = POL_nuclear_hope
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_return_to_paldiski
+		}
+		x = 14
+		y = 19
+
+	}
+	focus = {
+		id = POL_harjumaa_united_once_more
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_nuclear_hope
+		}
+		prerequisite = {
+			focus = POL_wipe_off_the_ecotrash
+		}
+		x = 13
+		y = 20
+
+	}
+	focus = {
+		id = POL_KOOS_for_change
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_allow_other_parties
+		}
+		prerequisite = {
+			focus = POL_harjumaa_united_once_more
+		}
+		x = 5
+		y = 21
+
+	}
+	focus = {
+		id = POL_foreign_money_pours_in
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_KOOS_for_change
+		}
+		x = 5
+		y = 22
+
+	}
+	focus = {
+		id = POL_maintain_multipolar_attitude
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_foreign_money_pours_in
+		}
+		mutually_exclusive = {
+			focus = POL_towards_neutrality
+			focus = POL_towards_neutrality
+		}
+		x = 4
+		y = 23
+
+	}
+	focus = {
+		id = POL_towards_neutrality
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_foreign_money_pours_in
+		}
+		mutually_exclusive = {
+			focus = POL_maintain_multipolar_attitude
+			focus = POL_maintain_multipolar_attitude
+		}
+		x = 6
+		y = 23
+
+	}
+	focus = {
+		id = POL_swedish_model_bilingualism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_KOOS_for_change
+		}
+		mutually_exclusive = {
+			focus = POL_total_bilingualism
+			focus = POL_total_bilingualism
+		}
+		x = 8
+		y = 22
+
+	}
+	focus = {
+		id = POL_total_bilingualism
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_KOOS_for_change
+		}
+		mutually_exclusive = {
+			focus = POL_swedish_model_bilingualism
+			focus = POL_swedish_model_bilingualism
+		}
+		x = 10
+		y = 22
+
+	}
+	focus = {
+		id = POL_close_some_eyes
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_KOOS_for_change
+		}
+		x = 2
+		y = 22
+
+	}
+	focus = {
+		id = POL_clean_our_image
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_towards_neutrality
+		}
+		prerequisite = {
+			focus = POL_swedish_model_bilingualism
+		}
+		mutually_exclusive = {
+			focus = POL_spasiba_tovarish_putin
+			focus = POL_spasiba_tovarish_putin
+		}
+		x = 6
+		y = 24
+
+	}
+	focus = {
+		id = POL_spasiba_tovarish_putin
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_maintain_multipolar_attitude
+		}
+		prerequisite = {
+			focus = POL_total_bilingualism
+		}
+		mutually_exclusive = {
+			focus = POL_clean_our_image
+			focus = POL_clean_our_image
+		}
+		x = 4
+		y = 24
+
+	}
+	focus = {
+		id = POL_donbass_mercenaries
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_close_some_eyes
+		}
+		x = 2
+		y = 23
+
+	}
+	focus = {
+		id = POL_appeals_on_twitter
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_donbass_mercenaries
+		}
+		x = 2
+		y = 24
+
+	}
+	focus = {
+		id = POL_european_union_speculation
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_clean_our_image
+		}
+		x = 6
+		y = 25
+
+	}
+	focus = {
+		id = POL_candidacy_for_BRICS
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_spasiba_tovarish_putin
+		}
+		x = 4
+		y = 25
+
+	}
+	focus = {
+		id = POL_the_great_leap_forward
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_harjumaa_united_once_more
+		}
+		x = 20
+		y = 21
+
+	}
+	focus = {
+		id = POL_restart_old_factories
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_great_leap_forward
+		}
+		x = 20
+		y = 22
+
+	}
+	focus = {
+		id = POL_new_soviet_estonia
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_great_leap_forward
+		}
+		x = 18
+		y = 22
+
+	}
+	focus = {
+		id = POL_china_main_ally
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_great_leap_forward
+		}
+		mutually_exclusive = {
+			focus = POL_affirm_loyalty_to_moscow
+			focus = POL_affirm_loyalty_to_moscow
+		}
+		x = 22
+		y = 22
+
+	}
+	focus = {
+		id = POL_strengthen_the_party
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_new_soviet_estonia
+		}
+		prerequisite = {
+			focus = POL_restart_old_factories
+		}
+		x = 20
+		y = 23
+
+	}
+	focus = {
+		id = POL_affirm_loyalty_to_moscow
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_great_leap_forward
+		}
+		mutually_exclusive = {
+			focus = POL_china_main_ally
+			focus = POL_china_main_ally
+		}
+		x = 24
+		y = 22
+
+	}
+	focus = {
+		id = POL_border_fortification_mastery
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_affirm_loyalty_to_moscow
+		}
+		prerequisite = {
+			focus = POL_china_main_ally
+		}
+		x = 22
+		y = 23
+
+	}
+	focus = {
+		id = POL_wonders_of_estonia
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_harjumaa_united_once_more
+		}
+		x = 13
+		y = 21
+
+	}
+	focus = {
+		id = POL_refurbish_the_cosmodrome
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_wonders_of_estonia
+		}
+		x = 15
+		y = 22
+
+	}
+	focus = {
+		id = POL_prepare_for_a_moon_landing
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_refurbish_the_cosmodrome
+		}
+		x = 14
+		y = 23
+
+	}
+	focus = {
+		id = POL_send_spies_to_the_west
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_refurbish_the_cosmodrome
+		}
+		x = 16
+		y = 23
+
+	}
+	focus = {
+		id = POL_learn_from_russian_sources
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_send_spies_to_the_west
+		}
+		x = 16
+		y = 24
+
+	}
+	focus = {
+		id = POL_makeshift_gear
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_prepare_for_a_moon_landing
+		}
+		x = 14
+		y = 24
+
+	}
+	focus = {
+		id = POL_the_launch
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_makeshift_gear
+		}
+		prerequisite = {
+			focus = POL_learn_from_russian_sources
+		}
+		x = 15
+		y = 25
+
+	}
+	focus = {
+		id = POL_first_man_on_the_moon
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_launch
+		}
+		mutually_exclusive = {
+			focus = POL_oops
+			focus = POL_oops
+		}
+		x = 14
+		y = 26
+
+	}
+	focus = {
+		id = POL_oops
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_launch
+		}
+		mutually_exclusive = {
+			focus = POL_first_man_on_the_moon
+			focus = POL_first_man_on_the_moon
+		}
+		x = 16
+		y = 26
+
+	}
+	focus = {
+		id = POL_the_zombies
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_wonders_of_estonia
+		}
+		x = 12
+		y = 22
+
+	}
+	focus = {
+		id = POL_experiment_on_soviet_graves
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_find_the_source
+		}
+		x = 12
+		y = 24
+
+	}
+	focus = {
+		id = POL_the_red_skeleton_army
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_experiment_on_soviet_graves
+		}
+		mutually_exclusive = {
+			focus = POL_oops_2
+			focus = POL_oops_2
+		}
+		x = 12
+		y = 25
+
+	}
+	focus = {
+		id = POL_oops_2
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_experiment_on_soviet_graves
+		}
+		mutually_exclusive = {
+			focus = POL_the_red_skeleton_army
+			focus = POL_the_red_skeleton_army
+		}
+		x = 10
+		y = 25
+
+	}
+	focus = {
+		id = POL_find_the_source
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_the_zombies
+		}
+		x = 12
+		y = 23
+
+	}
+	focus = {
+		id = POL_the_party_line
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = POL_strengthen_the_party
+		}
+		prerequisite = {
+			focus = POL_border_fortification_mastery
+		}
+		x = 21
+		y = 24
+
+	}
+}
