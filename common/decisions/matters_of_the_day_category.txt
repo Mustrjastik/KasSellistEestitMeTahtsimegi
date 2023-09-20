@@ -1,0 +1,110 @@
+matters_of_the_day_category = {
+
+	break_all_nonagression_pacts = {
+
+		icon = generic_form_nation
+
+		allowed = {
+
+		}
+
+		available = {
+
+			}
+		
+
+		visible = {
+any_country = {
+ has_non_aggression_pact_with = ROOT 
+}			
+		}	
+		
+		days_remove = 30
+		
+		remove_effect = {
+every_country = {
+diplomatic_relation = {
+    country = FROM
+    relation = non_aggression_pact
+    active = no 
+}
+		}
+		}
+
+		ai_will_do = {
+			base = 10
+    modifier = { #reluctance to break with the player
+        add = -10
+any_country = {
+limit = { has_non_aggression_pact_with = ROOT }
+is_ai = no
+}	
+    }
+	
+    modifier = { #reluctance to break during a war
+        add = -10
+has_war = yes
+    }
+
+    modifier = { #likely to break if expansionist
+        add = 15
+check_variable = { diplomatic_ethos = 5 }
+    }
+	
+    modifier = { #prorussia will break with prowest
+        add = 25
+check_variable = { diplomatic_ethos = 4 }
+any_country = {
+limit = { has_non_aggression_pact_with = ROOT }
+check_variable = { diplomatic_ethos = 3 }
+}	
+    }
+	
+    modifier = { #prowest will break with prorussia
+        add = 25
+check_variable = { diplomatic_ethos = 3 }
+any_country = {
+limit = { has_non_aggression_pact_with = ROOT }
+check_variable = { diplomatic_ethos = 4 }
+}	
+    }
+	
+    modifier = { #neutral and isolationist will refrain from breaking
+        add = -10
+check_variable = { diplomatic_ethos = 0 }
+check_variable = { diplomatic_ethos = 1 }
+    }
+		}
+	}
+	
+	keep_cat_open = {
+
+		icon = generic_form_nation
+
+		allowed = {
+
+		}
+
+		available = {
+
+			}
+		
+
+		visible = {
+
+		}	
+		
+		days_remove = 120
+
+		remove_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+
+	
+	}

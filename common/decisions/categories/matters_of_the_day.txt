@@ -1,0 +1,6 @@
+matters_of_the_day_category = {
+	icon = generic_formable_nations
+
+	picture = 
+	
+}

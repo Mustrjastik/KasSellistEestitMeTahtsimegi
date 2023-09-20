@@ -329,7 +329,7 @@ country_exists = LAT
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = -200
 		}
 	}
 	
@@ -364,7 +364,7 @@ country_exists = LAT
 		}
 
 		ai_will_do = {
-			factor = 200
+			factor = -200
 		}
 	}
 	

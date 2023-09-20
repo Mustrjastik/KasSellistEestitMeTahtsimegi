@@ -357,6 +357,7 @@ country_exists = YUN
 form_polvamaa_URG = {
 
 		icon = generic_form_nation
+	cost = 100
 
 		allowed = {
 				original_tag = URG
@@ -390,43 +391,492 @@ country_exists = YUN
 		}
 	}
 	
-###INVASION - NZL
+###INVASION - POLVAMAA
 
-dec_NZL_invade_rapina = {
+generic_invade_NZL = {
 
 		icon = generic_form_nation
+	cost = 100
 
 		allowed = {
-				original_tag = NZL
+		OR = {
+				original_tag = AST 
+				original_tag = YUN
+				original_tag = CYP
+				original_tag = URG
 			
+		}
 		}
 
 		available = {
-			is_subject = no
-			num_divisions > 1
+			date > 2023.01.01
+			is_neighbor_of = NZL
+			NOT = {
+			has_non_aggression_pact_with = NZL
+			}
+			check_variable = { justifying_through_decision = 0 }
 			}
 		
 
 		visible = {
-		any_neighbor_country  = { original_tag = AST }
-				original_tag = NZL
+		OR = {
+				original_tag = AST 
+				original_tag = YUN
+				original_tag = CYP
+				original_tag = URG
+		}
+		country_exists = NZL
 		}
 		
-		days_remove = 75
+		days_remove = 50
 		
 		complete_effect = {
-		
+		set_variable = { justifying_through_decision = 1 }
+		add_threat = 2
 		}
 		
 		remove_effect = {
+				set_variable = { justifying_through_decision = 0 }
+
+declare_war_on = {
+    target = NZL
+    type = annex_everything
+}		}
+	cost = 100
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = NZL
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	NZL = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	NZL = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	NZL = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	NZL = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	NZL = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	NZL = {
+		has_border_war = yes
+	}
+    }
+
+}
+	}
+	
+generic_invade_AST = {
+
+		icon = generic_form_nation
+	cost = 100
+
+		allowed = {
+		OR = {
+				original_tag = NZL 
+				original_tag = YUN
+				original_tag = CYP
+				original_tag = URG
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = AST
+			NOT = {
+			has_non_aggression_pact_with = AST
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = NZL 
+				original_tag = YUN
+				original_tag = CYP
+				original_tag = URG
+		}
+		country_exists = AST
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		set_variable = { justifying_through_decision = 1 }
+		add_threat = 2
+		}
+		
+		remove_effect = {
+				set_variable = { justifying_through_decision = 0 }
 declare_war_on = {
     target = AST
     type = annex_everything
 }		}
 
-		ai_will_do = {
-			factor = 200
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = AST
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	AST = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	AST = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	AST = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	AST = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	AST = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	AST = {
+		has_border_war = yes
+	}
+    }
+
+}
+	}
+	
+generic_invade_YUN = {
+
+		icon = generic_form_nation
+	cost = 100
+
+		allowed = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = CYP
+				original_tag = URG
+			
 		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = YUN
+			NOT = {
+			has_non_aggression_pact_with = YUN
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = CYP
+				original_tag = URG
+		}
+		country_exists = YUN
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		set_variable = { justifying_through_decision = 1 }
+		add_threat = 2
+		}
+		
+		remove_effect = {
+				set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = YUN
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = YUN
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	YUN = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	YUN = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	YUN = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	YUN = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	YUN = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	YUN = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+	
+generic_invade_CYP = {
+
+		icon = generic_form_nation
+	cost = 100
+
+		allowed = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = YUN
+				original_tag = URG
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = CYP
+			NOT = {
+			has_non_aggression_pact_with = CYP
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = YUN
+				original_tag = URG
+		}
+		country_exists = CYP
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		set_variable = { justifying_through_decision = 1 }
+		add_threat = 2
+		}
+		
+		remove_effect = {
+				set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = CYP
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = CYP
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	CYP = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	CYP = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	CYP = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	CYP = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	CYP = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	CYP = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+	
+generic_invade_URG = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = YUN
+				original_tag = CYP
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = URG
+			NOT = {
+			has_non_aggression_pact_with = URG
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = NZL 
+				original_tag = AST
+				original_tag = YUN
+				original_tag = CYP
+		}
+		country_exists = URG
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		}
+		
+		remove_effect = {
+declare_war_on = {
+    target = URG
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = URG
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	URG = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	URG = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	URG = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	URG = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	URG = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	URG = {
+		has_border_war = yes
+	}
+    }
+}
 	}
 	
 form_estonia = {
