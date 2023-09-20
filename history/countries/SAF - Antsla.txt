@@ -1,6 +1,6 @@
 capital = 327
 
-#oob = ""
+oob = "SAF_2020"
 
 # Starting tech
 set_technology = {
@@ -33,7 +33,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Military Council Of Antsla"
+	name = "Jüri Toomepuu"
 	desc = ""
 	picture = ".dds"
 	expire = "1965.1.1"

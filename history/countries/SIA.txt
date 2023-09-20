@@ -1,6 +1,6 @@
 capital = 324
 
-#oob = ""
+oob = "SIA_2020"
 
 # Starting tech
 set_technology = {

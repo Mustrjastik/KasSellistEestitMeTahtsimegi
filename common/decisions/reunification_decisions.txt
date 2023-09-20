@@ -823,9 +823,11 @@ generic_invade_URG = {
 		
 		complete_effect = {
 		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
 		}
 		
 		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
 declare_war_on = {
     target = URG
     type = annex_everything
@@ -878,6 +880,881 @@ ai_will_do = {
     }
 }
 	}
+	
+#INVASION - VALGAMAA
+generic_invade_PRU = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = PER 
+				original_tag = PHI
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = PRU
+			NOT = {
+			has_non_aggression_pact_with = PRU
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = PER 
+				original_tag = PHI
+		}
+		country_exists = PRU
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = PRU
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = PRU
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	PRU = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	PRU = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	PRU = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	PRU = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	PRU = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	PRU = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+	
+generic_invade_PER = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = PRU 
+				original_tag = PHI
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = PER
+			NOT = {
+			has_non_aggression_pact_with = PER
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = PRU 
+				original_tag = PHI
+		}
+		country_exists = PER
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = PER
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = PER
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	PER = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	PER = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	PER = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	PER = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	PER = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	PER = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_PHI = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = PRU 
+				original_tag = PER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = PHI
+			NOT = {
+			has_non_aggression_pact_with = PHI
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = PRU 
+				original_tag = PER
+		}
+		country_exists = PHI
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = PHI
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = PHI
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	PHI = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	PHI = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	PHI = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	PHI = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	PHI = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	PHI = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+#INVASION - VÕRUMAA
+generic_invade_SIA = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SAF 
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = SIA
+			NOT = {
+			has_non_aggression_pact_with = SIA
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SAF 
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+		}
+		country_exists = SIA
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = SIA
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = SIA
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	SIA = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	SIA = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	SIA = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	SIA = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	SIA = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	SIA = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_SAF = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SIA 
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = SAF
+			NOT = {
+			has_non_aggression_pact_with = SAF
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SIA 
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+		}
+		country_exists = SAF
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = SAF
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = SAF
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	SAF = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	SAF = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	SAF = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	SAF = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	SAF = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	SAF = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_TIB = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = TIB
+			NOT = {
+			has_non_aggression_pact_with = TIB
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = SIK
+				original_tag = VEN
+				original_tag = SER
+		}
+		country_exists = TIB
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = TIB
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = TIB
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	TIB = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	TIB = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	TIB = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	TIB = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	TIB = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	TIB = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_SIK = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = VEN
+				original_tag = SER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = SIK
+			NOT = {
+			has_non_aggression_pact_with = SIK
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = VEN
+				original_tag = SER
+		}
+		country_exists = SIK
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = SIK
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = SIK
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	SIK = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	SIK = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	SIK = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	SIK = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	SIK = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	SIK = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_VEN = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = SER
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = VEN
+			NOT = {
+			has_non_aggression_pact_with = VEN
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = SER
+		}
+		country_exists = VEN
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = VEN
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = VEN
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	VEN = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	VEN = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	VEN = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	VEN = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	VEN = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	VEN = {
+		has_border_war = yes
+	}
+    }
+}
+	}
+
+generic_invade_SER = {
+	cost = 100
+
+		icon = generic_form_nation
+
+		allowed = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+			
+		}
+		}
+
+		available = {
+			date > 2023.01.01
+			is_neighbor_of = SER
+			NOT = {
+			has_non_aggression_pact_with = SER
+			}
+			check_variable = { justifying_through_decision = 0 }
+			}
+		
+
+		visible = {
+		OR = {
+				original_tag = SIA 
+				original_tag = SAF
+				original_tag = TIB
+				original_tag = SIK
+				original_tag = VEN
+		}
+		country_exists = SER
+		}
+		
+		days_remove = 50
+		
+		complete_effect = {
+		add_threat = 2
+		set_variable = { justifying_through_decision = 1 }
+		}
+		
+		remove_effect = {
+		set_variable = { justifying_through_decision = 0 }
+declare_war_on = {
+    target = SER
+    type = annex_everything
+}		}
+
+ai_will_do = {
+    base = 10
+    modifier = {
+        add = 10
+	strength_ratio = {
+		tag = SER
+		ratio > 1
+	}
+    }
+    modifier = {
+        add = 10
+	SER = {
+			date > 2024.01.01
+	}
+    }
+    modifier = {
+        add = 15
+	SER = {
+			date > 2025.01.01
+	}
+    }
+    modifier = {
+        add = 20
+	SER = {
+			date > 2026.01.01
+	}
+    }
+    modifier = {
+        add = 10
+	SER = {
+	has_war = yes
+	}
+    }
+    modifier = {
+        add = 10
+	SER = {
+		surrender_progress > 0.3
+	}
+    }
+    modifier = {
+        add = 5
+	SER = {
+		has_border_war = yes
+	}
+    }
+}
+	} 	
 	
 form_estonia = {
 

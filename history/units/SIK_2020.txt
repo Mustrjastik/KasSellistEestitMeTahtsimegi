@@ -1,0 +1,66 @@
+division_template = {
+	name = "Stolen Cavalry Division"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }	
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }		
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "Royal Cavalry"
+		location = 3154
+		division_template = "Stolen Cavalry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Cavalry Division "Pekko""
+		location = 3154
+		division_template = "Stolen Cavalry Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+
+	division = {
+		name = "Misso Infantry"
+		location = 957
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+
+	division = {
+		name = "Seto Infantry"
+		location = 12669
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+	
+
+		
+	
+	
+}

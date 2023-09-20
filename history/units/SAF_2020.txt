@@ -1,0 +1,53 @@
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Motorized Detachment"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Antsla Infantry Brigade"
+		location = 3054
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Sõmerpalu Infantry Brigade"
+		location = 5682
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Antsla Motorized Detachment"
+		location = 2207
+		division_template = "Motorized Detachment"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.5
+        start_manpower_factor = 1
+	}
+		
+	
+	
+}

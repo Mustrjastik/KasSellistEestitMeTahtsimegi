@@ -1,0 +1,66 @@
+division_template = {
+	name = "Russian Volunteer Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }	
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }		
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "Vastseliina Infantry"
+		location = 3555
+		division_template = "Russian Volunteer Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Western Formation"
+		location = 654
+		division_template = "Russian Volunteer Brigade"
+		start_experience_factor = 1
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+
+	division = {
+		name = "Infantry Brigade"
+		location = 3555
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+
+	division = {
+		name = "Infantry Brigade"
+		location = 3866
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.7
+        start_manpower_factor = 1
+	}
+	
+
+		
+	
+	
+}
