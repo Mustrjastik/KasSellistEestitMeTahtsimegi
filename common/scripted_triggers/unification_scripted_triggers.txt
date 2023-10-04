@@ -1,0 +1,103 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+# #
+
+owns_all_polvamaa_states_trigger = {
+		
+		owns_state = 316
+		owns_state = 311
+		owns_state = 290
+		owns_state = 292
+		owns_state = 281
+		owns_state = 279
+		owns_state = 277
+		owns_state = 295
+		owns_state = 283
+		owns_state = 301
+		owns_state = 306
+		owns_state = 319
+		owns_state = 314
+	}
+	
+owns_all_vorumaa_states_trigger = {
+		
+		owns_state = 323
+		owns_state = 327
+		owns_state = 325
+		owns_state = 339
+		owns_state = 336
+		owns_state = 330
+		owns_state = 334
+		owns_state = 338
+		owns_state = 329
+		owns_state = 328
+	}
+	
+owns_all_valgamaa_states_trigger = {
+		
+		owns_state = 335
+		owns_state = 333
+		owns_state = 331
+		owns_state = 326
+		owns_state = 317
+		owns_state = 315
+		owns_state = 303
+		owns_state = 302
+		owns_state = 294
+		owns_state = 320
+		owns_state = 298
+		owns_state = 308
+	}
+	
+owns_all_tartumaa_states_trigger = {
+		
+		owns_state = 285
+		owns_state = 257
+		owns_state = 273
+		owns_state = 269
+		owns_state = 276
+		owns_state = 268
+		owns_state = 263
+		owns_state = 348
+		owns_state = 250
+		owns_state = 252
+		owns_state = 251
+		owns_state = 244
+		owns_state = 215
+		owns_state = 255
+		owns_state = 223
+		owns_state = 209
+		owns_state = 224
+		owns_state = 243
+		owns_state = 228
+		owns_state = 249
+	}
+	
+owns_all_viljandimaa_states_trigger = {
+		
+		owns_state = 293
+		owns_state = 288
+		owns_state = 278
+		owns_state = 254
+		owns_state = 265
+		owns_state = 274
+		owns_state = 246
+		owns_state = 264
+		owns_state = 247
+		owns_state = 240
+		owns_state = 251
+		owns_state = 221
+		owns_state = 218
+		owns_state = 211
+	}

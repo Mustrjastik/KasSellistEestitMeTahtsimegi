@@ -319,71 +319,80 @@ country_exists = YEM
 
 #PÕLVAMAA	
 
-	form_polvamaa_NZL = {
+	form_polvamaa = {
 
 		icon = generic_form_nation
 
 		allowed = {
+		or = {
 				original_tag = NZL
+				original_tag = SOM
+				original_tag = CYP
+				original_tag = YUN
+				original_tag = AST
+				original_tag = URG
 			
+		}
 		}
 
 		available = {
 			is_subject = no
-			NOT = {
-country_exists = URG
-country_exists = AST
-country_exists = CYP
-country_exists = YUN
-				}
-				
-
+			owns_all_polvamaa_states_trigger = yes
 			}
 		
+fire_only_once = yes 
 
 		visible = {
+		or = {
 				original_tag = NZL
-		}
+				original_tag = SOM
+				original_tag = CYP
+				original_tag = YUN
+				original_tag = AST
+				original_tag = URG
+				}
+				}
 
 		complete_effect = {
-			set_cosmetic_tag = NZL_regional
 				add_research_slot = 1
-		}
-
-		ai_will_do = {
-			factor = 200
-		}
-	}
-form_polvamaa_URG = {
-
-		icon = generic_form_nation
-	cost = 100
-
-		allowed = {
-				original_tag = URG
-			
-		}
-
-		available = {
-			is_subject = no
-			NOT = {
-country_exists = CYP
-country_exists = NZL
-country_exists = AST
-country_exists = YUN
+				if = {
+					limit = {
+					original_tag = NZL
+					}
+				set_cosmetic_tag = NZL_regional
+				}
+				if = {
+					limit = {
+					original_tag = SOM
+					}
+				set_cosmetic_tag = SOM_regional
+				}
+				if = {
+					limit = {
+					original_tag = CYP
+					}
+				set_cosmetic_tag = CYP_regional
+				}
+				if = {
+					limit = {
+					original_tag = YUN
+					}
+				set_cosmetic_tag = YUN_regional
+				}
+				if = {
+					limit = {
+					original_tag = AST
+					}
+				set_cosmetic_tag = AST_regional
 				}
 				
-
-			}
-		
-
-		visible = {
-				original_tag = URG
-		}
-
-		complete_effect = {
-			set_cosmetic_tag = URG_regional
-				add_research_slot = 1
+				if = {
+					limit = {
+					original_tag = URG
+					}
+				set_cosmetic_tag = URG_regional
+				}
+				
 		}
 
 		ai_will_do = {
@@ -1773,37 +1782,23 @@ form_estonia = {
 
 		available = {
 			is_subject = no
-			controls_state = 94
-			controls_state = 99
-			controls_state = 180
-			controls_state = 348
-			controls_state = 295
-			controls_state = 324
-			controls_state = 333
-			controls_state = 264
-			controls_state = 154
-			controls_state = 346
-			controls_state = 347
-			controls_state = 95
-			controls_state = 178
-			controls_state = 261
-			controls_state = 170
-			controls_state = 280
+			owns_all_polvamaa_states_trigger = yes
+			owns_all_vorumaa_states_trigger = yes
+			owns_all_valgamaa_states_trigger = yes
+			owns_all_viljandimaa_states_trigger = yes
+			owns_all_tartumaa_states_trigger = yes
 }				
 	
 			
 		
 
 		visible = {
-
 				NOT = {
 				original_tag = RAJ
 				original_tag = FIN
 				original_tag = SOV
 				original_tag = LAT
-				}
-				
-						
+				}					
 		}
 
 		complete_effect = {
@@ -1826,9 +1821,10 @@ form_estonia = {
 		limit = {
 		original_tag = GER
 		}
-				}
 				add_research_slot = 1
 			set_cosmetic_tag = GER_national
+				}
+
 		}
 		
 

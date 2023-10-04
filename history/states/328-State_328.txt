@@ -7,7 +7,17 @@ state={
 			history = {
 	owner = TIB
 	add_core_of = TIB
+	victory_points = {
+	287 5
 	}
-	manpower=0
+	victory_points = {
+	3866 5
+	}
+	buildings = {
+	infrastructure = 1
+	arms_factory = 1
+	}
+	}
+	manpower=1007
 	buildings_max_level_factor=1.000 		state_category=rural
 }

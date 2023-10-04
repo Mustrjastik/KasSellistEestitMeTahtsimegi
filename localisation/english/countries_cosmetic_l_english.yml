@@ -2,10 +2,10 @@
  #Regional
  NZL_regional:0 "Serene Kingdom Of Ugandi"
  NZL_regional_DEF:0 "Serene Kingdom Of Ugandi"
- NZL_regional_ADJ:0 "Ugandi"
+ NZL_regional_ADJ:0 "Ugandian"
  URG_regional:0 "Põlva Security Zone"
  URG_regional_DEF:0 "Põlva Security Zone"
- URG_regional_ADJ:0 "Põlvamaa"
+ URG_regional_ADJ:0 "Põlvamaan"
  ENG_regional:0 "Dorpat Drift-Reich"
  ENG_regional_DEF:0 "Dorpat Drift-Reich"
  ENG_regional_ADJ:0 "Tartu"
@@ -30,6 +30,21 @@
  GER_regional:0 "Feuerkommission Ösel"
  GER_regional_DEF:0 "Feuerkommission Ösel"
  GER_regional_ADJ:0 "Feuerkrieg"
+ YUN_regional:0 "Alcohol Tax-Free Põlvamaa"
+ YUN_regional_DEF:0 "The Alcohol Tax-Free Republic of Põlvamaa"
+ YUN_regional_ADJ:0 "Põlvamaan"
+ SOM_regional:0 "Piusa Caverns Incident Zone"
+ SOM_regional_DEF:0 "Piusa Caverns Incident Zone"
+ SOM_regional_ADJ:0 "Xen"
+ AST_regional:0 "Democratic Põlvamaa"
+ AST_regional_DEF:0 "Free Democratic Republic of Põlvamaa"
+ AST_regional_ADJ:0 "Põlvamaa"
+ CYP_regional:0 "Bandit Republic of Passatimaa"
+ CYP_regional_DEF:0 "Bandit Republic of Passatimaa"
+ CYP_regional_ADJ:0 "Passatian"
+ CYP_regional_communism:0 "Democratic Republic of Kamazistan"
+ CYP_regional_communism_DEF:0 "Democratic Republic of Kamazistan"
+ CYP_regional_communism_ADJ:0 "Kamazistani"
  
  #National
  NZL_national:0 "Tsardom of Estonia"
@@ -41,6 +56,10 @@
  GER_national:0 "Estnische Feuerreich"
  GER_national_DEF:0 "Estnische Feuerreich"
  GER_national_ADJ:0 "Estnische"
-
+   
+ #bLACK MESA
+ SOM_black_mesa:0 "Xen Invaders"
+ SOM_black_mesa_DEF:0 "Xen Invaders"
+ SOM_black_mesa_ADJ:0 "Xen"
 
 

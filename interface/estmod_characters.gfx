@@ -4,6 +4,11 @@ spriteTypes = {
 		name = GFX_august_von_sticker_portrait
 		texturefile = gfx/leaders/HON/August_Von_Sterblichkeits.dds
 	}
+	
+	spriteType = {
+		name = GFX_SOM_nihilanth_portrait
+		texturefile = gfx/leaders/SOM/nihilanth.dds
+	}
 		
 	spriteType = {
 		name = GFX_THI_portrait

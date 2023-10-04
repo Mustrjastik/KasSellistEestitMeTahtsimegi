@@ -5,8 +5,8 @@ state={
 		3659 7382 7687 
 	}
 		history = {
-	owner = SHX
-	add_core_of = SHX 
+	owner = 
+	add_core_of =  
 	buildings = {
 	air_base = 3
 	}
