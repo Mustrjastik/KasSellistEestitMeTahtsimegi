@@ -9,6 +9,6 @@ state={
 	owner = LIB
 	add_core_of = LIB
 	}
-	manpower=0
+	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=tiny_island
 }

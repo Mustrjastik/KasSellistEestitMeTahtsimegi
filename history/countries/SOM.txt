@@ -1,0 +1,36 @@
+capital = 319
+
+oob = "SAF_2020"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+add_ideas = SOM_no_recruitment
+
+set_convoys = 20
+recruit_character = SOM_nihilanth
+
+set_politics = {
+	ruling_party = militarism
+    elections_allowed = no
+    last_election = "2021.12.17"
+    election_frequency = 48
+    long_name = "Xen"
+    name = "Xen"
+}
+set_popularities = {
+	militarism = 100
+}
+

@@ -31,7 +31,7 @@ set_politics = {
 }
 set_popularities = {
 	banditism = 76
-	oligarchic = 24
+	KESK	 = 24
 }
 
 create_country_leader = {

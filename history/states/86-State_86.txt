@@ -4,7 +4,7 @@ state={
 	provinces={
 		288 513 3082 7441 7760 9146 
 	}
-	manpower=0
+	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural
 history = {
 owner = LIT

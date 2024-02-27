@@ -4,10 +4,12 @@ state={
 	provinces={
 		8818 
 	}
-history = {
-owner =  
-add_core_of =  
-}
-	manpower=0
-	buildings_max_level_factor=1.000 		state_category=tiny_island
+		history = {
+	owner = TGR
+	add_core_of =  TGR
+}	
+	manpower = 1000
+	buildings_max_level_factor=1.000 
+	state_category=tiny_island
+
 }

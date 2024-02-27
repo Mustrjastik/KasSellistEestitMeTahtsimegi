@@ -1,0 +1,15 @@
+	TETWW_just_like_hoi4 = {
+		possible = {
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		OR = {
+		tag = GER
+		tag = HON
+		}
+		happened = {
+		has_equipment = {
+    super_heavy_tank_chassis_1 > 15000
+}
+		}
+		}
+	}

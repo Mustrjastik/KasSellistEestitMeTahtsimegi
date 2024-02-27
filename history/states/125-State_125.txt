@@ -8,6 +8,6 @@ history = {
 owner = TUR
 add_core_of = TUR
 }
-	manpower=0
+	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural
 }

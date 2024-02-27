@@ -36,8 +36,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""El Tõll""
-	desc = "POLITICS__DESC"
+	name = "El Tõll"
+	desc = "POLITICS_DESC"
 	picture = ".dds"
 	expire = "1965.1.1"
 	ideology = alcoholism_subideology

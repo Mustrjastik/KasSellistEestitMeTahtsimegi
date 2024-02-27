@@ -20,19 +20,7 @@ country_event = { #piusa caves incident
 	province = 3932
 	value = 10
 }
-add_ideas = SOM_no_recruitment
-recruit_character = SOM_nihilanth
-set_politics = {
-	ruling_party = militarism
-    elections_allowed = no
-    last_election = "2021.12.17"
-    election_frequency = 48
-    long_name = "Xen"
-    name = "Xen"
-}
-set_popularities = {
-	militarism = 100
-}
+
             declare_war_on = {
                 target = YUN
                 type = annex_everything

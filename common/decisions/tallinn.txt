@@ -55,6 +55,37 @@ start_border_war = {
 		}
 	}
 	
+	EST_set_up_base_on_islands = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		original_tag = EST
+
+		}
+
+		available = {
+
+			}
+		
+
+		visible = {
+			controls_state = 82
+			controls_state = 83
+			controls_state = 80
+			has_war = no
+		}	
+		
+		days_remove = 45
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
 
 	
 	}

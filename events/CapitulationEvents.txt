@@ -20,16 +20,16 @@ news_event = {
 						FROM.FROM = { has_government = fascism }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = EESTI200 }
+						FROM.FROM = { has_government = EESTI200 }
 					}
 					AND = {
 						ROOT = { has_government = communism }
 						FROM.FROM = { has_government = communism }
 					}
 					AND = {
-						ROOT = { has_government = neutrality }
-						FROM.FROM = { has_government = neutrality }
+						ROOT = { has_government = EKRE }
+						FROM.FROM = { has_government = EKRE }
 					}
 				}
 			}
@@ -131,16 +131,16 @@ news_event = {
 						FROM.FROM = { has_government = fascism }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = EESTI200 }
+						FROM.FROM = { has_government = EESTI200 }
 					}
 					AND = {
 						ROOT = { has_government = communism }
 						FROM.FROM = { has_government = communism }
 					}
 					AND = {
-						ROOT = { has_government = neutrality }
-						FROM.FROM = { has_government = neutrality }
+						ROOT = { has_government = EKRE }
+						FROM.FROM = { has_government = EKRE }
 					}
 				}
 			}

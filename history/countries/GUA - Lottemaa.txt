@@ -27,7 +27,7 @@ set_politics = {
 }
 set_popularities = {
 	theocratic = 90
-	oligarchic = 10
+	KESK = 10
 }
 
 create_country_leader = {

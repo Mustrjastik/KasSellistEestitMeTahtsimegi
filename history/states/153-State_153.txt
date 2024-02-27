@@ -8,6 +8,6 @@ state={
 	owner = ECU
 	add_core_of = ECU
 	}
-	manpower=0
+	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural
 }

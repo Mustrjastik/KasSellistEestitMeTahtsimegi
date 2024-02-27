@@ -40,11 +40,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -85,11 +85,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -130,11 +130,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -180,11 +180,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -229,11 +229,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -278,11 +278,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -333,11 +333,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -383,11 +383,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -432,11 +432,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -489,11 +489,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -543,11 +543,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 3
 			}
 		}
@@ -588,11 +588,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -638,11 +638,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 3
 			}
 		}
@@ -679,11 +679,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -718,11 +718,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -782,11 +782,11 @@ technologies = {
 				factor = 4
 			}
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -828,11 +828,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 
@@ -883,11 +883,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -937,11 +937,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -990,11 +990,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -1038,11 +1038,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -1100,11 +1100,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
@@ -1150,11 +1150,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1199,11 +1199,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1244,11 +1244,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1289,11 +1289,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1418,11 +1418,11 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 5
 			}
 		}
@@ -1458,11 +1458,11 @@ technologies = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1504,11 +1504,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1550,11 +1550,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1600,11 +1600,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1652,11 +1652,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1698,11 +1698,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1746,11 +1746,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1794,11 +1794,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1840,11 +1840,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
@@ -1887,11 +1887,11 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				ai_land_doctrine_tier_1_trigger = yes
+				always  = yes
 				factor = 2
 			}
 			modifier = {
-				ai_land_doctrine_tier_2_trigger = yes
+				always  = yes
 				factor = 2
 			}
 		}
