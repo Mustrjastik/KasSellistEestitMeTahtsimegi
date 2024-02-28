@@ -229,22 +229,6 @@ is_controlled_by_ROOT_or_ally = {
 	}
 }
 
-is_csa_state = {
-	OR = {
-		state = 366
-		state = 365
-		state = 367
-		state = 370
-		state = 362
-		state = 363
-		state = 364
-		state = 371
-		state = 375
-		state = 368
-		state = 372
-	}
-}
-
 has_naval_treaty_trigger = {
 	OR = {
 		has_idea = MTG_naval_treaty_adherent
@@ -698,128 +682,6 @@ is_league_of_nations_member = {
 	}
 }
 
-state_is_in_the_mediterranean_sea = {
-	custom_trigger_tooltip = {
-		tooltip = state_is_in_the_mediterranean_sea_tt
-		OR = {
-			state = 118 #GIBRALTAR
-			state = 173
-			state = 168
-			state = 167
-			state = 165
-			state = 177
-			state = 31
-			state = 22
-			state = 21
-			state = 851
-			state = 911
-			state = 735
-			state = 771
-			state = 162
-			state = 2
-			state = 117
-			state = 156
-			state = 115
-			state = 1
-			state = 114
-			state = 116
-			state = 849
-			state = 157
-			state = 158
-			state = 161
-			state = 160
-			state = 736
-			state = 852
-			state = 103
-			state = 163
-			state = 105
-			state = 44
-			state = 805
-			state = 185
-			state = 186
-			state = 47
-			state = 731
-			state = 184
-			state = 187
-			state = 182
-			state = 164
-			state = 341
-			state = 797
-			state = 340
-			state = 339
-			state = 342
-			state = 345
-			state = 344
-			state = 799
-			state = 677
-			state = 553
-			state = 183
-			state = 454
-			state = 453
-			state = 446
-			state = 907
-			state = 447
-			state = 452
-			state = 451
-			state = 450
-			state = 449
-			state = 448
-			state = 665
-			state = 458
-			state = 460
-			state = 459
-			state = 461
-			state = 290
-			state = 934
-		}
-	}
-}
-
-state_is_in_the_baltic_sea = { # Checks if the state borders the Baltic Sea  
-	OR = {	
-		state = 37 # Sjaelland
-		state = 911 # Fyn
-		state = 912 # Sonderjylland
-		state = 909
-		state = 58
-		state = 61
-		state = 62
-		state = 63
-		state = 807
-		state = 85
-		state = 5
-		state = 763
-		state = 188
-		state = 189
-		state = 190
-		state = 809
-		state = 808
-		state = 12
-		state = 13
-		state = 811 
-		state = 812
-		state = 813
-		state = 208
-		state = 195
-		state = 146
-		state = 928
-		state = 111
-		state = 926
-		state = 145
-		state = 149
-		state = 929 
-		state = 148 # Lappi
-		state = 666 # Norrbotten
-		state = 918 # Vasterbotten
-		state = 38 # Gavleborg
-		state = 141 # Sodermaland
-		state = 913 # Ostergotland
-		state = 139 # Smaland
-		state = 138 # Skane
-		state = 124 # Gotland
-	}
-}
-
 is_major_not_original_tag_root = {
 	is_major = yes
 	hidden_trigger = {
@@ -1084,41 +946,6 @@ has_any_tanks = {
 			has_equipment = { heavy_tank_equipment_3 > 0	}
 			has_equipment = { super_heavy_tank_equipment_1 > 0	}
 		}
-	}
-}
-
-is_danish_belt_state = { # Checks if state should be considered to be around the Danish Belt  
-	OR = {
-		state = 922 # Agder
-		state = 921 # Telemark
-		state = 110 # Oslofjord
-		state = 915 # Bohuslan
-		state = 140 # Vastergotland 
-		state = 138 # Skane 
-		state = 99 # Norrejylland
-		state = 911 # Fyn
-		state = 912 # Sonderjylland 
-		state = 37 # Sjaelland 
-		state = 909 # Schleswig 
-		state = 58 # Holstein 
-		state = 61 # Mecklenburg
-		state = 62 # Vorpommern   
-	}
-} 
-
-is_scandinavian_northern_sea_state = {
-	OR = {
-		state = 909 # Schleswig 
-		state = 58 # Holstein 
-		state = 912 # Sonderjylland		
-		state = 99 # Norrejylland
-		state = 922 # Agder
-		state = 142 # Vestlandet 
-		state = 143 # Trondelag
-		state = 923 # Helgeland
-		state = 144 # Nordland 
-		state = 924 # Troms 
-		state = 925 # Finnmark
 	}
 }
 
