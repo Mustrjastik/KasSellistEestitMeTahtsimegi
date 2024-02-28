@@ -11,10 +11,6 @@ characters = {
 			expire="2065.1.1.1"
 		}
 		
-	traits = {
-	headstrong
-	}
-		
 	}
 }
 	

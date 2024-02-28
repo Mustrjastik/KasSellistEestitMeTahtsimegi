@@ -10,17 +10,10 @@ FRA_instigate_workers_revolution_britain = { ### 1/25
 		original_tag = FRA
 	}
 	available = { 
-		ENG = {
-			NOT = {
-				has_war_with = ROOT
-			}
-		}
+		always = no
 	}
-	visible = {
-		#has_completed_focus = FRA_carry_the_revolution_north
-		FROM = {
-			tag = ENG
-		}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -166,19 +159,10 @@ FRA_instigate_workers_revolution_italy = { ### 1/25
 		original_tag = FRA
 	}
 	available = { 
-		#has_completed_focus = FRA_carry_the_revolution_south
-		ITA = {
-			NOT = {
-				has_war_with = ROOT
-			}
-		}
+		always = no
 	}
-	visible = {
-		#has_completed_focus = FRA_carry_the_revolution_south
-		FROM = {
-			tag = ITA
-			NOT = { has_government = communism }
-		}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -292,20 +276,10 @@ FRA_instigate_workers_revolution_spain = { ### 1/25
 		original_tag = FRA
 	}
 	available = { 
-		#has_completed_focus = FRA_carry_the_revolution_west
-		SPR = {
-			NOT = {
-				has_war_with = ROOT
-				has_government = communism
-			}
-		}
+		always = no
 	}
-	visible = {
-		#has_completed_focus = FRA_carry_the_revolution_west
-		FROM = {
-			tag = SPR
-			NOT = { has_government = communism }
-		}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -417,19 +391,10 @@ FRA_instigate_workers_revolution_germany = { ### 1/25
 		original_tag = FRA
 	}
 	available = { 
-		#has_completed_focus = FRA_carry_the_revolution_east
-		GER = {
-			NOT = {
-				has_war_with = ROOT
-			}
-		}
+		always = no
 	}
-	visible = {
-		#has_completed_focus = FRA_carry_the_revolution_east
-		FROM = {
-			tag = GER
-			NOT = { has_government = communism }
-		}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -540,20 +505,11 @@ FRA_coup_in_north_africa = { ### 1/50
 	allowed = {
 		original_tag = FRA
 	}
-	visible = {
-		has_country_flag = FRA_coup_in_north_africa_flag
-		FROM = {
-			controls_state = 461
-			controls_state = 462
-			controls_state = 459
-			controls_state = 513
-			controls_state = 460
-			controls_state = 458
-			controls_state = 665
-		}
-	}
 	available = { 
-		
+		always = no
+	}
+	visible = { 
+		always = no
 	}
 
 	selection_target = {
@@ -684,14 +640,11 @@ FRA_coup_in_syria = { ### 1/50
 	cost_modifiers = { operation_cost }
 	risk_modifiers = { operation_risk }
 
-	visible = {
-		has_country_flag = FRA_coup_in_syria_flag
-		FROM = {
-			controls_state = 677
-			controls_state = 680
-			controls_state = 554
-			controls_state = 553
-		}
+	available = { 
+		always = no
+	}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -791,17 +744,11 @@ FRA_coup_in_indochina = { ### 1/50
 			state = 741
 		}
 	}
-	visible = { 
-		has_country_flag = FRA_coup_in_indochina_flag
-		FROM = {
-			controls_state = 671
-			controls_state = 670
-			controls_state = 286
-			controls_state = 741
-		}
+	available = { 
+		always = no
 	}
-	available = {
-
+	visible = { 
+		always = no
 	}
 
 	outcome_modifiers = { operation_outcome }
@@ -906,18 +853,11 @@ FRA_coup_in_central_africa = { ### 1/50
 			state = 774
 		}
 	}
-	visible = { 
-		has_country_flag = FRA_coup_in_central_africa_flag
-		FROM = {
-			controls_state = 772
-			controls_state = 539
-			controls_state = 773
-			controls_state = 660
-			controls_state = 774
-		}
+	available = { 
+		always = no
 	}
-	available = {
-
+	visible = { 
+		always = no
 	}
 	operatives = 1
 
@@ -1029,21 +969,10 @@ FRA_coup_in_west_africa = { ### 1/50
 		}
 	}
 	available = { 
+		always = no
 	}
 	visible = { 
-		has_country_flag = FRA_coup_in_west_africa_flag
-		FROM = {
-			controls_state = 557
-			controls_state = 272
-			controls_state = 556
-			controls_state = 898
-			controls_state = 899
-			controls_state = 780
-			controls_state = 779
-			controls_state = 778
-			controls_state = 781
-			controls_state = 776
-		}
+		always = no
 	}
 	operatives = 1
 
@@ -1155,10 +1084,10 @@ FRA_coup_in_madagascar = { ### 1/50
 	}
 
 	available = { 
+		always = no
 	}
 	visible = { 
-		has_country_flag = FRA_coup_in_madagascar_flag
-		FROM = { controls_state = 543 }
+		always = no
 	}
 	operatives = 1
 

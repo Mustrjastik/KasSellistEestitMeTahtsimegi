@@ -38,7 +38,7 @@ satanism = 5
 }
 
 create_country_leader = {
-	name = ""Commander""
+	name = "'Commander'"
 	desc = "POLITICS_Commander_DESC"
 	picture = ".dds"
 	expire = "1965.1.1"

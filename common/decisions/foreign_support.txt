@@ -6,9 +6,9 @@ foreign_support_category = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -24,22 +24,22 @@ country_exists = LAT
 		}
 
 		complete_effect = {
-				add_research_slot = 1
 		}
 
 		ai_will_do = {
 			factor = 200
 		}
 	}
+	
 	foreignaid_increase_DE_support = {
 
 		icon = generic_form_nation
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -107,9 +107,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -148,9 +148,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -189,9 +189,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -229,9 +229,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -268,9 +268,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 		
@@ -304,9 +304,9 @@ random_list = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -339,9 +339,9 @@ country_exists = LAT
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -375,9 +375,9 @@ country_exists = LAT
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -427,9 +427,9 @@ add_equipment_to_stockpile = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -469,9 +469,9 @@ add_equipment_to_stockpile = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -511,9 +511,9 @@ add_equipment_to_stockpile = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -552,9 +552,9 @@ days_remove = 45
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -592,9 +592,9 @@ days_remove = 180
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -631,9 +631,9 @@ days_remove = 180
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -677,9 +677,9 @@ days_remove = 360
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -723,9 +723,9 @@ days_remove = 360
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -764,9 +764,9 @@ days_remove = 45
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -812,9 +812,9 @@ days_remove = 210
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -855,9 +855,9 @@ add_equipment_to_stockpile = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 

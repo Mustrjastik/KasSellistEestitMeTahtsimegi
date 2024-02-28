@@ -3,7 +3,6 @@
 	country = {
 		factor = 1
 	}
-	continuous_focus_position = { x = 2200, y = 450}
 
 	default = no
 	focus = {

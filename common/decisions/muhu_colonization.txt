@@ -6,9 +6,9 @@ muhu_colonization_category = {
 
 		allowed = {
 			NOT = {
-country_exists = RUS
-country_exists = FIN
-country_exists = LAT
+original_tag = RUS
+original_tag = FIN
+original_tag = LAT
 				}					
 		}
 
@@ -64,7 +64,7 @@ country_exists = LAT
 		
 
 		visible = {
-			country_exists = XSM
+			original_tag = XSM
 			XSM = { is_subject = no }
 		OR = {
 		controls_state = 241

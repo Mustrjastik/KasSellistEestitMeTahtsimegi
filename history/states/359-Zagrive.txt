@@ -10,8 +10,9 @@ add_core_of = SOV
 buildings = {
 infrastructure = 1
 }
-}
         victory_points = { 9649 5 }
+
+}
 	manpower=1021
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

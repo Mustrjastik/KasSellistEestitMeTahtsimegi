@@ -10,9 +10,7 @@ characters = {
 			ideology = ISAMAA_subideology
 			expire="2065.1.1.1"
 		}
-		traits = {
-		tenacious_negotiator
-		}
+
 	}
 }
 	

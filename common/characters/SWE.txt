@@ -10,10 +10,6 @@ characters = {
 			ideology = militarism_subideology
 			expire="2065.1.1.1"
 		}
-		
-	traits = {
-	meatgrinder
-	}
 	}
 
 	

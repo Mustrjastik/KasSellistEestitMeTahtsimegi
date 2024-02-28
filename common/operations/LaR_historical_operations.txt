@@ -9,50 +9,11 @@ heavy_water_raid = { ### 1/50
 		NOT = { original_tag = GER }
 	}
 	available = { 
-		has_global_flag = GER_heavy_water_production_underway
-		has_war_with = GER
-		110 = { resistance > 50 }
-		OR = {
-			network_strength = {
-				target = GER
-				state = 110
-				value > 50
-			}
-			network_strength = {
-				target = NOR
-				state = 110
-				value > 50
-			}
-		}
+		always = no
 	}
-	visible = {
-		has_global_flag = GER_heavy_water_production_underway
-		FROM = {
-			OR = {
-				original_tag = GER
-				AND = {
-					original_tag = NOR 
-					is_subject_of = GER
-				}
-			}
-		}
-		OR = {
-			AND = {
-				GER = { controls_state = 110 }
-				network_national_coverage = {
-					target = GER
-					value > 0
-				}
-			}
-			AND = {
-				NOR = { controls_state = 110 }
-				network_national_coverage = {
-					target = NOR
-					value > 0
-				}
-			}
-		}
-	}	
+	visible = { 
+		always = no
+	}
 
 	operatives = 1
 
@@ -107,26 +68,10 @@ bruneval_raid = { ### 1/50
 		NOT = { original_tag = GER }
 	}
 	available = { 
-		enemy_has_equal_or_better_radar_tech_trigger = yes
+		always = no
 	}
-
-	visible = {
-		FROM = {
-			original_tag = GER
-		}
-		has_war_with = GER
-		GER = {
-			has_tech = radio_detection
-		}
-		FRA = {
-			has_war_with = GER
-			has_capitulated = yes
-		}
-		not = { has_global_flag = bruneval_raid_success }
-		network_national_coverage = {
-			target = GER
-			value > 0
-		}
+	visible = { 
+		always = no
 	}
 	operatives = 1
 	experience = 5
@@ -181,25 +126,10 @@ capture_tito = { ### 1/50
 		original_tag = GER
 	}
 	available = { 
-		any_controlled_state = {
-			is_core_of = YUG
-			resistance > 50
-		}
+		always = no
 	}
-
 	visible = { 
-		FROM = {
-			tag = YUG
-		}
-		any_controlled_state = {
-			is_core_of = YUG
-			resistance > 10
-		}
-		network_national_coverage = {
-			target = YUG
-			value > 0
-		}
-		NOT = { has_global_flag = Tito_killed }
+		always = no
 	}
 
 	operatives = 1
@@ -256,28 +186,10 @@ rescue_mussolini = { ### 1/35
 		original_tag = GER
 	}
 	available = { 
-		has_government = fascism
-		has_war_with = ITA
-		ITA = {
-			not = {
-				has_government = fascism
-			}
-		}
+		always = no
 	}
-	visible = {
-		# TODO is this really enough of a check?
-		has_government = fascism
-		FROM = {
-			original_tag = ITA
-			not = {
-				has_government = fascism
-			}
-		}
-		not = { has_global_flag = mussolini_rescued_flag }
-		network_national_coverage = {
-			target = ITA
-			value > 0
-		}
+	visible = { 
+		always = no
 	}
 
 	operatives = 1

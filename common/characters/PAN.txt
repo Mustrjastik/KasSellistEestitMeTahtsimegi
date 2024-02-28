@@ -10,9 +10,6 @@ characters = {
 			ideology = EESTI200_subideology
 			expire="2065.1.1.1"
 		}
-		traits = {
-		eestonian
-		}
 	}
 }
 	

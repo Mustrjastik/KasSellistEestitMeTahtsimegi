@@ -83,18 +83,6 @@ bookmarks = {
 			}
 		}
 
-		"SSB"={
-			history = "SSB_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-
-
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

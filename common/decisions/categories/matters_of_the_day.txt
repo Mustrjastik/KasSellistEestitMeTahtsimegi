@@ -4,3 +4,10 @@ matters_of_the_day_category = {
 	picture = 
 	
 }
+
+lar_local_recruitment = {
+	icon = generic_formable_nations
+
+	picture = 
+	
+}

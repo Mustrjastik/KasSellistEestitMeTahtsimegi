@@ -26,7 +26,7 @@ country_event = { #Island Battle - EST loss
 	
     option = {
         name = tallinn.2.a
-		set_variable = { EST_tallinn_border_conflict = 1 }´
+		set_variable = { EST_tallinn_border_conflict = 1 }
 		add_political_power = -100
     }
 }

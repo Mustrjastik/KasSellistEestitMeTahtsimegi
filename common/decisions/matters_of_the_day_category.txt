@@ -35,10 +35,7 @@ diplomatic_relation = {
 			base = 10
     modifier = { #reluctance to break with the player
         add = -10
-any_country = {
-limit = { has_non_aggression_pact_with = ROOT }
-is_ai = no
-}	
+has_non_aggression_pact_with = ROOT 
     }
 	
     modifier = { #reluctance to break during a war
@@ -49,24 +46,6 @@ has_war = yes
     modifier = { #likely to break if expansionist
         add = 15
 check_variable = { diplomatic_ethos = 5 }
-    }
-	
-    modifier = { #prorussia will break with prowest
-        add = 25
-check_variable = { diplomatic_ethos = 4 }
-any_country = {
-limit = { has_non_aggression_pact_with = ROOT }
-check_variable = { diplomatic_ethos = 3 }
-}	
-    }
-	
-    modifier = { #prowest will break with prorussia
-        add = 25
-check_variable = { diplomatic_ethos = 3 }
-any_country = {
-limit = { has_non_aggression_pact_with = ROOT }
-check_variable = { diplomatic_ethos = 4 }
-}	
     }
 	
     modifier = { #neutral and isolationist will refrain from breaking

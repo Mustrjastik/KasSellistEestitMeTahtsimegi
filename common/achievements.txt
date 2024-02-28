@@ -6,10 +6,11 @@
 		tag = GER
 		tag = HON
 		}
+		}
 		happened = {
 		has_equipment = {
     super_heavy_tank_chassis_1 > 15000
 }
 		}
-		}
 	}
+	

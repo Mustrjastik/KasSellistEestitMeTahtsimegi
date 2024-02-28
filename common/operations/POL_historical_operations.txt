@@ -10,31 +10,11 @@ operation_warsaw_uprising = { ### 8 2/40
 	days = 75
 	network_strength = 50
 	operatives = 2
-
-	visible = {
-		network_national_coverage = {
-			target = FROM
-			value > 0
-		}
-		
-		OR = {
-			#has_completed_focus = POL_niech_zyje_opor
-			#has_completed_focus = POL_niech_zyje_opor_no_mtg #No MTG version (required duplicate focus)
-		}
-
-		has_operation_token = {
-			tag = FROM
-			token = token_resistance_contacts
-		}
-		
-		FROM = {
-			core_resistance = {
-				occupied_country_tag = POL
-				value > 50
-			}
-		}
-		
-		NOT = { has_global_flag = warsaw_liberated_self_flag }
+	available = { 
+		always = no
+	}
+	visible = { 
+		always = no
 	}
 
 	selection_target = {
