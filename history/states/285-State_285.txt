@@ -7,7 +7,10 @@ state={
 	history = {
 	owner = DOM
 	add_core_of = DOM
+		victory_points = {
+			8985 2
+		} 	
 	}
-	manpower = 1000
+	manpower = 2683
 	buildings_max_level_factor=1.000 		state_category=rural
 }

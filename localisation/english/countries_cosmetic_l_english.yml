@@ -1,8 +1,8 @@
 ﻿l_english:
  #Regional
- NZL_regional:0 "Serene Kingdom Of Ugandi"
- NZL_regional_DEF:0 "Serene Kingdom Of Ugandi"
- NZL_regional_ADJ:0 "Ugandian"
+ NZL_regional:0 "County of New Davos"
+ NZL_regional_DEF:0 "County of New Davos"
+ NZL_regional_ADJ:0 "New Davosian"
  URG_regional:0 "Põlva Security Zone"
  URG_regional_DEF:0 "Põlva Security Zone"
  URG_regional_ADJ:0 "Põlvamaan"
@@ -47,9 +47,9 @@
  CYP_regional_communism_ADJ:0 "Kamazistani"
  
  #National
- NZL_national:0 "Tsardom of Estonia"
- NZL_national_DEF:0 "Tsardom of Estonia"
- NZL_national_ADJ:0 "Tsardom of Estonia"
+ NZL_national:0 "New Estonian Order"
+ NZL_national_DEF:0 "New Estonian Order"
+ NZL_national_ADJ:0 "Davos-Estonian"
  URG_national:0 "The Deep State"
  URG_national_DEF:0 "The Deep State"
  URG_national_ADJ:0 "Deep State"

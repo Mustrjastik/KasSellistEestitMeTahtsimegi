@@ -48,6 +48,16 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_commander_portrait
 		texturefile = gfx/leaders/GER/comander.dds
+	}	
+	
+	spriteType = {
+		name = NZL_Klaus_Schwab_Portrait
+		texturefile = gfx/leaders/NZL/Klaus_Schwab.dds
+	}
+	
+	spriteType = {
+		name = GFX_vladimir_putin_portrait
+		texturefile = gfx/leaders/SOV/vladimir_putin.dds
 	}
 	
 }

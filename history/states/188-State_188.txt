@@ -7,6 +7,14 @@ state={
 history = {
 owner = LBA
 add_core_of = LBA
+buildings = {
+			10456 = {
+				naval_base = 1
+			}
+			8535 = {
+				naval_base = 1
+			}
+}
 }
 	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural

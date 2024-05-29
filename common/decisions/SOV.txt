@@ -1,1 +1,42 @@
-#
+SOV_triggers_category = {
+
+	SOV_russoukraine_war_newsevent = {
+
+		icon = generic_form_nation
+
+		allowed = {
+		original_tag = SOV
+
+		}
+
+		available = {
+			always = no
+			}
+		
+
+		visible = {
+
+		}	
+		
+		days_remove = 90
+
+		remove_effect = {
+		news_event = {
+    id = estmodnews.1
+    days = 10
+    random_hours = 12
+    random_days = 10
+}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+
+	
+
+	
+	}
+	

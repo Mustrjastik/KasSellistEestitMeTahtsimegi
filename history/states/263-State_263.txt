@@ -10,7 +10,13 @@ state={
 	buildings = {
 		air_base = 4
 	}
+		victory_points = {
+			11734 3
+		}
+		victory_points = {
+			1364 3
+		}
 	}
-	manpower = 1000
+	manpower = 7380
 	buildings_max_level_factor=1.000 		state_category=rural
 }

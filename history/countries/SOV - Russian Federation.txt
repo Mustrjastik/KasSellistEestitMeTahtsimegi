@@ -38,13 +38,4 @@ set_popularities = {
 		SOV_paper_tiger_army
 	}
 
-create_country_leader = {
-	name = "Vladimir Putin"
-	desc = "POLITICS_PUTIN_DESC"
-	picture = "vladimir_putin.dds"
-	expire = "1965.1.1"
-	ideology = authoritarianism_subideology
-	traits = {
-		
-	}
-}
+recruit_character = SOV_vladimir_putin

@@ -7,6 +7,17 @@ state={
 			history = {
 	owner = AFG
 	add_core_of = AFG
+	buildings = {
+			3078 = {
+				naval_base = 1
+			}
+			7744 = {
+				naval_base = 1
+			}
+			7498 = {
+				naval_base = 1
+			}
+	}
 	}
 	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural

@@ -1,0 +1,6 @@
+SOV_triggers_category = {
+	icon = generic_formable_nations
+
+	picture = 
+	
+}

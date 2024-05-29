@@ -17,17 +17,21 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-add_ideas = {
-nato_airstrikes_ECU
-}
+create_faction = "Ida-Virumaa People's Republic"
+add_to_faction = SWE
+add_to_faction = PRC
 
-declare_war_on = {
-    target = ECU
-    type = annex_everything
+add_ideas = {
+#nato_airstrikes_ECU
 }
 
 declare_war_on = {
     target = AFG
+    type = annex_everything
+}
+
+declare_war_on = {
+    target = TAN
     type = annex_everything
 }
 

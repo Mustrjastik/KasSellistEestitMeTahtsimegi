@@ -9,6 +9,11 @@
 on_actions = {
 	on_startup = {
 	effect = {
+
+	SOV = {
+		activate_decision = SOV_russoukraine_war_newsevent
+	}
+
 	every_country = {
 	add_manpower = 1000
 	}
@@ -415,7 +420,7 @@ on_actions = {
 	}
 	
 	NZL = {
-		set_variable = { diplomatic_ethos = 1 }
+		set_variable = { diplomatic_ethos = 3 }
 	}
 	
 	ENG = {

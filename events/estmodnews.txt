@@ -1,0 +1,38 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = estmodnews
+
+# Russia Withdraws From Ukraine Border
+news_event = {
+	id = estmodnews.1
+	title = estmodnews.1.t
+	desc = estmodnews.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = estmodnews.1.a
+	}
+}
+
+
+# Russian Years of Lead
+news_event = {
+	id = estmodnews.2
+	title = estmodnews.2.t
+	desc = estmodnews.2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = estmodnews.2.a
+	}
+}

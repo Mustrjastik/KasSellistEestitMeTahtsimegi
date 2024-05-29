@@ -1,0 +1,86 @@
+division_template = {
+	name = "Wagner Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Wagner Motorized"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Black Russians"
+		location = 4077
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Composers"
+		location = 4077
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Musicians"
+		location = 4077
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Soldiers Of Fortune"
+		location = 2433
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "The Expendables"
+		location = 2433
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	
+	division = {
+		name = "Bryansk Mercenaries"
+		location = 1261	
+		division_template = "Wagner Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Orchestra On Wheels"
+		location = 3351
+		division_template = "Wagner Motorized"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+		
+
+	
+	
+}

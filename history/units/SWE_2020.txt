@@ -1,0 +1,64 @@
+division_template = {
+	name = "Anti-Russophobic Specialists"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	
+	}
+}
+
+units = {
+
+	division = {
+		name = "NBP Renegades"
+		location = 5135
+		division_template = "Anti-Russophobic Specialists"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "LDPR Renegades"
+		location = 4797
+		division_template = "Anti-Russophobic Specialists"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	
+	division = {
+		name = "Completely Irrelevant, But Well-Meaning Citizens of Estonia"
+		location = 9207	
+		division_template = "Anti-Russophobic Specialists"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Rosgvardiya 'Deserters'"
+		location = 3805
+		division_template = "Anti-Russophobic Specialists"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Plausibly Deniable Soldiers"
+		location = 9213
+		division_template = "Anti-Russophobic Specialists"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+		
+
+	
+	
+}

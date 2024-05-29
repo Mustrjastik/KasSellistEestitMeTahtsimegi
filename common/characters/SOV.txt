@@ -1,1 +1,18 @@
-#
+characters = {
+	SOV_vladimir_putin = {
+		name = SOV_vladimir_putin_NAME
+		portraits = {
+			civilian = {
+				large = "GFX_vladimir_putin_portrait"
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_subideology
+			expire="2065.1.1.1"
+		}
+	}
+	
+	
+	
+}
+	

@@ -8,7 +8,21 @@ history = {
 owner = TAN
 add_core_of = TAN
 add_core_of = SWE
+	buildings = {
+	infrastucture = 3
+	industrial_complex = 1
+	}
+	victory_points = {
+	4062 3
+	}
+
+	victory_points = {
+	9170 4
+	}
+	victory_points = {
+	935 2
+	}
 }
-	manpower = 1000
+	manpower = 1871
 	buildings_max_level_factor=1.000 		state_category=rural
 }

@@ -68,13 +68,13 @@
  GER_EKRE_party:0 "National Anti-Nazi Committee"
  GER_EKRE_party_long:0 "National Anti-Nazi Committee"
  #Põlva
- NZL_monarchism_party:0 "KTE"
- NZL_monarchism_party_long:0 "Kuninga Toetuserakond"
- NZL_KESK_party:0 "Põlva Keskerakond"
- NZL_REFORM_party:0 "Põlva Reformierakond"
+ NZL_monarchism_party:0 "VPK"
+ NZL_monarchism_party_long:0 "Võiduka Põlva Kogudus"
+ NZL_KESK_party:0 "TTT"
+ NZL_REFORM_party:0 "Vallavalitsus"
  NZL_alcoholism_party:0 "Drunkard Invictus' Clique"
  NZL_EKRE_party:0 "Põlva EKRE"
- NZL_theocratic_party:0 "Põlva Kirik"
+ NZL_theocratic_party:0 "EKN"
  NZL_estlam_party:0 "Põlva Meemid"
  #Räpina
  AST_EESTI200_party:0 "Räpina 200"

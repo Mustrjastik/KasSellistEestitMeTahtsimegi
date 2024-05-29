@@ -1,0 +1,6 @@
+loyalty_to_russia_category = {
+	icon = generic_formable_nations
+
+	picture = 
+	
+}

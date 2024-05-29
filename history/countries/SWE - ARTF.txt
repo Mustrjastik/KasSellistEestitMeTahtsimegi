@@ -7,6 +7,12 @@ declare_war_on = {
     type = annex_everything
 }
 
+declare_war_on = {
+    target = AFG
+    type = annex_everything
+}
+
+
 add_ideas = {
 nato_airstrikes_TAN
 }
@@ -35,31 +41,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 45
-	nazbol = 45
-	militarism = 10
+	ISAMAA = 15
+	SDE = 10
+	KESK = 20
+	militarism = 45
+	fascism = 10
 }
 
 recruit_character = SWE_viktor_zolotov
-
-create_country_leader = {
-	name = "Vladimir Zhirinovsky"
-	desc = "POLITICS_Zolotov_DESC"
-	picture = "Vladimir_Zhirinovsky.dds"
-	expire = "1965.1.1"
-	ideology = fascism_subideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Beness Aijo"
-	desc = "POLITICS_Zolotov_DESC"
-	picture = "Beness_Aijo.dds"
-	expire = "1965.1.1"
-	ideology = nazbol_subideology
-	traits = {
-		
-	}
-}

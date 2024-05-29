@@ -1,0 +1,55 @@
+division_template = {
+	name = "Blessed Defenders"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "Rural Formation"
+		location = 1192
+		division_template = "Blessed Defenders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+        start_manpower_factor = 1
+	}
+
+	division = {
+		name = "Rural Formation"
+		location = 9306
+		division_template = "Blessed Defenders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Rural Formation"
+		location = 2020
+		division_template = "Blessed Defenders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Rural Formation"
+		location = 6204
+		division_template = "Blessed Defenders"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+        start_manpower_factor = 1
+	}
+
+
+		
+
+	
+	
+}

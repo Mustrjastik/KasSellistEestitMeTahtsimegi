@@ -22,6 +22,16 @@ state={
 			infrastrcture = 2
 			industrial_complex = 2
 			arms_factory = 1
+				
+			2787 = {
+				naval_base = 1
+			}
+			8801 = {
+				naval_base = 1
+			}			
+			12088 = {
+				naval_base = 1
+			}
 		}
 	}
 	manpower=9000

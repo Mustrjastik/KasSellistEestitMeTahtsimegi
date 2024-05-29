@@ -5,8 +5,20 @@ state={
 		93 175 475 898 1325 2072 2566 3977 4691 4722 4843 5357 5503 5757 5883 7339 7564 7666 8537 9692 9697 9724 9725 9738 9759 9774 9778 
 	}
 		history = {
-	owner = ECU
-	add_core_of = ECU
+	owner = CHI
+	add_core_of = CHI
+	buildings = {
+				9778 = {
+				naval_base = 1
+			}
+			9759 = {
+				naval_base = 1
+			}
+
+			175 = {
+				naval_base = 1
+			}
+	}
 	}
 	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural

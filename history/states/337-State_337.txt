@@ -7,6 +7,13 @@ state={
 history = {
 owner = LAT
 add_core_of = LAT
+		buildings = {
+		air_base = 10			
+					92 = {
+				naval_base = 10
+			}
+			
+	}
 }
 	manpower = 1000
 	buildings_max_level_factor=1.000 		state_category=rural

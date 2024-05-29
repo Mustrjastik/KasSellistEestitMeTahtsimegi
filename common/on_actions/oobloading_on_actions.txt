@@ -25,7 +25,54 @@ on_actions = {
 	BOL = {
 	load_oob = "BOL_2020"
 	}
+
+	EST = {
+	load_oob = "EST_2020"
+	}
 	
+	SAF = {
+	load_oob = "SAF_2020"
+	}
+	
+	VEN = {
+	load_oob = "VEN_2020"
+	}
+	
+	SIA = {
+	load_oob = "SIA_2020"
+	}
+	
+	SIK = {
+	load_oob = "SIK_2020"
+	}
+	
+	TIB = {
+	load_oob = "TIB_2020"
+	}
+	
+	SWE = {
+	load_oob = "SWE_2020"
+	}
+	
+	CHI = {
+	load_oob = "CHI_2020"
+	}
+	
+	PRC = {
+	load_oob = "PRC_2020"
+	}
+	
+	COL = {
+	load_oob = "COL_2020"
+	}
+	
+	AFG = {
+	load_oob = "AFG_2020"
+	}
+	
+	TAN = {
+	load_oob = "TAN_2020"
+	}
 		}
 	}
 }

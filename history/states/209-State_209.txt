@@ -7,6 +7,20 @@ state={
 			history = {
 	owner = ETH
 	add_core_of = ETH
+		victory_points = {
+			364 5
+		}		
+		victory_points = {
+			10825 3
+		}
+		buildings = {
+			10940 = {
+				naval_base = 1
+			}
+			10879 = {
+				naval_base = 1
+			}
+			}
 	}
 	manpower = 1000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,809 @@
+﻿focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = zzz_an_economy_for_reunification
+	}
+	
+	focus = {
+		id = zzz_review_the_troops
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+	completion_reward = {
+	army_experience = 5
+	}
+	}
+	focus = {
+		id = zzz_an_economy_for_reunification
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = zzz_opening_the_doors
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 27
+		y = 0
+
+	}
+	focus = {
+		id = zzz_air_warfare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_review_the_troops
+		}
+		x = 2
+		y = 1
+	completion_reward = {
+	air_experience = 5
+	}
+	}
+	focus = {
+		id = zzz_aerial_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_air_warfare
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = zzz_study_plane_designs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_air_warfare
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = zzz_an_elite_force
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_review_the_troops
+		}
+		mutually_exclusive = {
+			focus = zzz_a_massive_onslaught
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = zzz_a_massive_onslaught
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_review_the_troops
+		}
+		mutually_exclusive = {
+			focus = zzz_an_elite_force
+			focus = zzz_an_elite_force
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = zzz_fighting_for_reunification
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_a_massive_onslaught
+			focus = zzz_an_elite_force
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = zzz_scavenge_from_the_field
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_fighting_for_reunification
+		}
+		x = 2
+		y = 5
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 500
+    producer = ROOT
+}
+}
+	}
+	focus = {
+		id = zzz_a_war_of_us_all
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_fighting_for_reunification
+		}
+		x = 4
+		y = 5
+completion_reward = {
+add_manpower = 3000
+add_stability = -0.05
+}
+	}
+	focus = {
+		id = zzz_find_our_soldiers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_a_war_of_us_all
+		}
+		x = 4
+		y = 6
+completion_reward = {
+add_manpower = 1500
+add_stability = -0.05
+}
+	}
+	focus = {
+		id = zzz_general_mobilization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_find_our_soldiers
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = zzz_naval_warfare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_review_the_troops
+		}
+		available = {
+			any_owned_state = {
+			        is_coastal = yes
+			}
+		}
+		x = 6
+		y = 1
+	completion_reward = {
+	navy_experience = 5
+	}
+	}
+	focus = {
+		id = zzz_in_service_of_the_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_naval_warfare
+		}
+		mutually_exclusive = {
+			focus = zzz_great_investments
+			focus = zzz_great_investments
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = zzz_defensive_lines
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_fighting_for_reunification
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = zzz_they_wouldnt_dare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_defensive_lines
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = zzz_safe_and_secure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_they_wouldnt_dare
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = zzz_great_investments
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_naval_warfare
+		}
+		mutually_exclusive = {
+			focus = zzz_in_service_of_the_army
+			focus = zzz_in_service_of_the_army
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = zzz_resourceful_estonians
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_an_economy_for_reunification
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = zzz_manufacture_steel
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_resourceful_estonians
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = zzz_derive_materials_from_car_wrecks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_manufacture_steel
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = zzz_aluminum_scavenging
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_derive_materials_from_car_wrecks
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = zzz_the_secret_to_rubber
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_resourceful_estonians
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = zzz_all_important_rubber
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_the_secret_to_rubber
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = zzz_synthesized_fuel
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_resourceful_estonians
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = zzz_store_fuel
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_synthesized_fuel
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = zzz_economic_fuel_usage
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_store_fuel
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = zzz_a_better_education_system
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_an_economy_for_reunification
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = zzz_reopen_schools
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_a_better_education_system
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = zzz_renovation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_an_economy_for_reunification
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = zzz_ploughs_to_swords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_renovation
+		}
+		x = 16
+		y = 2
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_military_factory_effort_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_ploughs_to_swords
+		}
+		x = 16
+		y = 3
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_military_factory_effort_3
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_military_factory_effort_2
+		}
+		x = 16
+		y = 4
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = arms_factory
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_connected_roads
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_renovation
+		}
+		x = 18
+		y = 2
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_infrastructure_effort_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_connected_roads
+		}
+		x = 18
+		y = 3
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_develop_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_infrastructure_effort_2
+		}
+		x = 18
+		y = 4
+	completion_reward = {
+	random_owned_state = {
+	add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_watch_the_skies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_develop_infrastructure
+		}
+		x = 18
+		y = 5
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = anti_air_building 
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_a_decent_base
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_renovation
+		}
+		x = 20
+		y = 2
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+
+	}
+	focus = {
+		id = zzz_civilian_factory_effort_2
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_a_decent_base
+		}
+		x = 20
+		y = 3
+	completion_reward = {
+	random_owned_state = {
+	add_extra_state_shared_building_slots = 1
+
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_the_smokestack_to_heaven
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_civilian_factory_effort_2
+		}
+		x = 20
+		y = 4
+	completion_reward = {
+	random_owned_state = {
+add_extra_state_shared_building_slots = 1
+	add_building_construction = {
+    type = industrial_complex
+    level = 1
+    instant_build = yes
+}
+	}
+	}
+	}
+	focus = {
+		id = zzz_reinvograted_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_aluminum_scavenging
+		}
+		prerequisite = {
+			focus = zzz_economic_fuel_usage
+		}
+		prerequisite = {
+			focus = zzz_all_important_rubber
+		}
+		prerequisite = {
+			focus = zzz_reopen_schools
+		}
+		prerequisite = {
+			focus = zzz_military_factory_effort_3
+		}
+		prerequisite = {
+			focus = zzz_watch_the_skies
+		}
+		prerequisite = {
+			focus = zzz_the_smokestack_to_heaven
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = zzz_approach_the_west
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_opening_the_doors
+		}
+		mutually_exclusive = {
+			focus = zzz_the_middleman
+			focus = zzz_the_middleman
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = zzz_old_reliable
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_approach_the_west
+		}
+		mutually_exclusive = {
+			focus = zzz_close_friends
+			focus = zzz_close_friends
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = zzz_close_friends
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_approach_the_west
+		}
+		mutually_exclusive = {
+			focus = zzz_old_reliable
+			focus = zzz_old_reliable
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = zzz_the_middleman
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_opening_the_doors
+		}
+		mutually_exclusive = {
+			focus = zzz_approach_the_west
+			focus = zzz_approach_the_west
+			focus = zzz_approach_the_east
+			focus = zzz_approach_the_east
+		}
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = zzz_approach_the_east
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_opening_the_doors
+		}
+		mutually_exclusive = {
+			focus = zzz_the_middleman
+			focus = zzz_the_middleman
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = zzz_an_odd_friend
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_approach_the_east
+		}
+		mutually_exclusive = {
+			focus = zzz_deal_with_the_devil
+			focus = zzz_faraway_master
+			focus = zzz_deal_with_the_devil
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = zzz_deal_with_the_devil
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_approach_the_east
+		}
+		mutually_exclusive = {
+			focus = zzz_an_odd_friend
+			focus = zzz_faraway_master
+			focus = zzz_faraway_master
+			focus = zzz_an_odd_friend
+			focus = zzz_faraway_master
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = zzz_scavenge_from_stations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_scavenge_from_the_field
+		}
+		x = 2
+		y = 6
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 250
+    producer = ROOT
+}
+}
+	}
+	focus = {
+		id = zzz_scavenge_from_holdouts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_scavenge_from_stations
+		}
+		x = 2
+		y = 7
+completion_reward = {
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 125
+    producer = ROOT
+}
+}
+	}
+	focus = {
+		id = zzz_battle_tested
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_scavenge_from_holdouts
+		}
+		prerequisite = {
+			focus = zzz_general_mobilization
+		}
+		prerequisite = {
+			focus = zzz_safe_and_secure
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = zzz_extra_research_slot
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_reinvograted_industry
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = zzz_faraway_master
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = zzz_approach_the_east
+		}
+		mutually_exclusive = {
+			focus = zzz_deal_with_the_devil
+			focus = zzz_deal_with_the_devil
+			focus = zzz_an_odd_friend
+			focus = zzz_deal_with_the_devil
+		}
+		x = 31
+		y = 2
+
+	}
+	}

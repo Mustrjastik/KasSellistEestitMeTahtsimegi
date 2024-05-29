@@ -7,8 +7,11 @@ state={
 			history = {
 	owner = OMA
 	add_core_of = OMA
+		victory_points = {
+			1974 1
+		} 	
 	}
-	manpower = 1000
+	manpower = 745
 	buildings_max_level_factor=1.000
 			state_category=rural
 

@@ -1,4 +1,4 @@
-capital = 96
+capital = 103
 
 #oob = ""
 
@@ -22,6 +22,11 @@ csto_airstrikes_SWE
 }
 
 set_convoys = 20
+
+declare_war_on = {
+    target = PRC
+    type = annex_everything
+}
 
 set_politics = {
 	ruling_party = SDE

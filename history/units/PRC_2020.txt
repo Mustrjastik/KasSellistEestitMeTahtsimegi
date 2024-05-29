@@ -1,0 +1,54 @@
+division_template = {
+	name = "People's Levy"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	
+	}
+}
+
+units = {
+
+	division = {
+		name = "Ahtme Levy"
+		location = 858
+		division_template = "People's Levy"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Sompa Levy"
+		location = 75
+		division_template = "People's Levy"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	
+	division = {
+		name = "Jõhvi Levy"
+		location = 6610	
+		division_template = "People's Levy"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Jõhvi Levy"
+		location = 6610	
+		division_template = "People's Levy"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+        start_manpower_factor = 1
+	}
+		
+
+	
+	
+}

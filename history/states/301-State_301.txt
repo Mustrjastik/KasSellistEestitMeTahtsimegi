@@ -11,6 +11,9 @@ state={
 		buildings = {
 			infrastrcture = 1
 			industrial_complex = 1
+			8801 = {
+				naval_base = 1
+			}
 		}
 	owner = AST
 	add_core_of = AST

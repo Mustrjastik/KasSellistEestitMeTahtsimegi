@@ -1,1 +1,19 @@
-#
+characters = {
+	NZL_Klaus_Schwab = {
+		name = NZL_Klaus_Schwab_NAME
+		portraits = {
+			civilian = {
+				large = "NZL_Klaus_Schwab_Portrait"
+			}
+		}
+		country_leader = {
+			ideology = EESTI200_subideology
+			expire="2065.1.1.1"
+			
+			traits = {
+			}
+			
+		}
+	}
+}
+	

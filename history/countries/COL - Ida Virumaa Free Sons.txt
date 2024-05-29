@@ -23,6 +23,15 @@ set_technology = {
 
 set_convoys = 20
 
+create_faction = "Fatherland Defence Front"
+add_to_faction = AFG
+add_to_faction = TAN
+
+declare_war_on = {
+    target = PRC
+    type = annex_everything
+}
+
 set_politics = {
 	ruling_party = capitalism
 	last_election = "1936.1.1"
